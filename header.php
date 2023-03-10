@@ -30,9 +30,7 @@
 				}
 				.text-nav {
 					color: #fff;
-				}
-				
-				
+				}	
 			}
 		</style>
 
@@ -75,20 +73,20 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="d-flex collapse navbar-collapse" id="navbarTogglerDemo02">
-      <ul class="justify-content-sm-center navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
+      <ul class="justify-content-sm-center navbar-nav me-auto mb-2 mb-lg-0 text-light">
+        <li class="nav-item text-light">
           <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item text-light">
           <a class="nav-link text-nav" href="#">About</a>
         </li>
-        <li class="nav-item text-nav">
+        <li class="nav-item text-nav text-light">
           <a class="nav-link " href="#">Portfolio</a>
         </li>
-	<li class="nav-item text-nav">
+	<li class="nav-item text-nav text-light">
           <a class="nav-link " href="#">Course</a>
         </li> 
-        <li class="nav-item text-nav">
+        <li class="nav-item text-nav text-light">
           <a class="nav-link " href="#">Contact</a>
         </li>     
       </ul>
