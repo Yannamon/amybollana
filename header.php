@@ -30,7 +30,9 @@
 				}
 				.text-nav {
 					color: #fff;
-				}	
+				}
+				
+				
 			}
 		</style>
 
@@ -63,30 +65,29 @@
 			<?php endif; ?>
 		</div><!-- .site-branding -->
 
-		<nav id="site-navigation" class="main-navigation">
+<nav id="site-navigation" class="main-navigation navbar navbar-dark themecolorone">
 			<!--<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'amybollana' ); ?></button> -->
 			
-			<nav class="navbar navbar-expand-lg navbar-light themecolorone">
-  <div class="container-fluid">
+  		<div class="container-fluid">
     <a class="navbar-brand justify-content-sm-center" href="#">Logo</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="d-flex collapse navbar-collapse" id="navbarTogglerDemo02">
-      <ul class="justify-content-sm-center navbar-nav me-auto mb-2 mb-lg-0 text-light">
-        <li class="nav-item text-light">
+      <ul class="justify-content-sm-center navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
-        <li class="nav-item text-light">
+        <li class="nav-item">
           <a class="nav-link text-nav" href="#">About</a>
         </li>
-        <li class="nav-item text-nav text-light">
+        <li class="nav-item text-nav">
           <a class="nav-link " href="#">Portfolio</a>
         </li>
-	<li class="nav-item text-nav text-light">
+	<li class="nav-item text-nav">
           <a class="nav-link " href="#">Course</a>
         </li> 
-        <li class="nav-item text-nav text-light">
+        <li class="nav-item text-nav">
           <a class="nav-link " href="#">Contact</a>
         </li>     
       </ul>
