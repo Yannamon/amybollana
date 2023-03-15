@@ -66,7 +66,7 @@
 		</div><!-- .site-branding -->
 
 <nav id="site-navigation" class="main-navigation navbar navbar-dark themecolorone">
-			<!--<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'amybollana' ); ?></button> -->
+			<!--<2button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'amybollana' ); ?></2button> -->
 		
 			
   		<div class="container-fluid">
@@ -81,6 +81,10 @@
         </li>
         <li class="nav-item">
           <a class="nav-link text-nav" href="#">About</a>
+		  <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+            <li><a class="dropdown-item" href="#">FAQ</a></li>
+            <li><a class="dropdown-item" href="#">About course</a></li>
+          </ul>
         </li>
         <li class="nav-item text-nav">
           <a class="nav-link " href="#">Portfolio</a>
