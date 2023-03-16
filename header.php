@@ -66,21 +66,51 @@
 		</div><!-- .site-branding -->
 
 <nav id="site-navigation" class="main-navigation navbar navbar-dark themecolorone">
-			<!--<2button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'amybollana' ); ?></2button> -->
+			<!--<2button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php /*esc_html_e( 'Primary Menu', 'amybollana' );*/ ?></2button> -->
 		
-			
-  		<div class="container-fluid">
+	<nav class="navbar navbar-expand-lg navbar-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Logo</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+      <ul class="navbar-nav">
+		<li class="nav-item">
+		  <a class="nav-link active" aria-current="page" href="#">Home</a>
+		</li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+            About
+          </a>
+          <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarDarkDropdownMenuLink">
+            <li><a class="dropdown-item" href="#">FAQ</a></li>
+            <li><a class="dropdown-item" href="#">About the course</a></li>
+          </ul>
+        </li>
+		<li class="nav-item">
+		  <a class="nav-link active" aria-current="page" href="#">Course</a>
+		</li>
+		<li class="nav-item">
+		  <a class="nav-link active" aria-current="page" href="#">Contact</a>
+		</li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  		<!-- <div class="container-fluid">
     <a class="navbar-brand justify-content-sm-center" href="#">Logo</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="d-flex collapse navbar-collapse" id="navbarTogglerDemo02">
-      <ul class="justify-content-sm-center navbar-nav me-auto mb-2 mb-lg-0">
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav justify-content-sm-center me-auto mb-2 mb-lg-0">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link text-nav" href="#">About</a>
+        <li class="nav-item text-nav dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">About</a>
 		  <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
             <li><a class="dropdown-item" href="#">FAQ</a></li>
             <li><a class="dropdown-item" href="#">About course</a></li>
@@ -98,7 +128,7 @@
       </ul>
     </div>
   </div>
-</nav>
+</nav> -->
 			<?php
 			wp_nav_menu(
 				array(
