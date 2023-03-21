@@ -97,6 +97,20 @@ h1 {
 	margin: 0.67em 0;
 }
 
+.themecolorone {
+	background-color: #A5C2A6;
+}
+
+@media screen and (max-width: 768px) {
+	nav>ul {
+		display: flex;
+		justify-content: center;
+	}
+
+	.text-nav {
+		color: #fff;
+	}
+}
 /* Grouping content
 	 ========================================================================== */
 
@@ -110,6 +124,64 @@ hr {
 	overflow: visible;
 }
 
+.headerfont{
+font-family: 'Shamson Signature', sans-serif;
+}
+
+.cardtest{
+	background-color: #A5C2A6;
+	border-radius: 1rem;
+	padding: 1rem;
+	max-height: 180px;
+}
+
+.bigheader{
+	font-size: 35px;
+	padding-top: 1rem;
+	color: #FEFADF;
+}
+.cardborder{
+	border: 1px solid #707070;
+	border-radius: 1rem;
+	padding: 1rem;
+	overflow: hidden;
+	min-width: 200px;
+}
+
+
+.horizontal-content {
+	display: flex;
+	overflow-x: scroll;
+	align-items: center;
+	height: 290px;
+	/*Remove scrollbar fire-fox*/
+	scrollbar-width: none;
+}
+.horizontal-content::-webkit-scrollbar {
+	width: 12px;
+	height: 1.5rem;
+	padding: 0.5rem;
+	/* width of the entire scrollbar */
+}
+
+.horizontal-content::-webkit-scrollbar {
+	width: 12px;
+	height: 1.5rem;
+	padding: 0.5rem;
+	/* width of the entire scrollbar */
+}
+
+.horizontal-content::-webkit-scrollbar-thumb {
+	background-color: #FEFADF;
+	border-radius: 20px;
+	padding-bottom: 0.5rem;
+}
+
+.horizontal-content::-webkit-scrollbar-thumb {
+	background-color: #FEFADF;
+	border-radius: 20px;
+	padding-bottom: 0.5rem;
+}
 /**
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
@@ -146,6 +218,19 @@ b,
 strong {
 	font-weight: bolder;
 }
+
+.centre{
+	text-align: center;
+}
+.button-pink{
+	background-color: #EFA99E;
+	border: 1px solid #EFA99E;
+	border-radius: 1rem;
+	padding: 0.5rem 0.7rem;
+	color: #fff;
+	text-decoration: none;
+}
+
 
 /**
  * 1. Correct the inheritance and scaling of font size in all browsers.

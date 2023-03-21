@@ -19,6 +19,44 @@ if ( ! defined( '_S_VERSION' ) ) {
  * runs before the init hook. The init hook is too late for some features, such
  * as indicating support for post thumbnails.
  */
+function amybollana_routing_page(){
+	// if ( is_page( 'faq' ) ) {
+	// 	get_template_part( 'page', 'faq' );
+	// } else {
+	// 	get_template_part( 'page' );
+	// }
+	if ( is_page( 'faq' ) ) {
+		get_template_part( 'page', 'faq' );
+	} else {
+		get_template_part( 'page' );
+	}
+
+	if else ( is_page( 'about' ) ) {
+		get_template_part( 'page', 'about' );
+	} else {
+		get_template_part( 'page' );
+	}
+	if else ( is_page( 'contact' ) ) {
+		get_template_part( 'page', 'contact' );
+	} else {
+		get_template_part( 'page' );
+	}
+	if else ( is_page( 'home' ) ) {
+		get_template_part( 'page', 'home' );
+	} else {
+		get_template_part( 'page' );
+	}
+}
+
+function amybollana_register_styles(){
+	$version = wp_get_theme()->get( 'Version' );
+	wp_enqueue_style( 'amybollana-style', get_template_directory_uri() . "/style.css", array('amybollana-bootstrap'), $version, 'all' );
+	wp_enqueue_style( 'amybollana-bootstrap', get_template_directory_uri() . "/inc/css/bootstrap.min.css", array(), '1.0', 'all' );
+	wp_enqueue_style( 'amybollana-fontawesome', get_template_directory_uri() . "/inc/css/all.min.css", array(), '1.0', 'all' );
+	wp_enqueue_style( 'amybollana-custom', get_template_directory_uri() . "/inc/css/custom.css", array(), '1.0', 'all' );
+	add_action( 'wp_enqueue_scripts', 'amybollana_register_styles' );
+}
+
 function amybollana_setup() {
 	/*
 		* Make theme available for translation.
