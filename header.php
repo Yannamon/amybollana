@@ -52,7 +52,7 @@
 			the_custom_logo();
 			if ( is_front_page() && is_home() ) :
 				?>
-				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/') ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 				<?php
 			else :
 				?>
@@ -71,18 +71,26 @@
 		
 	<nav class="navbar navbar-expand-lg navbar-light">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Logo</a>
+    <a class="navbar-brand" href="#">
+		<img src="<?php echo get_template_directory_uri(); ?>/inc/amybollana-logo.png" alt="amybollana-logo" width="100" height="100">
+	</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+    <!-- <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
       <ul class="navbar-nav">
 		<li class="nav-item">
-		  <a class="nav-link active" aria-current="page" href="#">Home</a>
+		  <a class="nav-link active" aria-current="page" href="<?php echo esc_url( get_permalink()) ?>">Home</a>
 		</li>
-        <li class="nav-item dropdown">
+		<li class="nav-item">
+		  <a class="nav-link active" aria-current="page" href="<?php echo esc_url(home_url('template-parts/page-aboutamy.php')); ?>">About</a>
+		</li>
+		<li class="nav-item">
+		  <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
+		</li>
+		<li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="true">
-            About
+            Course
           </a>
           <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarDarkDropdownMenuLink">
             <li><a class="dropdown-item" href="#">FAQ</a></li>
@@ -90,51 +98,20 @@
           </ul>
         </li>
 		<li class="nav-item">
-		  <a class="nav-link active" aria-current="page" href="#">Course</a>
-		</li>
-		<li class="nav-item">
 		  <a class="nav-link active" aria-current="page" href="#">Contact</a>
 		</li>
       </ul>
     </div>
-  </div>
+  </div> -->
 </nav>
 
-  		<!-- <div class="container-fluid">
-    <a class="navbar-brand justify-content-sm-center" href="#">Logo</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-      <ul class="navbar-nav justify-content-sm-center me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item text-nav dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">About</a>
-		  <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-            <li><a class="dropdown-item" href="#">FAQ</a></li>
-            <li><a class="dropdown-item" href="#">About course</a></li>
-          </ul>
-        </li>
-        <li class="nav-item text-nav">
-          <a class="nav-link " href="#">Portfolio</a>
-        </li>
-	<li class="nav-item text-nav">
-          <a class="nav-link " href="#">Course</a>
-        </li> 
-        <li class="nav-item text-nav">
-          <a class="nav-link " href="#">Contact</a>
-        </li>     
-      </ul>
-    </div>
-  </div>
-</nav> -->
 			<?php
 			wp_nav_menu(
 				array(
 					'theme_location' => 'menu-1',
 					'menu_id'        => 'primary-menu',
+					'menu' => 'primary',
+					'items_wrap' => '<ul id="%1$s" class="navbar-nav">%3$s</ul>'
 				)
 			);
 			?> 

@@ -12,6 +12,8 @@ if ( ! defined( '_S_VERSION' ) ) {
 	define( '_S_VERSION', '1.0.0' );
 }
 
+
+
 /**
  * Sets up theme defaults and registers support for various WordPress features.
  *
@@ -19,32 +21,42 @@ if ( ! defined( '_S_VERSION' ) ) {
  * runs before the init hook. The init hook is too late for some features, such
  * as indicating support for post thumbnails.
  */
-// function amybollana_routing_page(){
-	// if ( is_page( 'faq' ) ) {
-	// 	get_template_part( 'page', 'faq' );
-	// } else {
-	// 	get_template_part( 'page' );
-	// }
-// 	if ( is_page( 'faq' ) ) {
-// 		get_template_part( 'page', 'faq' );
+// function amybollana_page_routing{
+// 	$slug = get_post_field( 'post_name', get_post() );
+// 	if ( $slug == 'faq' ) {
+// 		get_template_part( 'template-parts/page', 'faq' );
 // 	} else {
-// 		get_template_part( 'page' );
+// 		get_template_part( 'template-parts/page', 'default' );
 // 	}
-
-// 	if else ( is_page( 'about' ) ) {
-// 		get_template_part( 'page', 'about' );
+// 	if ( $slug == 'contact' ) {
+// 		get_template_part( 'template-parts/page', 'contact' );
 // 	} else {
-// 		get_template_part( 'page' );
+// 		get_template_part( 'template-parts/page', 'default' );
 // 	}
-// 	if else ( is_page( 'contact' ) ) {
-// 		get_template_part( 'page', 'contact' );
+// 	if ( $slug == 'about' ) {
+// 		get_template_part( 'template-parts/page', 'about' );
 // 	} else {
-// 		get_template_part( 'page' );
+// 		get_template_part( 'template-parts/page', 'default' );
 // 	}
-// 	if else ( is_page( 'home' ) ) {
-// 		get_template_part( 'page', 'home' );
+// 	if ( $slug == 'services' ) {
+// 		get_template_part( 'template-parts/page', 'services' );
 // 	} else {
-// 		get_template_part( 'page' );
+// 		get_template_part( 'template-parts/page', 'default' );
+// 	}
+// 	if ( $slug == 'portfolio' ) {
+// 		get_template_part( 'template-parts/page', 'portfolio' );
+// 	} else {
+// 		get_template_part( 'template-parts/page', 'default' );
+// 	}
+// 	if ( $slug == 'blog' ) {
+// 		get_template_part( 'template-parts/page', 'blog' );
+// 	} else {
+// 		get_template_part( 'template-parts/page', 'default' );
+// 	}
+// 	if ( $slug == 'home' ) {
+// 		get_template_part( 'template-parts/page', 'home' );
+// 	} else {
+// 		get_template_part( 'template-parts/page', 'default' );
 // 	}
 // }
 
@@ -56,6 +68,7 @@ function amybollana_register_styles(){
 	wp_enqueue_style( 'amybollana-custom', get_template_directory_uri() . "/inc/css/custom.css", array(), '1.0', 'all' );
 	add_action( 'wp_enqueue_scripts', 'amybollana_register_styles' );
 }
+
 
 function amybollana_setup() {
 	/*
@@ -88,6 +101,7 @@ function amybollana_setup() {
 	register_nav_menus(
 		array(
 			'menu-1' => esc_html__( 'Primary', 'amybollana' ),
+			'footer' => esc_html__( 'Footer Menu', 'amybollana' ),
 		)
 	);
 

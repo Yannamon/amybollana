@@ -33,7 +33,7 @@ get_header();
 			<div class="">
 				<div class="centre pb-5">
 					<h2 class="headerfont">Amy Bollana</h2>
-					<h2 class="headerfont">Calligraphy</h2>
+					<h2 class="headerfont">Design</h2>
 					<p>Discover great calligraphy and meet Amy
 					Bollana. From custom bookmarks to
 					prints we have you covered.</p>
