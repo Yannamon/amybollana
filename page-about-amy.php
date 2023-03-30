@@ -16,12 +16,12 @@ get_header();
 ?>
 
 <body>
-	<section>
+	<section class="about-amy">
 		<h1>Amy Bollana</h1>
 		<h5>About Your Instructor</h5>
 
-		<div>
-			<div>
+		<div class="flexbox">
+			<div class="statement">
 				<img src="" alt="">
 				<p>
 					Im Amy ... a designer and modern calligrapher in Sherwood Park, Alberta. I love making words look

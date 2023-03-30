@@ -967,3 +967,43 @@ textarea {
 	margin-right: auto;
 	margin-bottom: 1.5em;
 }
+
+
+
+/* Amy Styling */
+
+/* install font family RALEWAY */
+
+h1 {
+	font-size: 45px;
+}
+
+h2{
+	font-size: 40px;
+}
+
+h3{
+	font-size: 37px;
+}
+
+h4 {
+	font-size: 30px;
+}
+
+h5 {
+	font-size: 27px;
+}
+
+
+/* ABOUT AMY SECTION */
+
+div.statement {
+	background-color: #C1DBC2
+}
+
+/* 600px media query */
+@media only screen and (max-width: 600px) {
+	.flexbox {
+		display: flex;
+	}
+  }
