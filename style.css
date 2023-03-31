@@ -495,8 +495,8 @@ ol {
 	list-style: decimal;
 }
 
-li > ul,
-li > ol {
+li>ul,
+li>ol {
 	margin-bottom: 0;
 	margin-left: 1.5em;
 }
@@ -673,8 +673,8 @@ textarea {
 	top: 0;
 }
 
-.main-navigation ul ul li:hover > ul,
-.main-navigation ul ul li.focus > ul {
+.main-navigation ul ul li:hover>ul,
+.main-navigation ul ul li.focus>ul {
 	display: block;
 	left: auto;
 }
@@ -683,8 +683,8 @@ textarea {
 	width: 200px;
 }
 
-.main-navigation ul li:hover > ul,
-.main-navigation ul li.focus > ul {
+.main-navigation ul li:hover>ul,
+.main-navigation ul li.focus>ul {
 	left: auto;
 }
 
@@ -715,10 +715,8 @@ textarea {
 }
 
 .site-main .comment-navigation,
-.site-main
-.posts-navigation,
-.site-main
-.post-navigation {
+.site-main .posts-navigation,
+.site-main .post-navigation {
 	margin: 0 0 1.5em;
 }
 
@@ -972,17 +970,33 @@ textarea {
 
 /* Amy Styling */
 
-/* install font family RALEWAY */
+/* Color codes:
+	Dark Green(buttons too): #A6BCA3
+	Light Green: #C1DBC2
+	Dark DARK Green(THIS IS USED FOR ANY DARK FONTS, HEADERS AND PARAGRAPHS): #3C4C48
+	Light Yellow(only used in the thestimonials): #FCF9E1
+
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+	font-family: 'Raleway', sans-serif;
+	color: #3C4C48;
+}
 
 h1 {
 	font-size: 45px;
 }
 
-h2{
+h2 {
 	font-size: 40px;
 }
 
-h3{
+h3 {
 	font-size: 37px;
 }
 
@@ -994,16 +1008,170 @@ h5 {
 	font-size: 27px;
 }
 
+p {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+@media only screen and (min-width: 800px) {
+	h1 {
+		font-size: 55px;
+	}
+
+	h2 {
+		font-size: 50px;
+	}
+
+	h3 {
+		font-size: 47px;
+	}
+
+	h4 {
+		font-size: 40px;
+	}
+
+	h5 {
+		font-size: 32px;
+	}
+
+	p {
+		font-size: 18px;
+		line-height: 27px;
+	}
+
+}
+
+/* btn styling */
+
+.btn{
+	background-color: #A6BCA3;
+	color: white;
+	padding: 0.5rem 1.5rem;
+	border-radius: 0.7rem;
+}
+
+
+
 
 /* ABOUT AMY SECTION */
 
-div.statement {
-	background-color: #C1DBC2
+.about-amy .amy-image{
+	margin:auto;
 }
 
-/* 600px media query */
-@media only screen and (max-width: 600px) {
-	.flexbox {
+.about-amy h1,
+.about-amy h5 {
+	text-align: center;
+}
+
+.about-amy h5 {
+	padding-bottom: 2rem;
+}
+
+div.statement {
+	background-color: #C1DBC2;
+}
+
+div.statement p {
+	color: white;
+	padding: 2rem;
+}
+
+.about-content {
+	padding: 1rem 2rem;
+}
+
+.about-content div:nth-child(2) {
+	padding-top: 1.5rem;
+}
+
+
+@media only screen and (min-width: 800px) {
+	div.statement p{
+		padding: 2rem 10rem;
+	}
+
+	.about-content {
+		display: flex;
+		flex-wrap: wrap;
+		width: 100%;
+		/* grid-template-columns: 300px 1fr;
+		gap: 1rem;
+		align-items: center;
+		max-width: 800px;
+		margin: 0 auto; */
+	}
+
+	.about-amy .flex{
 		display: flex;
 	}
-  }
+
+	.about-amy .box {
+		height: auto;
+		width: 50%;
+		width: 50%;
+		align-content: center;
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.about-amy .flexbox {
+		flex-direction: row-reverse;
+	}
+
+	.about-amy p.box {
+		padding: 0 1rem;
+	}
+}
+
+
+@media only screen and (min-width: 1000px) {
+	.about-content{
+		max-width: 1200px;
+		margin: auto;
+	}
+}
+
+
+
+/* COURSE SECTION */
+
+h1,
+h2,
+h3
+p {
+	text-align: center;
+}
+
+.course-section,
+.faq-section {
+	padding: 2rem;
+}
+
+.course-section .questions {
+	margin: 1rem 0;
+	background-color: #C1DBC2;
+}
+
+.course-section .questions h5 {
+	color: white;
+	padding: 2rem;
+}
+
+.blurb-text{
+	padding:1rem auto;
+}
+
+.course-section .capitalize {
+	text-transform: uppercase;
+	margin-bottom: 0.2rem;
+}
+
+.course-section .fineprint{
+	font-size: 14px;
+	margin-bottom: none;
+}
+
+.course-section .btn{
+	margin: 1rem auto;
+}

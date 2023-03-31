@@ -16,33 +16,34 @@ get_header();
 ?>
 
 <body>
-    <section>
+    <section class="course-section">
         <div>
             <h1>Simple Brush Calligraphy for Beginners</h1>
 
             <div>
-                <img src="" alt="Laptop image of calligraphy lesson">
+                <img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/03/1-e1680239096138.jpg"
+                    alt="Laptop image of calligraphy lesson">
 
-                <div>
-                    <h4>Do you like pretty things?</h4>
-                    <h4>Do you like making personal gifts for friends & family?</h4>
-                    <h4>Are you looking for a simple creative outle?</h4>
+                <div class="questions">
+                    <h5>Do you like pretty things?</h5>
+                    <h5>Do you like making personal gifts for friends & family?</h5>
+                    <h5>Are you looking for a simple creative outlet?</h5>
                 </div>
             </div>
 
-            <div>
+            <div class="blurb-text">
                 <p>
                     In less than 2 hours, with a $5 pen* and aprintable workbook, I will give you the tools to learn
                     modern brush calligraphy
                 </p>
-                <p>
+                <p class="capitalize">
                     You can do this!
                 </p>
-                <p>
+                <p class="fineprint">
                     *Approximate cost of pen
                 </p>
 
-                <a id="learn-more">Learn More</a>
+                <a class="btn" href="learn-more">Learn More</a>
             </div>
         </div>
 
@@ -53,7 +54,7 @@ get_header();
     </section>
 
     <!-- FAQ section -->
-    <section>
+    <section class="faq-section">
         <div>
             <h2>F.A.Q</h2>
             <h3>(Frequently Asked Questions)</h3>
@@ -97,7 +98,7 @@ get_header();
 
 
     <!-- Learn more and whats included section -->
-    <section>
+    <sectio class="learn-section">
         <!-- Hero Banner -->
         <div>
             <h2>Learn More</h2>
@@ -105,7 +106,7 @@ get_header();
                 Learning calligraphy is really quite simple. In less than two hours, I will give you the tools to learn
                 ncalligraphy and start a creative, mindful practice.
             </p>
-            <a href="#">I want this course!</a>
+            <a class="btn" href="#">I want this course!</a>
         </div>
 
         <div>
@@ -173,12 +174,12 @@ get_header();
                     <h2>Plus</h2>
                     <h5>Greeting card designs to give you endless ideas</h5>
                 </div>
-                <a href="#">I want this course!</a>
+                <a class="btn" href="#">I want this course!</a>
             </div>
         </div>
 
         <!-- Benefits of Calligraphy -->
-        <section>
+        <section class="benefits-section">
             <div>
                 <h2>Benefits of Calligraphy</h2>
 
@@ -217,7 +218,7 @@ get_header();
 
 
         <!-- Still wondering section -->
-        <section>
+        <section class="wondering-section">
             <h4>Still wondering if this course is for you?</h4>
             <div>
                 <h5>Simple Brush Calligraphy is right for you if:</h5>
@@ -243,10 +244,10 @@ get_header();
         </section>
 
         <!-- Bottom Section -->
-        <section>
+        <section class="bottom-section">
             <div>
                 <h2>Purchase today for $59 CDN</h2>
-                <a href="#">Buy Now</a>
+                <a class="btn" href="#">Buy Now</a>
             </div>
 
             <div>
