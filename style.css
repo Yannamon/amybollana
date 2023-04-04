@@ -1387,6 +1387,7 @@ h6 {
 /* faq section */
 .faq{
 	background-color: #A5c2a6;
+	padding:1rem;
 }
 
 
@@ -1405,75 +1406,12 @@ h6 {
   } */
   
 .faq-margin{
-	margin: 1.5rem 0;
+	margin-bottom: 1.5rem;
 }
 
 .answer{
 	padding-left: 1rem;
 }
-  
-  .imessage p {
-	border-radius: 1.15rem;
-	/* max-width: 75%; */
-	padding: 1rem;
-	position: relative;
-	word-wrap: break-word;
-  }
-  
-  .imessage p::before,
-  .imessage p::after {
-	bottom: -0.1rem;
-	content: "";
-	height: 1rem;
-	position: absolute;
-  }
-  
-  p.from-me {
-	align-self: flex-end;
-	background-color:#C1DBC2;
-	color: #fff; 
-  }
-
-  
-  p.from-me::before {
-	border-bottom-left-radius: 0.8rem 0.7rem;
-	border-right: 1rem solid #C1DBC2;
-	right: -0.35rem;
-	transform: translate(0, -0.1rem);
-  }
-  
-  p.from-me::after {
-	background-color: #fff;
-	border-bottom-left-radius: 0.5rem;
-	right: -40px;
-	transform:translate(-30px, -2px);
-	width: 10px;
-  }
-  
-  p.from-me ~ p.from-me {
-	margin: 0.25rem 0 0;
-  }
-  
-  p.from-them {
-	align-items: flex-start;
-	background-color: #A5c2a6;
-	color: white;
-  }
-  
-  p.from-them:before {
-	border-bottom-right-radius: 0.8rem 0.7rem;
-	border-left: 1rem solid #A5c2a6;;
-	left: -0.35rem;
-	transform: translate(0, -0.1rem);
-  }
-  
-  p.from-them::after {
-	background-color: #fff;
-	border-bottom-right-radius: 0.5rem;
-	left: 20px;
-	transform: translate(-30px, -2px);
-	width: 10px;
-  }
 
 
 
