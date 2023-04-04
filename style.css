@@ -1294,7 +1294,8 @@ p {
 	text-align: center;
 }
 
-.course-section {
+.course-section,
+.faq-section {
 	padding: 2rem;
 }
 
@@ -1348,24 +1349,30 @@ h5 {
 
 
 /* faq section */
-
+.faq{
+	background-color: #A5c2a6;
+}
 
 .faq-header{
 	text-align: center;
 }
 
-.imessage {
+.faq p {
+	color: white;
+}
+
+/* .imessage {
 	display: flex;
 	flex-direction: column;
 	padding: 1rem 0;
-  }
+  } */
   
 .faq-margin{
 	margin: 1.5rem 0;
 }
 
 .answer{
-	padding-left: 0.5rem;
+	padding-left: 1rem;
 }
   
   .imessage p {
