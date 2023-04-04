@@ -1301,7 +1301,7 @@ p {
 .course-section .questions 
 h5 {
 	color: #3C4C48;
-	padding: 2rem;
+	padding: 1.5rem 0;
 }
 
 .blurb-text{
@@ -1349,23 +1349,9 @@ h5 {
 
 /* faq section */
 
-.circle-img{
-	margin:1rem auto;
-	position: relative;
-    width: 100px;
-    height: 100px;
-    overflow: hidden;
-    border-radius: 50%;
-}
 
-
-.faq-imessage-icon{
+.faq-header{
 	text-align: center;
-}
-
-.contact-image{
-	width: 100%;
-    height: auto;
 }
 
 .imessage {
@@ -1373,9 +1359,13 @@ h5 {
 	flex-direction: column;
 	padding: 1rem 0;
   }
-
-.imessage-margin{
+  
+.faq-margin{
 	margin: 1.5rem 0;
+}
+
+.answer{
+	padding-left: 0.5rem;
 }
   
   .imessage p {
@@ -1386,61 +1376,7 @@ h5 {
 	word-wrap: break-word;
   }
   
-  .imessage p::before,
-  .imessage p::after {
-	bottom: -0.1rem;
-	content: "";
-	height: 1rem;
-	position: absolute;
-  }
   
-  p.from-me {
-	align-self: flex-end;
-	background-color:#C1DBC2;
-	color: #fff; 
-  }
-
-  
-  p.from-me::before {
-	border-bottom-left-radius: 0.8rem 0.7rem;
-	border-right: 1rem solid #C1DBC2;
-	right: -0.35rem;
-	transform: translate(0, -0.1rem);
-  }
-  
-  p.from-me::after {
-	background-color: #fff;
-	border-bottom-left-radius: 0.5rem;
-	right: -40px;
-	transform:translate(-30px, -2px);
-	width: 10px;
-  }
-  
-  p.from-me ~ p.from-me {
-	margin: 0.25rem 0 0;
-  }
-  
-  p.from-them {
-	align-items: flex-start;
-	background-color: #A5c2a6;
-	color: white;
-  }
-  
-  p.from-them:before {
-	border-bottom-right-radius: 0.8rem 0.7rem;
-	border-left: 1rem solid #A5c2a6;;
-	left: -0.35rem;
-	transform: translate(0, -0.1rem);
-  }
-  
-  p.from-them::after {
-	background-color: #fff;
-	border-bottom-right-radius: 0.5rem;
-	left: 20px;
-	transform: translate(-30px, -2px);
-	width: 10px;
-  }
-
 
 
   /* LEARN MORE SECTION */
