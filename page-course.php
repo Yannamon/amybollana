@@ -274,7 +274,7 @@ get_header();
 
             <div>
                 <h4>More Questions?</h4>
-                <h6>Send me an email at <a href="mailto:amybollanadesign.com"></a>amy@bollanadesign.com</h6>
+                <h6>Send me an email at <a href="mailto:amybollanadesign.com">amy@bollanadesign.com</a></h6>
             </div>
         </section>
 </body>

@@ -1250,6 +1250,15 @@ a.btn:link {
 	border-radius: 0.7rem;
 }
 
+.btn a:link {
+	color:white;
+  }
+  
+
+.btn a:hover {
+	background-color: #C1DBC2;
+	color: #3C4C48;
+  }
 
 
 
@@ -1332,12 +1341,11 @@ p {
 
 .course-section .questions {
 	margin: 1rem 0;
-	background-color: #C1DBC2;
 }
 
 .course-section .questions 
-h6 {
-	color: white;
+h5 {
+	color: #3C4C48; 
 	padding: 2rem;
 }
 
@@ -1631,14 +1639,23 @@ div.darkgreen-card{
 	padding-top: 3rem;
 }
 
+.bottom-section a:link {
+	color: #3C4C48;
+  }
+  
+  /* visited link */
+  a:visited {
+	color:#3C4C48;
+  }
+  
+  a:hover {
+	color: #A5c2a6;
+  }
+  
+
+
 
 @media only screen and (min-width: 500px) {
-	.light-bulb,
-	.brain,
-	.dollar-sign{
-		height: 8rem;
-		width: 8rem;
-	}
 
 	/* learn more */
 	div.learn-hero-banner{
