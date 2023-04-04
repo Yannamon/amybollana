@@ -1574,38 +1574,27 @@ div.darkgreen-card{
 	color: white;
 }
 
+.brain,
+.dollar-sign, 
 .light-bulb{
-	background-color: #3C4C48;
-	padding:2rem;
-	height: 30%;
-    width: 30%;
+	height: 7rem;
+	width: 7rem;
+	padding: 2rem;
 	border-radius: 1rem;
 	margin:1rem auto;
 	box-shadow: inset 0 0 10px #7e7e7eb0;
 }
 
-/* .light-bulb-image{
-	max-width: 10%;
-} */
+.light-bulb{
+	background-color: #3C4C48;
+}
 
 .brain{
-	background-color: #FCF9E1;
-	padding:2rem;
-	height: 30%;
-    width: 30%;
-	border-radius: 1rem;
-	margin:1rem auto;
-	box-shadow: inset 0 0 10px #7e7e7eb0;
+	background-color: #f5e6e6;
 }
 
 .dollar-sign{
 	background-color: #C1DBC2;
-	padding:2rem;
-	height: 30%;
-    width: 30%;
-	border-radius: 1rem;
-	margin:1rem auto;
-	box-shadow: inset 0 0 10px #7e7e7eb0;
 }
 
 
