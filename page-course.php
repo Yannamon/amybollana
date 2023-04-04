@@ -62,19 +62,19 @@ get_header();
 
         <div class="faq">
             <div class="faq-margin">
-                <p class="from-me">Q: Do I have to have nice handwriting to do calligraphy?</p>
+                <p>Q: Do I have to have nice handwriting to do calligraphy?</p>
                 <p class="answer">A: Aboslutley not! You will learn a sytem of drawing simple basic strokes to create letters. Anyone can
                     do it!</p>
             </div>
 
             <div class="faq-margin">
-                <p class="from-me">Q: I am left handed. Can I do calligraphy?</p>
+                <p>Q: I am left handed. Can I do calligraphy?</p>
                 <p class="answer">A: Yes! There are alot of left handed calligraphers. I provide a few tips but it will take some
                     experimenting to find out what will work for you.</p>
             </div>
 
             <div class="faq-margin">
-                <p class="from-me">Q: I was given a calligraphy set as a gift. Can I use that in this course?</p>
+                <p>Q: I was given a calligraphy set as a gift. Can I use that in this course?</p>
                 <p class="answer">A: In this course we are doing modern calligraphy with a brush pen, which has a flexible nib that will
                     create thick and thin strokes. Most calligraphy sets that people have conatin a broad edged nib that
                     can be used for certain types of calligraphy such as Italic and Blackletter it will not be used in
@@ -82,7 +82,7 @@ get_header();
             </div>
 
             <div class="faq-margin">
-                <p class="from-me">Q: What kind of pen do I need for this course?</p>
+                <p>Q: What kind of pen do I need for this course?</p>
                 <p class="answer">A: The best brush pen to use for this course is the Tombow Fudenosuke which you can find at most art
                     stores. We will use the hard tip pen. (It comes in a soft tip too) If you cannot find this pen, a
                     Pental Sign Brush Pen would work.</p>
@@ -104,6 +104,24 @@ get_header();
             </p>
             <a class="btn course" href="#">I want this course!</a>
         </div>
+
+        <section class="testimonials">
+            <h2 class="container headerfont home-cards mt-3">Testimonials</h2>
+            <div class="container horizontal-content gap-3">
+                <div class="cardborder d-flex-sm cardtest">
+                    <img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/viktor-zhulin-8W5J5XvIVvI-unsplash.png" alt="">
+                    <p class="p-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae eius rem animi iure nihil voluptate? Dolorem sint ea suscipit eum </p>
+                </div>
+                <div class="cardborder d-flex-sm cardtest">
+                    <img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/josh-rich-cs-ZB4ZINhM-unsplash.png" alt="">
+                    <p class="p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse nostrum a natus cum facere amet at nemo tempore ab, eum dolores libero</p>
+                </div>
+                <div class="cardborder d-flex-sm cardtest">
+                    <img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/egor-litvinov-1MjshlyyNg-unsplash.png" alt="">
+                    <p class="p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod ut dicta doloremque iste voluptates, odit facilis non, quisquam accusantium </p>
+                </div>
+            </div>
+        </section>
 
         <div class="whats-included">
             <h2>What's Included</h2>

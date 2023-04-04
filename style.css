@@ -1388,6 +1388,7 @@ h6 {
 .faq{
 	background-color: #A5c2a6;
 	padding:1rem;
+	margin-top:2rem;
 }
 
 
@@ -1438,6 +1439,34 @@ h6 {
 	text-transform: uppercase;
 	margin-bottom: .5rem;
   }
+
+
+/* Testimonials */
+.horizontal-contente {
+    display: flex;
+    overflow-x: scroll;
+    align-items: center;
+    height: 350px;
+    /*Remove scrollbar fire-fox*/
+    scrollbar-width: none;
+    gap: 1.5rem;
+    /* overflow-x: hidden; */
+    /* Hide horizontal scrollbar */
+}
+
+ 
+
+.horizontal-contente div {
+    height: 200px;
+    width: 200px;
+    /* background: orange; */
+    /* background-color: purple; */
+    /* margin: 1rem 0.5rem; */
+    flex-shrink: 0;
+    flex-grow: 0;
+    flex-basis: 330px;
+    transition: all 300ms ease-in;
+}
 
 /* Whats included section */
 
