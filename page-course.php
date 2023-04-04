@@ -25,9 +25,9 @@ get_header();
                     alt="Laptop image of calligraphy lesson">
 
                 <div class="questions">
-                    <h6>Do you like pretty things?</h6>
-                    <h6>Do you like making personal gifts for friends & family?</h6>
-                    <h6>Are you looking for a simple creative outlet?</h6>
+                    <h5>Do you like pretty things?</h5>
+                    <h5>Do you like making personal gifts for friends & family?</h5>
+                    <h5>Are you looking for a simple creative outlet?</h5>
                 </div>
             </div>
 

@@ -1294,19 +1294,13 @@ p {
 	text-align: center;
 }
 
-.course-section,
-.faq-section {
+.course-section {
 	padding: 2rem;
 }
 
-.course-section .questions {
-	margin: 1rem 0;
-	background-color: #C1DBC2;
-}
-
 .course-section .questions 
-h6 {
-	color: white;
+h5 {
+	color: #3C4C48;
 	padding: 2rem;
 }
 
