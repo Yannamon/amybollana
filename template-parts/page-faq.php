@@ -14,9 +14,17 @@
 
 get_header();
 ?>
-
-	<main id="primary" class="site-main">
-
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>faq-amybollana</title>
+    </head>
+    <body>
+        <main id="primary" class="site-main">
+        
 		<?php
 		while ( have_posts() ) :
 			the_post();
@@ -30,9 +38,13 @@ get_header();
 
 		endwhile; // End of the loop.
 		?>
+        
 
 	</main><!-- #main -->
 
+    </body>
+    </html>
+	
 <?php
 get_sidebar();
 get_footer();

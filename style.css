@@ -97,20 +97,6 @@ h1 {
 	margin: 0.67em 0;
 }
 
-.themecolorone {
-	background-color: #A5C2A6;
-}
-
-@media screen and (max-width: 768px) {
-	nav>ul {
-		display: flex;
-		justify-content: center;
-	}
-
-	.text-nav {
-		color: #fff;
-	}
-}
 /* Grouping content
 	 ========================================================================== */
 
@@ -124,64 +110,6 @@ hr {
 	overflow: visible;
 }
 
-.headerfont{
-font-family: 'Shamson Signature', sans-serif;
-}
-
-.cardtest{
-	background-color: #A5C2A6;
-	border-radius: 1rem;
-	padding: 1rem;
-	max-height: 180px;
-}
-
-.bigheader{
-	font-size: 35px;
-	padding-top: 1rem;
-	color: #FEFADF;
-}
-.cardborder{
-	border: 1px solid #707070;
-	border-radius: 1rem;
-	padding: 1rem;
-	overflow: hidden;
-	min-width: 200px;
-}
-
-
-.horizontal-content {
-	display: flex;
-	overflow-x: scroll;
-	align-items: center;
-	height: 290px;
-	/*Remove scrollbar fire-fox*/
-	scrollbar-width: none;
-}
-.horizontal-content::-webkit-scrollbar {
-	width: 12px;
-	height: 1.5rem;
-	padding: 0.5rem;
-	/* width of the entire scrollbar */
-}
-
-.horizontal-content::-webkit-scrollbar {
-	width: 12px;
-	height: 1.5rem;
-	padding: 0.5rem;
-	/* width of the entire scrollbar */
-}
-
-.horizontal-content::-webkit-scrollbar-thumb {
-	background-color: #FEFADF;
-	border-radius: 20px;
-	padding-bottom: 0.5rem;
-}
-
-.horizontal-content::-webkit-scrollbar-thumb {
-	background-color: #FEFADF;
-	border-radius: 20px;
-	padding-bottom: 0.5rem;
-}
 /**
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
@@ -218,19 +146,6 @@ b,
 strong {
 	font-weight: bolder;
 }
-
-.centre{
-	text-align: center;
-}
-.button-pink{
-	background-color: #EFA99E;
-	border: 1px solid #EFA99E;
-	border-radius: 1rem;
-	padding: 0.5rem 0.7rem;
-	color: #fff;
-	text-decoration: none;
-}
-
 
 /**
  * 1. Correct the inheritance and scaling of font size in all browsers.
@@ -580,8 +495,8 @@ ol {
 	list-style: decimal;
 }
 
-li > ul,
-li > ol {
+li>ul,
+li>ol {
 	margin-bottom: 0;
 	margin-left: 1.5em;
 }
@@ -639,7 +554,152 @@ a:hover,
 a:active {
 	outline: 0;
 }
+/*index*/
+.sr-only {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	border: 0;
+}
 
+.home-par{
+	font-size: 1.65rem;
+	margin-top: 4rem;
+	margin-bottom: 2rem;
+	text-align: center;
+	margin-left: 5rem;
+		margin-right: 5rem;
+}
+.front-home-profile{
+	height: 80%;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.home-about p{
+	margin-left: 5rem;
+	margin-right: 5rem;
+}
+
+.home-button{
+	background-color: #C1DBC2;
+	color: #fff;
+	border: 1px solid #C1DBC2;
+	border-radius: 8px;
+	padding: 0.5rem 1rem;
+	margin-left: 5rem;
+}
+.home-about a{
+		text-decoration: none;
+		color: #fff;
+}
+
+.home-port{
+	background-color: #C1DBC2;
+	color: #fff;
+	height: fit-content;
+}
+.home-port p{
+	color: #fff;
+	margin-left: 5rem;
+		margin-right: 5rem;
+}
+.home-port h2{
+	line-height: 60px;
+	color: #fff;
+	margin-top: 2rem;
+	text-align: left;
+	margin-left: 5rem;
+	margin-right: 5rem;
+}
+.home-button-second{
+	background-color: #A5C2A6;
+	color: #fff;
+	border: 1px solid #A5C2A6;
+	border-radius: 8px;
+	padding: 0.5rem 1rem;
+	margin-left: 5rem;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+.home-port a{
+	text-decoration: none;
+	color: #fff;
+}
+.home-sec-nav img{
+	border-radius: 45%;
+	height: 50%;
+	width: 50%;
+	margin-left: 8rem;
+	margin-right: 8rem;
+}
+.home-sec-nav h3{
+	text-align: center;
+	font-size: 25px;
+	margin-bottom: 2rem
+}
+/* .home-gal-one img{
+	height: 40%;
+	width: 40%;
+}
+.home-gal-two img{
+	height: 25%;
+	width: 25%;
+} */
+@media screen and (min-width: 768px) {
+	.front-home-profile{
+		height: 60%;
+		width: 60%;
+		margin: 0 0 1rem 1rem;
+	}
+	.home-par{
+		font-size: 1.5rem;
+		line-height: 3rem;
+	}
+	.home-flex{
+		display: flex;
+		justify-content: center;
+	}
+		.home-port p {
+			color: #fff;
+			margin-left: 7rem;
+			margin-right: 7rem;
+		}
+}
+
+/*portfolio*/
+.tab-navigation {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+	gap: 1rem;
+}
+
+.tab-button {
+	background-color: #C1DBC2;
+	border: 1px solid #C1DBC2;
+	color: white;
+	cursor: pointer;
+	padding: 10px 20px;
+	transition: background-color 0.3s ease;
+}
+
+.tab-button.active {
+	background-color: #A5C2A6;
+}
+
+.tab-item {
+	display: none;
+}
+
+.tab-item.show {
+	display: block;
+}
 /* Forms
 --------------------------------------------- */
 button,
@@ -758,8 +818,8 @@ textarea {
 	top: 0;
 }
 
-.main-navigation ul ul li:hover > ul,
-.main-navigation ul ul li.focus > ul {
+.main-navigation ul ul li:hover>ul,
+.main-navigation ul ul li.focus>ul {
 	display: block;
 	left: auto;
 }
@@ -768,8 +828,8 @@ textarea {
 	width: 200px;
 }
 
-.main-navigation ul li:hover > ul,
-.main-navigation ul li.focus > ul {
+.main-navigation ul li:hover>ul,
+.main-navigation ul li.focus>ul {
 	left: auto;
 }
 
@@ -800,10 +860,8 @@ textarea {
 }
 
 .site-main .comment-navigation,
-.site-main
-.posts-navigation,
-.site-main
-.post-navigation {
+.site-main .posts-navigation,
+.site-main .post-navigation {
 	margin: 0 0 1.5em;
 }
 
@@ -1051,4 +1109,663 @@ textarea {
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 1.5em;
+}
+
+
+
+/* Amy Styling */
+
+/* Color codes:
+	Dark Green(buttons too): #A5c2a6
+	Light Green: #C1DBC2
+	Dark DARK Green(THIS IS USED FOR ANY DARK FONTS, HEADERS AND PARAGRAPHS): #3C4C48
+	Light Yellow(only used in the thestimonials): #FCF9E1
+
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li {
+	font-family: 'Raleway', sans-serif;
+	color: #3C4C48;
+}
+
+h1 {
+	font-size: 45px;
+}
+
+h2 {
+	font-size: 40px;
+}
+
+h3 {
+	font-size: 37px;
+}
+
+h4 {
+	font-size: 30px;
+}
+
+h5 {
+	font-size: 27px;
+}
+
+h6 {
+	font-size: 22px;
+}
+
+p {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+
+a.btn:link {
+	color: white;
+  }
+  
+  a.btn:visited {
+	color: white;
+  }
+  
+  /* selected link */
+  a.btn:active {
+	color: #3C4C48;
+  }
+
+@media only screen and (min-width: 800px) {
+	h1 {
+		font-size: 55px;
+	}
+
+	h2 {
+		font-size: 50px;
+	}
+
+	h3 {
+		font-size: 47px;
+	}
+
+	h4 {
+		font-size: 40px;
+	}
+
+	h5 {
+		font-size: 32px;
+	}
+
+	h6{
+		font-size: 27px;
+	}
+
+	p {
+		font-size: 18px;
+		line-height: 27px;
+	}
+
+}
+
+/* btn styling */
+
+.btn{
+	background-color: #A5c2a6;
+	color: white;
+	padding: 0.75rem 1.5rem;
+	border-radius: 0.7rem;
+}
+
+
+
+
+/* ABOUT AMY SECTION */
+
+.about-amy h1{
+	text-align: center;
+}
+
+.about-content {
+	padding: 1rem 2rem;
+}
+
+.about-content div:nth-child(2) {
+	padding-top: 1.5rem;
+}
+
+
+@media only screen and (min-width: 800px) {
+	div.statement p{
+		padding: 2rem 10rem;
+	}
+
+	.about-content {
+		display: flex;
+		flex-wrap: wrap;
+		width: 100%;
+		/* grid-template-columns: 300px 1fr;
+		gap: 1rem;
+		align-items: center;
+		max-width: 800px;
+		margin: 0 auto; */
+	}
+
+	.about-amy .flex{
+		display: flex;
+	}
+
+	.about-amy .box {
+		height: auto;
+		width: 50%;
+		width: 50%;
+		align-content: center;
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.about-amy .flexbox {
+		flex-direction: row-reverse;
+	}
+
+	.about-amy p.box {
+		padding: 0 1rem;
+	}
+}
+
+
+@media only screen and (min-width: 1000px) {
+	.about-content{
+		max-width: 1200px;
+		margin: auto;
+	}
+}
+
+
+
+/* COURSE SECTION */
+
+h1,
+h2,
+h3
+p {
+	text-align: center;
+}
+
+.course-section,
+.faq-section {
+	padding: 2rem;
+}
+
+.course-section .questions {
+	margin: 1rem 0;
+	background-color: #C1DBC2;
+}
+
+.course-section .questions 
+h6 {
+	color: white;
+	padding: 2rem;
+}
+
+.blurb-text{
+	padding:1rem auto;
+}
+
+.blurb-text a.btn {
+	margin: 0 5rem;
+}
+
+.course-section .capitalize {
+	text-transform: uppercase;
+	margin-bottom: 0.2rem;
+}
+
+.course-section .fineprint{
+	font-size: 14px;
+	margin-bottom: none;
+}
+
+.course-section .btn{
+	margin: 1rem auto;
+	display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 3px 3px 10px rgb(0 0 0 / 0.2);
+}
+
+/* overlaps */
+.overlaps{
+	margin-top: 2.5rem;
+	display:flex;
+	flex-direction: column;
+}
+
+.overlaps img{
+	width: 70%;
+}
+
+.overlaps img:nth-child(2){
+	padding-top: 2rem;
+	margin-left: auto;
+} 
+
+
+/* faq section */
+
+.circle-img{
+	margin:1rem auto;
+	position: relative;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+
+.faq-imessage-icon{
+	text-align: center;
+}
+
+.contact-image{
+	width: 100%;
+    height: auto;
+}
+
+.imessage {
+	display: flex;
+	flex-direction: column;
+	padding: 1rem 0;
+  }
+
+.imessage-margin{
+	margin: 1.5rem 0;
+}
+  
+  .imessage p {
+	border-radius: 1.15rem;
+	/* max-width: 75%; */
+	padding: 1rem;
+	position: relative;
+	word-wrap: break-word;
+  }
+  
+  .imessage p::before,
+  .imessage p::after {
+	bottom: -0.1rem;
+	content: "";
+	height: 1rem;
+	position: absolute;
+  }
+  
+  p.from-me {
+	align-self: flex-end;
+	background-color:#C1DBC2;
+	color: #fff; 
+  }
+
+  
+  p.from-me::before {
+	border-bottom-left-radius: 0.8rem 0.7rem;
+	border-right: 1rem solid #C1DBC2;
+	right: -0.35rem;
+	transform: translate(0, -0.1rem);
+  }
+  
+  p.from-me::after {
+	background-color: #fff;
+	border-bottom-left-radius: 0.5rem;
+	right: -40px;
+	transform:translate(-30px, -2px);
+	width: 10px;
+  }
+  
+  p.from-me ~ p.from-me {
+	margin: 0.25rem 0 0;
+  }
+  
+  p.from-them {
+	align-items: flex-start;
+	background-color: #A5c2a6;
+	color: white;
+  }
+  
+  p.from-them:before {
+	border-bottom-right-radius: 0.8rem 0.7rem;
+	border-left: 1rem solid #A5c2a6;;
+	left: -0.35rem;
+	transform: translate(0, -0.1rem);
+  }
+  
+  p.from-them::after {
+	background-color: #fff;
+	border-bottom-right-radius: 0.5rem;
+	left: 20px;
+	transform: translate(-30px, -2px);
+	width: 10px;
+  }
+
+
+
+  /* LEARN MORE SECTION */
+
+  div.learn-hero-banner{
+	padding:2rem;
+	text-align: center;
+	background-image: url(https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/03/5-e1680541968462.jpg);
+	background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+
+  }
+
+  .learn-hero-banner p{
+	border-radius: 1rem;
+	padding: 1.5rem;
+	background-color: rgba(255, 255, 255, 0.5);
+	margin: 2rem 0 10rem 0;
+  }
+
+  a.btn.course{
+	text-transform: uppercase;
+	margin-bottom: .5rem;
+  }
+
+/* Whats included section */
+
+.whats-included{
+	padding: 2rem;
+}
+
+.whats-included h2{
+	padding-bottom: 1rem;
+}
+
+div.darkgreen-card{
+	background-color: #A5c2a6;
+	padding: 2rem;
+	margin-top: 1rem;
+}
+
+.darkgreen-card p:nth-child(2){
+	text-transform: uppercase;
+}
+
+.darkgreen-card p,
+.darkgreen-card li{
+	color: white;
+	padding: 0.12rem 0;
+}
+
+.darkgreen-card ul {
+	margin: 0;
+  }
+
+.darkgreen-card ul.dashed {
+	list-style-type: none;
+	padding-left: 0;
+  }
+
+.darkgreen-card ul.dashed > li:before {
+	content: "-";
+	text-indent: -20px;
+  }
+
+.lightgreen-card{
+	margin: 1rem 0;
+	background-color: #C1DBC2;
+	padding: 2rem;
+}
+
+.lightgreen-card p{
+	text-transform: uppercase;
+}
+
+.lightgreen-card p,
+.lightgreen-card li{
+	color: white;
+	padding:0.12rem 0;
+}
+
+.lightgreen-card ul {
+	margin: 0;
+  }
+
+.lightgreen-card ul.dashed {
+	list-style-type: none;
+	padding-left: 0;
+  }
+
+.lightgreen-card ul.dashed > li:before {
+	content: "-";
+	text-indent: -20px;
+  }
+/* course iamges */
+.course-images{
+	padding: 3rem 0;
+}
+
+.course-images h4{
+	text-align: center;
+	padding:.5rem 0;
+}
+
+/* bonus section */
+.bonus-section{
+	text-align: center;
+	padding-bottom: 1rem;
+}
+
+.bonus-section div{
+	padding: 1rem 0;
+}
+
+/* BENEFITS SECTION*/
+.benefits-section{
+	background-color:  #A5c2a6;
+	text-align: center;
+	padding: 3rem 2rem 3rem 2rem;
+}
+
+.benefits-section h2{
+	padding-bottom: 2rem;
+}
+
+.benefits-section h2,
+.benefits-section h5,
+.benefits-section p{
+	color: white;
+}
+
+.light-bulb{
+	background-color: #3C4C48;
+	padding:2rem;
+	height: 30%;
+    width: 30%;
+	border-radius: 1rem;
+	margin:1rem auto;
+	box-shadow: inset 0 0 10px #7e7e7eb0;
+}
+
+/* .light-bulb-image{
+	max-width: 10%;
+} */
+
+.brain{
+	background-color: #FCF9E1;
+	padding:2rem;
+	height: 30%;
+    width: 30%;
+	border-radius: 1rem;
+	margin:1rem auto;
+	box-shadow: inset 0 0 10px #7e7e7eb0;
+}
+
+.dollar-sign{
+	background-color: #C1DBC2;
+	padding:2rem;
+	height: 30%;
+    width: 30%;
+	border-radius: 1rem;
+	margin:1rem auto;
+	box-shadow: inset 0 0 10px #7e7e7eb0;
+}
+
+
+/* Wondering section */
+.wondering-section{
+	padding: 4rem 2rem;
+}
+
+.wondering-section h6{
+	padding: 2rem 0 1rem 0;
+}
+
+.wondering-section ul{
+	margin: 0;
+}
+
+
+/* Bottom Section */
+.bottom-section{
+	padding: 0 2rem;
+	text-align: center;
+}
+
+.bottom-section h2,
+.bottom-section h4{
+	font-weight: 600;
+}
+
+.bottom-section .btn {
+	margin: 1rem auto;
+}
+
+.bottom-section div:nth-child(2){
+	padding-top: 3rem;
+}
+
+
+@media only screen and (min-width: 500px) {
+	.light-bulb,
+	.brain,
+	.dollar-sign{
+		height: 8rem;
+		width: 8rem;
+	}
+
+	/* learn more */
+	div.learn-hero-banner{
+		background-position: center;
+	}
+
+	.learn-hero-banner p{
+		width: 60%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+}
+
+@media only screen and (min-width: 800px) {
+	.course-section h1{
+		margin-left: 3rem;
+    	margin-right: 3rem;
+	}
+
+	.course-section-flex{
+		display: flex;
+		width: 100%;
+	}
+	
+	.course-section-flex img{
+		width: 50%;
+	}
+
+	.course-section-flex .questions{
+		width:50%
+
+	}
+
+	.blurb-text {
+		margin: 1rem 10rem;
+    text-align: center;
+	}
+
+
+	/* faq section */
+	div.imessage-margin p{
+		max-width: 50%;
+	}
+
+	p.from-me {
+		margin-left: auto;
+   		display: flex;
+	  }
+
+	  /* learn-more */
+	  .learn-hero-banner p{
+		margin-bottom: 4rem;
+	  }
+
+	  /* whats inlcuded */
+
+	  .included-row{
+		display:flex;
+		width: 100%;
+	  }
+
+	  .included-row div {
+		height: auto;
+		width: 50%;
+		width: 50%;
+		align-content: center;
+		display: flex;
+		flex-wrap: wrap;
+	  }
+
+	  .whats-included .first-row{
+
+		margin-bottom: 1rem;
+	  }
+	  
+	  div.darkgreen-card,
+	  div.lightgreen-card{
+		margin-top: 0;
+		margin-bottom: 0;
+	  }
+
+	  .darkgreen-card{
+		margin-left: 1rem;
+	  }
+
+	  .lightgreen-card{
+		margin-right: 1rem;
+	  }
+
+	  /* bonus section */
+	  .bonus-section{
+		width: 50%;
+    margin: auto;
+	  }
+
+	  /* Benefits of calligraphy */
+	  .benefits-section-flex{
+		display: flex;
+		justify-content: space-evenly;
+	  }
+
+	  .benefits-container{
+		max-width:33.33%;
+		padding:0 1rem;
+	  }
+
+	  .light-bulb,
+	.brain,
+	.dollar-sign{
+		width: 6rem;
+		height: 6rem;
+	}
 }

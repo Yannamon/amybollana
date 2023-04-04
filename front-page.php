@@ -26,30 +26,22 @@ get_header();
     
 	<main id="primary" class="site-main">
 		<section>
-		<div class="d-flex justify-content-center text-light themecolorone">
-			<div>
-				<img src="./bollana-banner.png" alt="">
-			</div>
-			<div class="">
-				<div class="centre pb-5">
-					<h2 class="headerfont">Amy Bollana</h2>
-					<h2 class="headerfont">Design</h2>
-					<p>Discover great calligraphy and meet Amy
+			<div class="container">
+			   <h1 class="sr-only">Amy Bollana</h1>
+				<p class="d-flex justify-content-center home-par">Discover great calligraphy and meet Amy
 					Bollana. From custom bookmarks to
 					prints we have you covered.</p>
-					<a class="button-pink" href="">Learn More</a>
-					<a class="button-pink" href="">Contact</a>
 				</div>
-			</div>
+			
 		</div>
 		</section>
 		<section>
-		<div class="container centre">
-			<div>
-				<img src="../inc/img/amybollanaprofile.png" alt="">
-				<h2 class="headerfont">Amy Bollana</h2>
+		<div class="container home-flex mb-3">
+			<div class="front-home-profile">
+				<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/Profile-Pic-1.png" alt="">
 			</div>
-			<div>
+			<div class="home-about">
+				<h2 class="headerfont mt-2 mb-4">Amy Bollana</h2>
 				<p>Welcome to Amy Bollana, I am Amy a 
 				designer  and a modern calligrapher 
 				in Sherwood Park, Alberta. I love making 
@@ -59,8 +51,41 @@ get_header();
 				lettering for your business, special 
 				event or for a gift. I can help you get
  				your message just right!</p>
+				<div class="container">
+					<a class="home-button" href="">Learn More</a>
+					<a class="home-button" href="">Contact</a>
+				</div>
 			</div>
 		</div>
+		</section>
+		<section class="home-port">
+			<div class="container"></div>
+			<h2>Calligraphy | Engraving | Illustration</h2>
+			<p>Say hello to some of Amy's Workl</p>
+			<a class="home-button-second" href="">Portfolio</a>
+		</section>
+		<section class="container">
+			<div class="row">
+				<div class="col col-lg-6">
+					<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/03/IMG_8177.jpg" alt="">
+				</div>
+				<div class="col col-lg-6">
+					<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/03/IMG_8267-2.jpg" alt="">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col col-lg-3">
+					<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/03/Faith-is-Cross-mockups-scaled.jpg" alt="">
+				</div>
+				<div class="col col-lg-3">
+					<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/03/IMG_7685-scaled.jpg" alt="">
+				</div>
+				<div class="col col-lg-3">
+					<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/03/House-Illustration-Jenna-scaled.jpg" alt="">
+				</div>
+				<div class="col col-lg-3">
+					<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/03/IMG_6824-scaled.jpg" alt="">
+				</div>
 		</section>
 		<section class="themecolorone">
 			<h2 class="container headerfont bigheader mt-3">Testimonials</h2>
@@ -83,25 +108,25 @@ get_header();
 				</div>
 			</div>
 		</section>
-		<div class="container centre">
+		<div class="container home-sec-nav centre">
 			<div>
-				<img src="" alt="">
+				<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/il_794xN.2352517592_4984.jpg" alt="">
 				<h3>About</h3>
 			</div>
 			<div>
-				<img src="" alt="">
+				<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/il_794xN.3090994128_8q4l.jpg" alt="">
 				<h3>Portfolio</h3>
 			</div>
 			<div>
-				<img src="" alt="">
+				<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/il_794xN.2321811031_gpvx.jpg" alt="">
 				<h3>Course</h3>
 			</div>
 			<div>
-				<img src="" alt="">
+				<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/il_794xN.2087262002_ra0x.jpg" alt="">
 				<h3>Contact</h3>
 			</div>
 			<div>
-				<img src="" alt="">
+				<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/03/IMG_4276.jpg" alt="">
 				<h3>Shop Now</h3>
 			</div>
 		</div>
