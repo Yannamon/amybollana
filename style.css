@@ -1450,6 +1450,10 @@ h3 p {
 	margin-top: 2rem;
 }
 
+.faq-header{
+	text-align: center;
+}
+
 
 .faq-imessage-icon {
 	text-align: center;
@@ -1629,7 +1633,7 @@ div.darkgreen-card {
 }
 
 .benefits-section h2,
-.benefits-section h5,
+.benefits-section h6,
 .benefits-section p {
 	color: white;
 }
@@ -1819,5 +1823,18 @@ a:hover {
 	.dollar-sign {
 		width: 6rem;
 		height: 6rem;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	.course-section,
+	.faq-section,
+	.testimonials,
+	.whats-included,
+	.benefits-section-flex,
+	.wondering-section,
+	.bottom-section{
+		max-width: 1200px;
+		margin: auto;
 	}
 }

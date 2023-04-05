@@ -25,9 +25,9 @@ get_header();
                     alt="Laptop image of calligraphy lesson">
 
                 <div class="questions">
-                    <h6>Do you like pretty things?</h6>
-                    <h6>Do you like making personal gifts for friends & family?</h6>
-                    <h6>Are you looking for a simple creative outlet?</h6>
+                    <h5>Do you like pretty things?</h5>
+                    <h5>Do you like making personal gifts for friends & family?</h5>
+                    <h5>Are you looking for a simple creative outlet?</h5>
                 </div>
             </div>
 
@@ -55,42 +55,38 @@ get_header();
 
     <!-- FAQ section -->
     <section class="faq-section">
-        <div class="faq-imessage-icon">
+        <div class="faq-header">
             <h2>F.A.Q</h2>
             <h6>(Frequently Asked Questions)</h6>
-            <div class="circle-img">
-                <img class="contact-image" src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/03/amybollanaprofile.png" alt="">
-            </div>
-                <p>Amy Bollana</p>
         </div>
 
-        <div class="imessage">
-            <div class="imessage-margin">
-                <p class="from-me">Do I have to have nice handwriting to do calligraphy?</p>
-                <p class="from-them">Aboslutley not! You will learn a sytem of drawing simple basic strokes to create letters. Anyone can
+        <div class="faq">
+            <div class="faq-margin">
+                <p>Q: Do I have to have nice handwriting to do calligraphy?</p>
+                <p class="answer">A: Aboslutley not! You will learn a sytem of drawing simple basic strokes to create letters. Anyone can
                     do it!</p>
             </div>
 
-            <div class="imessage-margin">
-                <p class="from-me">I am left handed. Can I do calligraphy?</p>
-                <p class="from-them">Yes! There are alot of left handed calligraphers. I provide a few tips but it will take some
+            <div class="faq-margin">
+                <p>Q: I am left handed. Can I do calligraphy?</p>
+                <p class="answer">A: Yes! There are alot of left handed calligraphers. I provide a few tips but it will take some
                     experimenting to find out what will work for you.</p>
             </div>
 
-            <div class="imessage-margin">
-                <p class="from-me">I was given a calligraphy set as a gift. Can I use that in this course?</p>
-                <p class="from-them">In this course we are doing modern calligraphy with a brush pen, which has a flexible nib that will
+            <div class="faq-margin">
+                <p>Q: I was given a calligraphy set as a gift. Can I use that in this course?</p>
+                <p class="answer">A: In this course we are doing modern calligraphy with a brush pen, which has a flexible nib that will
                     create thick and thin strokes. Most calligraphy sets that people have conatin a broad edged nib that
                     can be used for certain types of calligraphy such as Italic and Blackletter it will not be used in
                     this course.</p>
             </div>
 
-            <div class="imessage-margin">
-                <p class="from-me">What kind of pen do I need for this course?</p>
-                <p class="from-them">The best brush pen to use for this course is the Tombow Fudenosuke which you can find at most art
+            <div class="faq-margin">
+                <p>Q: What kind of pen do I need for this course?</p>
+                <p class="answer">A: The best brush pen to use for this course is the Tombow Fudenosuke which you can find at most art
                     stores. We will use the hard tip pen. (It comes in a soft tip too) If you cannot find this pen, a
                     Pental Sign Brush Pen would work.</p>
-                <p class="from-them">Learning calligraphy is really quite imple. In less than tow hours, I will give you the tools to
+                <p class="answer">A: Learning calligraphy is really quite imple. In less than tow hours, I will give you the tools to
                     learn calligraphy and start a creative, mindful practice.</p>
             </div>
         </div>
@@ -108,6 +104,24 @@ get_header();
             </p>
             <a class="btn course" href="#">I want this course!</a>
         </div>
+    </section>
+
+    <section class="testimonials">
+        <h2 class="container headerfont home-cards mt-3">Testimonials</h2>
+            <div class="container horizontal-content gap-3">
+                <div class="cardborder d-flex-sm cardtest">
+                    <img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/viktor-zhulin-8W5J5XvIVvI-unsplash.png" alt="">
+                    <p class="p-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae eius rem animi iure nihil voluptate? Dolorem sint ea suscipit eum </p>
+                </div>
+                <div class="cardborder d-flex-sm cardtest">
+                    <img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/josh-rich-cs-ZB4ZINhM-unsplash.png" alt="">
+                    <p class="p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse nostrum a natus cum facere amet at nemo tempore ab, eum dolores libero</p>
+                </div>
+                <div class="cardborder d-flex-sm cardtest">
+                    <img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/egor-litvinov-1MjshlyyNg-unsplash.png" alt="">
+                    <p class="p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod ut dicta doloremque iste voluptates, odit facilis non, quisquam accusantium </p>
+                </div>
+            </div>
 
         <div class="whats-included">
             <h2>What's Included</h2>
@@ -174,9 +188,9 @@ get_header();
                     <h3>Plus</h3>
                     <h6>Greeting card designs to give you endless ideas</h6>
                 </div>
-                <a class="btn course" href="#">I want this course!</a>
             </div>
         </div>
+    </section>
 
         <!-- Benefits of Calligraphy -->
         <section class="benefits-section">
@@ -188,9 +202,9 @@ get_header();
                         <div class="light-bulb" >
                             <img class="light-bulb-image" src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/light-bulb.svg" alt="Outline of a light bulb">
                         </div>
-                        <h5>
+                        <h6>
                             Begin a simple creative outlet
-                        </h5>
+                        </h6>
                         <p>
                             You will have so much fun with this new creative skill.
                         </p>
@@ -200,9 +214,9 @@ get_header();
                         <div class="brain">
                             <img class="brain-image" src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/brain.svg" alt="Outline of a brain">
                         </div>
-                        <h5>
+                        <h6>
                             Improve mindfulness & mental health
-                        </h5>
+                        </h6>
                         <p>
                             Calligraphy is a therapeutic and editative process.
                         </p>
@@ -212,9 +226,9 @@ get_header();
                         <div class="dollar-sign">
                             <img class="dollar-sign-image" src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/dollar.svg" alt="Dolalr sign">
                         </div>
-                        <h5>
+                        <h6>
                             Save money... or even earn a side income
-                        </h5>
+                        </h6>
                         <p>
                             Make your own greeting cards and gifts! Maybe even start doing calligraphy for others and earn a
                             side income
@@ -260,7 +274,7 @@ get_header();
 
             <div>
                 <h4>More Questions?</h4>
-                <h6>Send me an email at <a href="mailto:amybollanadesign.com"></a>amy@bollanadesign.com</h6>
+                <h6>Send me an email at <a href="mailto:amybollanadesign.com">amy@bollanadesign.com</a></h6>
             </div>
         </section>
 </body>
