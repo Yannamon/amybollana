@@ -25,9 +25,9 @@ get_header();
                     alt="Laptop image of calligraphy lesson">
 
                 <div class="questions">
-                    <h5>Do you like pretty things?</h5>
-                    <h5>Do you like making personal gifts for friends & family?</h5>
-                    <h5>Are you looking for a simple creative outlet?</h5>
+                    <h6>Do you like pretty things?</h6>
+                    <h6>Do you like making personal gifts for friends & family?</h6>
+                    <h6>Are you looking for a simple creative outlet?</h6>
                 </div>
             </div>
 
@@ -55,38 +55,42 @@ get_header();
 
     <!-- FAQ section -->
     <section class="faq-section">
-        <div class="faq-headers">
+        <div class="faq-imessage-icon">
             <h2>F.A.Q</h2>
             <h6>(Frequently Asked Questions)</h6>
+            <div class="circle-img">
+                <img class="contact-image" src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/03/amybollanaprofile.png" alt="">
+            </div>
+                <p>Amy Bollana</p>
         </div>
 
-        <div class="faq">
-            <div class="faq-questions-margin">
-                <p>Do I have to have nice handwriting to do calligraphy?</p>
-                <p>Aboslutley not! You will learn a sytem of drawing simple basic strokes to create letters. Anyone can
+        <div class="imessage">
+            <div class="imessage-margin">
+                <p class="from-me">Do I have to have nice handwriting to do calligraphy?</p>
+                <p class="from-them">Aboslutley not! You will learn a sytem of drawing simple basic strokes to create letters. Anyone can
                     do it!</p>
             </div>
 
-            <div class="faq-questions-margin">
-                <p>I am left handed. Can I do calligraphy?</p>
-                <p>Yes! There are alot of left handed calligraphers. I provide a few tips but it will take some
+            <div class="imessage-margin">
+                <p class="from-me">I am left handed. Can I do calligraphy?</p>
+                <p class="from-them">Yes! There are alot of left handed calligraphers. I provide a few tips but it will take some
                     experimenting to find out what will work for you.</p>
             </div>
 
-            <div class="faq-questions-margin">
-                <p>I was given a calligraphy set as a gift. Can I use that in this course?</p>
-                <p>In this course we are doing modern calligraphy with a brush pen, which has a flexible nib that will
+            <div class="imessage-margin">
+                <p class="from-me">I was given a calligraphy set as a gift. Can I use that in this course?</p>
+                <p class="from-them">In this course we are doing modern calligraphy with a brush pen, which has a flexible nib that will
                     create thick and thin strokes. Most calligraphy sets that people have conatin a broad edged nib that
                     can be used for certain types of calligraphy such as Italic and Blackletter it will not be used in
                     this course.</p>
             </div>
 
-            <div class="faq-questions-margin">
-                <p>What kind of pen do I need for this course?</p>
-                <p>The best brush pen to use for this course is the Tombow Fudenosuke which you can find at most art
+            <div class="imessage-margin">
+                <p class="from-me">What kind of pen do I need for this course?</p>
+                <p class="from-them">The best brush pen to use for this course is the Tombow Fudenosuke which you can find at most art
                     stores. We will use the hard tip pen. (It comes in a soft tip too) If you cannot find this pen, a
                     Pental Sign Brush Pen would work.</p>
-                <p>Learning calligraphy is really quite imple. In less than tow hours, I will give you the tools to
+                <p class="from-them">Learning calligraphy is really quite imple. In less than tow hours, I will give you the tools to
                     learn calligraphy and start a creative, mindful practice.</p>
             </div>
         </div>
