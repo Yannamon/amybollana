@@ -667,8 +667,15 @@ a:active {
 	margin-right: 2rem;
 	border-radius: 8px;
 }
+.home-gal-cont>div {
+	height: 500px;
+	width: 500px;
+	overflow: hidden;
+	margin-top: 2rem;
+}
 
-.home-gal>div>div {
+
+.home-gal>div {
 	height: 500px;
 	width: 500px;
 	overflow: hidden;
@@ -727,22 +734,20 @@ a:active {
 		font-size: 1.5rem;
 		line-height: 3rem;
 	}
+	.home-gal-cont>div {
+		height: 600px;
+			width: 600px;
+			overflow: hidden;
+			margin-top: 2rem;
+	}
 
-		.home-gal>div>div {
-			height: 400px;
-			width: 400px;
+		.home-gal>div {
+			height: 300px;
+			width: 300px;
 			overflow: hidden;
 			margin-top: 2rem;
 		}
-
-		.home-gal>div>div :nth-child(1) {
-			height: 600px;
-			width: 600px;
-		}
-		.home-gal>div>div :nth-child(2) {
-			height: 600px;
-			width: 600px;
-		}
+		
 	.home-flex {
 		display: flex;
 		justify-content: center;
