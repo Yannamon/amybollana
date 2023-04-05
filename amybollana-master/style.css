@@ -696,7 +696,7 @@ a:active {
 		height: 30%;
 		width: 30%;
 	}
-
+	
 	.container>.home-button:nth-child(1) {
 		margin-left: 25%;
 	}
@@ -735,6 +735,14 @@ a:active {
 			margin-top: 2rem;
 		}
 
+		.home-gal>div>div :nth-child(1) {
+			height: 600px;
+			width: 600px;
+		}
+		.home-gal>div>div :nth-child(2) {
+			height: 600px;
+			width: 600px;
+		}
 	.home-flex {
 		display: flex;
 		justify-content: center;

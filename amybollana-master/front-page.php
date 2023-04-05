@@ -67,10 +67,10 @@ get_header();
 		</section>
 		<section class="container mb-4 home-gal">
 			<div class="row">
-				<div class="col-lg-6">
+				<div class="col-lg-6 home-gal-cont">
 					<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/03/IMG_8177.jpg" alt="">
 				</div>
-				<div class="col-lg-6">
+				<div class="col-lg-6 home-gal-cont">
 					<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/03/IMG_8267-2.jpg" alt="">
 				</div>
 			</div>
