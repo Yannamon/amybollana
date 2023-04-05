@@ -1249,10 +1249,6 @@ a.btn:link {
 	padding: 0.75rem 1.5rem;
 	border-radius: 0.7rem;
 }
-
-.btn a:link {
-	color:white;
-  }
   
 
 .btn a:hover {
@@ -1318,7 +1314,7 @@ a.btn:link {
 
 @media only screen and (min-width: 1000px) {
 	.about-content{
-		max-width: 1200px;
+		max-width: 1000px;
 		margin: auto;
 	}
 }
@@ -1347,10 +1343,6 @@ p {
 h5 {
 	color: #3C4C48; 
 	padding: 2rem;
-}
-
-.blurb-text{
-	padding:1rem auto;
 }
 
 .blurb-text a.btn {
@@ -1400,7 +1392,7 @@ h5 {
 }
 
 
-.faq-imessage-icon{
+.faq-header{
 	text-align: center;
 }
 
@@ -1577,7 +1569,7 @@ div.darkgreen-card{
 }
 
 .benefits-section h2,
-.benefits-section h5,
+.benefits-section h6,
 .benefits-section p{
 	color: white;
 }
@@ -1695,17 +1687,6 @@ div.darkgreen-card{
     text-align: center;
 	}
 
-
-	/* faq section */
-	div.imessage-margin p{
-		max-width: 50%;
-	}
-
-	p.from-me {
-		margin-left: auto;
-   		display: flex;
-	  }
-
 	  /* learn-more */
 	  .learn-hero-banner p{
 		margin-bottom: 4rem;
@@ -1720,15 +1701,13 @@ div.darkgreen-card{
 
 	  .included-row div {
 		height: auto;
-		width: 50%;
-		width: 50%;
-		align-content: center;
+		width: 40%;
+		/* align-content: center; */
 		display: flex;
 		flex-wrap: wrap;
 	  }
 
 	  .whats-included .first-row{
-
 		margin-bottom: 1rem;
 	  }
 	  
@@ -1736,6 +1715,7 @@ div.darkgreen-card{
 	  div.lightgreen-card{
 		margin-top: 0;
 		margin-bottom: 0;
+		width:60%;
 	  }
 
 	  .darkgreen-card{
@@ -1744,6 +1724,10 @@ div.darkgreen-card{
 
 	  .lightgreen-card{
 		margin-right: 1rem;
+	  }
+
+	  .course-images{
+		display:flex;
 	  }
 
 	  /* bonus section */
@@ -1769,4 +1753,15 @@ div.darkgreen-card{
 		width: 6rem;
 		height: 6rem;
 	}
+}
+
+@media only screen and (min-width: 1000px) {
+	.course-section,
+	.faq-section,
+	.wondering-section,
+	.bottom-section{
+		max-width: 1000px;
+		margin: auto;
+	}
+
 }

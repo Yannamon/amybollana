@@ -104,9 +104,10 @@ get_header();
             </p>
             <a class="btn course" href="#">I want this course!</a>
         </div>
+    </section>
 
-        <section class="testimonials">
-            <h2 class="container headerfont home-cards mt-3">Testimonials</h2>
+    <section class="testimonials">
+        <h2 class="container headerfont home-cards mt-3">Testimonials</h2>
             <div class="container horizontal-content gap-3">
                 <div class="cardborder d-flex-sm cardtest">
                     <img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/viktor-zhulin-8W5J5XvIVvI-unsplash.png" alt="">
@@ -121,7 +122,6 @@ get_header();
                     <p class="p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod ut dicta doloremque iste voluptates, odit facilis non, quisquam accusantium </p>
                 </div>
             </div>
-        </section>
 
         <div class="whats-included">
             <h2>What's Included</h2>
@@ -188,9 +188,9 @@ get_header();
                     <h3>Plus</h3>
                     <h6>Greeting card designs to give you endless ideas</h6>
                 </div>
-                <a class="btn course" href="#">I want this course!</a>
             </div>
         </div>
+    </section>
 
         <!-- Benefits of Calligraphy -->
         <section class="benefits-section">
@@ -202,9 +202,9 @@ get_header();
                         <div class="light-bulb" >
                             <img class="light-bulb-image" src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/light-bulb.svg" alt="Outline of a light bulb">
                         </div>
-                        <h5>
+                        <h6>
                             Begin a simple creative outlet
-                        </h5>
+                        </h6>
                         <p>
                             You will have so much fun with this new creative skill.
                         </p>
@@ -214,9 +214,9 @@ get_header();
                         <div class="brain">
                             <img class="brain-image" src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/brain.svg" alt="Outline of a brain">
                         </div>
-                        <h5>
+                        <h6>
                             Improve mindfulness & mental health
-                        </h5>
+                        </h6>
                         <p>
                             Calligraphy is a therapeutic and editative process.
                         </p>
@@ -226,9 +226,9 @@ get_header();
                         <div class="dollar-sign">
                             <img class="dollar-sign-image" src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/dollar.svg" alt="Dolalr sign">
                         </div>
-                        <h5>
+                        <h6>
                             Save money... or even earn a side income
-                        </h5>
+                        </h6>
                         <p>
                             Make your own greeting cards and gifts! Maybe even start doing calligraphy for others and earn a
                             side income
