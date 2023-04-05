@@ -25,7 +25,7 @@ get_header();
     <body>
         <main id="primary" class="site-main">
         <section>
-            <h2>Portfolio</h2>
+            <h1>Portfolio</h1>
         <section>
             <div class="tab-navigation">
                 <button class="tab-button active" data-filter="category-1">Calligraphy</button>
@@ -43,8 +43,9 @@ get_header();
                  <div class="tab-item category-1 col"><img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/03/Proverbs-2-mockups2.jpg" alt=""></div>
                 <div class="tab-item category-2 col"><img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/03/IMG_4276.jpg" alt=""></div>
                 <div class="tab-item category-2 col"><img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/03/IMG_8265.jpg" alt=""></div>
-                <div class="tab-item category-2 col"><img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/03/IMG_8267 2.jpg" alt=""></div>
+                <div class="tab-item category-2 col"><img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/03/IMG_8267-2.jpg" alt=""></div>
                 <div class="tab-item category-2 col"><img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/03/IMG_8269.jpg" alt=""></div>
+                <div class="tab-item category-2 col"><img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/03/IMG_7685-scaled.jpg" alt=""></div>
                 <div class="tab-item category-2 col"><img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/03/IMG_8277.jpg" alt=""></div>
                 <div class="tab-item category-2 col"><img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/03/20230120_114925.jpg" alt=""></div>
                 <div class="tab-item category-2 col"><img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/03/IMG_8177.jpg" alt=""></div>

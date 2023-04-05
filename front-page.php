@@ -36,7 +36,7 @@ get_header();
 		</div>
 		</section>
 		<section>
-		<div class="container home-flex mb-3">2
+		<div class="container home-flex mb-3">
 			<div class="front-home-profile">
 				<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/Profile-Pic-1.png" alt="">
 			</div>
@@ -59,17 +59,18 @@ get_header();
 		</div>
 		</section>
 		<section class="home-port">
-			<div class="container"></div>
+			<div class="container">
 			<h2>Calligraphy | Engraving | Illustration</h2>
-			<p>Say hello to some of Amy's Workl</p>
+			<p>Say hello to some of Amy's World</p>
 			<a class="home-button-second" href="">Portfolio</a>
+			</div>
 		</section>
 		<section class="container mb-4 home-gal">
 			<div class="row">
-				<div class="col-lg-6">
+				<div class="col-lg-6 home-gal-cont">
 					<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/03/IMG_8177.jpg" alt="">
 				</div>
-				<div class="col-lg-6">
+				<div class="col-lg-6 home-gal-cont">
 					<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/03/IMG_8267-2.jpg" alt="">
 				</div>
 			</div>
@@ -87,7 +88,7 @@ get_header();
 					<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/03/IMG_6824-scaled.jpg" alt="">
 				</div>
 		</section>
-		
+
 		<div class="container home-sec-nav centre">
 			<div>
 				<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/il_794xN.2352517592_4984.jpg" alt="">
