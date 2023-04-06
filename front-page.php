@@ -50,8 +50,8 @@ get_header();
 				event or for a gift. I can help you get
  				your message just right!</p>
 				<div class="container">
-					<a class="home-button" href="">Learn More</a>
-					<a class="home-button" href="">Contact</a>
+					<a class="home-button btn" href="https://amybollana.web.dmitcapstone.ca/about-amy/">Learn More</a>
+					<a class="home-button btn" href="https://amybollana.web.dmitcapstone.ca/contact/">Contact</a>
 				</div>
 			</div>
 		</div>
@@ -60,11 +60,11 @@ get_header();
 			<div class="container">
 			<h2>Calligraphy | Engraving | Illustration</h2>
 			<p>Say hello to some of Amy's World</p>
-			<a class="home-button-second" href="">Portfolio</a>
+			<a class="home-button-second btn" href="https://amybollana.web.dmitcapstone.ca/portfolio/">Portfolio</a>
 			</div>
 		</section>
 		<section class="container mb-4">
-			<h2 class="sr-only"> Home galery</h2>
+			<h2 class="sr-only">Home galery</h2>
 
 			<div class="row home-gal-cont">
 				<div class="col-lg-6">
