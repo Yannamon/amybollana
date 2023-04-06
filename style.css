@@ -1304,6 +1304,15 @@ a.btn:hover {
 	color: #3C4C48;
 }
 
+
+/* SVG */
+.style-svg{
+	fill: white;
+	height: 3rem;
+    width: 3rem;
+	display: flex;
+}
+
 @media only screen and (min-width: 800px) {
 	h1 {
 		font-size: 55px;

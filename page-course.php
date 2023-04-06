@@ -200,7 +200,7 @@ get_header();
                 <div class="benefits-section-flex">
                     <div class="benefits-container">
                         <div class="light-bulb" >
-                            <img class="light-bulb-image" src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/light-bulb.svg" alt="Outline of a light bulb">
+                            <img class="light-bulb-image style-svg" src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/light-bulb.svg" alt="Outline of a light bulb">
                         </div>
                         <h6>
                             Begin a simple creative outlet
@@ -212,7 +212,7 @@ get_header();
 
                     <div class="benefits-container">
                         <div class="brain">
-                            <img class="brain-image" src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/brain.svg" alt="Outline of a brain">
+                            <img class="brain-image style-svg" src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/brain.svg" alt="Outline of a brain">
                         </div>
                         <h6>
                             Improve mindfulness & mental health
@@ -224,7 +224,7 @@ get_header();
 
                     <div class="benefits-container">
                         <div class="dollar-sign">
-                            <img class="dollar-sign-image" src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/dollar.svg" alt="Dolalr sign">
+                            <img class="dollar-sign-image style-svg" src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/dollar-sign-symbol-bold-text-svgrepo-com-1.svg" alt="Dollar sign">
                         </div>
                         <h6>
                             Save money... or even earn a side income

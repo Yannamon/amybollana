@@ -22,7 +22,7 @@ get_header();
 
 		<div>
 			<div class="statement">
-				<img class="amy-image" src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/03/amybollanaprofile.png"
+				<img class="amy-image" src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/Profile-Pic-1.webp"
 					alt="Image of Amy">
 				<p>
 					Im Amy ... a designer and modern calligrapher in Sherwood Park, Alberta. I love making words look
