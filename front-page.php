@@ -24,15 +24,14 @@ get_header();
 </head>
 <body>
     <main id="primary" class="site-main">
+		<h1 class="sr-only">Amy Bollana</h1>
 		<section>
-			<h1 class="sr-only">Amy Bollana</h1>
 			<div class="container">
+				<h2 class="sr-only">Home top section</h2>
 				<p class="d-flex justify-content-center home-par">Discover great calligraphy and meet Amy
 					Bollana. From custom bookmarks to
 					prints we have you covered.</p>
 				</div>
-			
-		</div>
 		</section>
 		<section>
 		<div class="container home-flex mb-3">
@@ -65,6 +64,8 @@ get_header();
 			</div>
 		</section>
 		<section class="container mb-4">
+			<h2 class="sr-only"> Home galery</h2>
+
 			<div class="row home-gal-cont">
 				<div class="col-lg-6">
 					<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/IMG_8277-scaled-2.webp" alt="">
@@ -148,5 +149,4 @@ get_header();
 </html>
 
 <?php
-get_sidebar();
 get_footer();
