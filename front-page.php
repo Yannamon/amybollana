@@ -38,7 +38,7 @@ get_header();
 		<section>
 		<div class="container home-flex mb-3">
 			<div class="front-home-profile">
-				<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/Profile-Pic-1.png" alt="">
+				<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/Profile-Pic-1.webp" alt="">
 			</div>
 			<div class="home-about">
 				<h2 class="headerfont mt-2 mb-4">Amy Bollana</h2>
@@ -85,29 +85,29 @@ get_header();
 					<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/03/House-Illustration-Jenna-scaled.jpg" alt="">
 				</div>
 				<div class="col-lg-3">
-					<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/03/IMG_6824-scaled.jpg" alt="">
+					<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/IMG_6824-scaled-1.webp" alt="">
 				</div>
 		</section>
 
 		<div class="container home-sec-nav centre">
 			<div>
-				<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/il_794xN.2352517592_4984.jpg" alt="">
+				<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/il_794xN.2352517592_4984.webp" alt="">
 				<h3>About</h3>
 			</div>
 			<div>
-				<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/il_794xN.3090994128_8q4l.jpg" alt="">
+				<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/il_794xN.2087262002_ra0x.webp" alt="">
 				<h3>Portfolio</h3>
 			</div>
 			<div>
-				<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/il_794xN.2321811031_gpvx.jpg" alt="">
+				<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/il_794xN.3090994128_8q4l.webp" alt="">
 				<h3>Course</h3>
 			</div>
 			<div>
-				<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/il_794xN.2087262002_ra0x.jpg" alt="">
+				<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/il_794xN.2321811031_gpvx.webp" alt="">
 				<h3>Contact</h3>
 			</div>
 			<div>
-				<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/03/IMG_4276.jpg" alt="">
+				<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/IMG_4276.webp" alt="">
 				<h3>Shop Now</h3>
 			</div>
 		</div>
