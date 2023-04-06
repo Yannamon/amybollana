@@ -1248,6 +1248,20 @@ p {
 	line-height: 24px;
 }
 
+/* nav styling */
+nav a{
+	color: white;
+}
+
+nav a:visited {
+	color: white;
+}
+
+nav a:hover {
+	color: #3C4C48;
+}
+
+
 
 a.btn:link {
 	color: white;
@@ -1257,8 +1271,7 @@ a.btn:visited {
 	color: white;
 }
 
-/* selected link */
-a.btn:active {
+a.btn:hover {
 	color: #3C4C48;
 }
 
@@ -1697,15 +1710,6 @@ div.darkgreen-card {
 
 .bottom-section a:link {
 	color: #3C4C48;
-}
-
-/* visited link */
-a:visited {
-	color: #3C4C48;
-}
-
-a:hover {
-	color: #A5c2a6;
 }
 
 

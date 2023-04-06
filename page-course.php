@@ -21,7 +21,7 @@ get_header();
             <h1>Simple Brush Calligraphy for Beginners</h1>
 
             <div class="course-section-flex">
-                <img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/03/1-e1680239096138.jpg"
+                <img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/unnamed-2.webp"
                     alt="Laptop image of calligraphy lesson">
 
                 <div class="questions">
@@ -48,8 +48,8 @@ get_header();
         </div>
     
         <div class="overlaps">
-            <img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/Screen-Shot-2023-04-01-at-20.42.56.png" alt="Sending hugs postcard">
-            <img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/03/Proverbs-2-mockups2-scaled.jpg" alt="Calligraphy work in a picture frame">
+            <img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/unnamed-2.webp" alt="Sending hugs postcard">
+            <img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/Proverbs-2-mockups2-scaled-1.webp" alt="Calligraphy work in a picture frame">
         </div>
     </section>
 
@@ -127,7 +127,7 @@ get_header();
             <h2>What's Included</h2>
             <div class="included-row first-row">
                 <div>
-                    <img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/03/3.jpg" alt="Thank you card">
+                    <img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/3.webp" alt="Thank you card">
                 </div>
 
                 <div class="darkgreen-card">
@@ -164,14 +164,14 @@ get_header();
                     </ul>
                 </div>
                 <div>
-                    <img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/03/14.jpg" alt="Happy birthday card">
+                    <img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/unnamed-1.webp" alt="Happy birthday card">
                 </div>
             </div>
 
             <div class="course-images">
                 <div>
                     <h4>Printable Workbook</h4>
-                    <img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/03/9-e1680545269287.jpg" alt="Stack of workbooks sheets">
+                    <img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/9-e1680545269287.webp" alt="Stack of workbooks sheets">
                 </div>
                 <div>
                     <h4>Clear Video Insturction</h4>
