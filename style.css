@@ -667,6 +667,7 @@ a:active {
 	margin-right: 2rem;
 	border-radius: 8px;
 }
+
 .home-gal-cont>div {
 	height: 500px;
 	width: 500px;
@@ -676,6 +677,13 @@ a:active {
 
 
 .home-gal>div {
+	height: 500px;
+	width: 500px;
+	overflow: hidden;
+	margin-top: 2rem;
+}
+
+.port-img>div>div {
 	height: 500px;
 	width: 500px;
 	overflow: hidden;
@@ -697,7 +705,22 @@ a:active {
 		justify-content: center;
 		align-items: center;
 	}
-
+		.home-sec-nav img {
+			margin-left: 7rem;
+			margin-right: 8rem;
+		}
+	.port-img-gal-one>div {
+		height: 600px;
+			width: 600px;
+			overflow: hidden;
+			margin-top: 2rem;
+	}
+	.port-img-gal-two>div {
+		height: 200px;
+			width: 200px;
+			overflow: hidden;
+			margin-top: 2rem;
+	}
 	.home-sec-nav img {
 		border-radius: 45%;
 		height: 30%;
@@ -708,7 +731,7 @@ a:active {
 		margin-left: 25%;
 	}
 
-	.home-about p{
+	.home-about p {
 		padding-left: 22%;
 		padding-right: 22%;
 	}
@@ -718,41 +741,48 @@ a:active {
 		width: 60%;
 		margin: 0 0 1rem 1rem;
 	}
+
 	.home-port {
 		height: 200px;
 	}
-	.home-port h2{
+
+	.home-port h2 {
 		margin-left: 0;
 	}
-	.home-port p{
+
+	.home-port p {
 		margin-left: 0;
 	}
+
 	.home-button-second {
 		margin-left: 0;
 	}
+
 	.home-par {
 		font-size: 1.5rem;
 		line-height: 3rem;
 	}
+
 	.home-gal-cont>div {
 		height: 600px;
-			width: 600px;
-			overflow: hidden;
-			margin-top: 2rem;
+		width: 600px;
+		overflow: hidden;
+		margin-top: 2rem;
 	}
 
-		.home-gal>div {
-			height: 300px;
-			width: 300px;
-			overflow: hidden;
-			margin-top: 2rem;
-		}
-		
+	.home-gal>div {
+		height: 300px;
+		width: 300px;
+		overflow: hidden;
+		margin-top: 2rem;
+	}
+
 	.home-flex {
 		display: flex;
 		justify-content: center;
 	}
-
+	
+	
 }
 
 /*portfolio*/
@@ -1204,7 +1234,6 @@ textarea {
 	Light Green: #C1DBC2
 	Dark DARK Green(THIS IS USED FOR ANY DARK FONTS, HEADERS AND PARAGRAPHS): #3C4C48
 	Light Yellow(only used in the thestimonials): #FCF9E1
-
 */
 
 h1,
@@ -1463,7 +1492,7 @@ h3 p {
 	margin-top: 2rem;
 }
 
-.faq-header{
+.faq-header {
 	text-align: center;
 }
 
@@ -1831,13 +1860,14 @@ div.darkgreen-card {
 }
 
 @media only screen and (min-width: 1200px) {
+
 	.course-section,
 	.faq-section,
 	.testimonials,
 	.whats-included,
 	.benefits-section-flex,
 	.wondering-section,
-	.bottom-section{
+	.bottom-section {
 		max-width: 1200px;
 		margin: auto;
 	}
