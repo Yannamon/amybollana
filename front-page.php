@@ -23,11 +23,10 @@ get_header();
     <title>Home-AmyBollana</title>
 </head>
 <body>
-    
-	<main id="primary" class="site-main">
+    <main id="primary" class="site-main">
 		<section>
+			<h1 class="sr-only">Amy Bollana</h1>
 			<div class="container">
-			   <h1 class="sr-only">Amy Bollana</h1>
 				<p class="d-flex justify-content-center home-par">Discover great calligraphy and meet Amy
 					Bollana. From custom bookmarks to
 					prints we have you covered.</p>
@@ -68,21 +67,21 @@ get_header();
 		<section class="container mb-4">
 			<div class="row home-gal-cont">
 				<div class="col-lg-6">
-					<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/03/IMG_8177.jpg" alt="">
+					<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/IMG_8277-scaled-2.webp" alt="">
 				</div>
 				<div class="col-lg-6">
-					<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/03/IMG_8267-2.jpg" alt="">
+					<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/IMG_8265-scaled-1.webp" alt="">
 				</div>
 			</div>
 			<div class="row home-gal">
 				<div class="col-lg-3">
-					<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/03/Faith-is-Cross-mockups-scaled.jpg" alt="">
+					<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/Faith-is-Cross-mockups-scaled-1.webp" alt="">
 				</div>
 				<div class="col-lg-3">
-					<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/03/IMG_7685-scaled.jpg" alt="">
+					<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/IMG_7685-scaled-1.jpg" alt="">
 				</div>
 				<div class="col-lg-3">
-					<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/03/House-Illustration-Jenna-scaled.jpg" alt="">
+					<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/House-Illustration-Jenna-scaled-1.webp" alt="">
 				</div>
 				<div class="col-lg-3">
 					<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/IMG_6824-scaled-1.webp" alt="">
