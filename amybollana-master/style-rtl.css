@@ -1,9 +1,9 @@
 /*!
 Theme Name: amybollana
-Theme URI: http://underscores.me/
-Author: Underscores.me
-Author URI: http://underscores.me/
-Description: Description
+Theme URI: https://underscores.me/
+Author: Automattic
+Author URI: https://automattic.com/
+Description: Hi. I'm a starter theme called <code>amybollana</code>, or <em>underscores</em>, if you like. I'm a theme meant for hacking so don't use me as a <em>Parent Theme</em>. Instead try turning me into the next, most awesome, WordPress theme out there. That's what I'm here for.
 Version: 1.0.0
 Tested up to: 5.4
 Requires PHP: 5.6
@@ -484,7 +484,7 @@ hr {
 
 ul,
 ol {
-	margin: 0 0 1.5em 3em;
+	margin: 0 3em 1.5em 0;
 }
 
 ul {
@@ -495,10 +495,10 @@ ol {
 	list-style: decimal;
 }
 
-li>ul,
-li>ol {
+li > ul,
+li > ol {
 	margin-bottom: 0;
-	margin-left: 1.5em;
+	margin-right: 1.5em;
 }
 
 dt {
@@ -553,235 +553,6 @@ a:focus {
 a:hover,
 a:active {
 	outline: 0;
-}
-
-/*index*/
-.sr-only {
-	position: absolute;
-	width: 1px;
-	height: 1px;
-	padding: 0;
-	margin: -1px;
-	overflow: hidden;
-	clip: rect(0, 0, 0, 0);
-	border: 0;
-}
-
-.home-par {
-	font-size: 1.65rem;
-	margin-top: 4rem;
-	margin-bottom: 2rem;
-	text-align: center;
-	margin-left: 5rem;
-	margin-right: 5rem;
-}
-
-.front-home-profile {
-	height: 80%;
-	width: 80%;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.home-about p {
-	margin-left: 5rem;
-	margin-right: 5rem;
-}
-
-.home-button {
-	background-color: #C1DBC2;
-	color: #fff;
-	border: 1px solid #C1DBC2;
-	border-radius: 8px;
-	padding: 0.5rem 1rem;
-	margin-left: 5rem;
-}
-
-.home-about a {
-	text-decoration: none;
-	color: #fff;
-}
-
-.home-port {
-	background-color: #C1DBC2;
-	color: #fff;
-	height: 300px;
-}
-
-.home-port p {
-	color: #fff;
-	margin-left: 5rem;
-	margin-right: 5rem;
-}
-
-.home-port h2 {
-	line-height: 60px;
-	color: #fff;
-	margin-top: 2rem;
-	text-align: left;
-	margin-left: 5rem;
-	margin-right: 5rem;
-}
-
-.home-button-second {
-	background-color: #A5C2A6;
-	color: #fff;
-	border: 1px solid #A5C2A6;
-	border-radius: 8px;
-	padding: 0.5rem 1rem;
-	margin-left: 5rem;
-	margin-top: 2rem;
-	margin-bottom: 2rem;
-}
-
-.home-port a {
-	text-decoration: none;
-	color: #fff;
-}
-
-.home-sec-nav img {
-	border-radius: 45%;
-	height: 50%;
-	width: 50%;
-	margin-left: 8rem;
-	margin-right: 8rem;
-}
-
-.home-sec-nav h3 {
-	text-align: center;
-	font-size: 25px;
-	margin-bottom: 2rem
-}
-
-.home-cards {
-	display: flex;
-	flex-direction: horizontal;
-	justify-content: center;
-	align-items: center;
-}
-
-.home-cards img {
-	height: 50%;
-	width: 50%;
-	margin-left: 2rem;
-	margin-right: 2rem;
-	border-radius: 8px;
-}
-.home-gal-cont>div {
-	height: 500px;
-	width: 500px;
-	overflow: hidden;
-	margin-top: 2rem;
-}
-
-
-.home-gal>div {
-	height: 500px;
-	width: 500px;
-	overflow: hidden;
-	margin-top: 2rem;
-}
-
-
-/* .home-gal-one img{
-	height: 40%;
-	width: 40%;
-}
-.home-gal-two img{
-	height: 25%;
-	width: 25%;
-} */
-@media screen and (min-width: 768px) {
-	.home-sec-nav {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-	}
-
-	.home-sec-nav img {
-		border-radius: 45%;
-		height: 30%;
-		width: 30%;
-	}
-	
-	.container>.home-button:nth-child(1) {
-		margin-left: 25%;
-	}
-
-	.home-about p{
-		padding-left: 22%;
-		padding-right: 22%;
-	}
-
-	.front-home-profile {
-		height: 60%;
-		width: 60%;
-		margin: 0 0 1rem 1rem;
-	}
-	.home-port {
-		height: 200px;
-	}
-	.home-port h2{
-		margin-left: 0;
-	}
-	.home-port p{
-		margin-left: 0;
-	}
-	.home-button-second {
-		margin-left: 0;
-	}
-	.home-par {
-		font-size: 1.5rem;
-		line-height: 3rem;
-	}
-	.home-gal-cont>div {
-		height: 600px;
-			width: 600px;
-			overflow: hidden;
-			margin-top: 2rem;
-	}
-
-		.home-gal>div {
-			height: 300px;
-			width: 300px;
-			overflow: hidden;
-			margin-top: 2rem;
-		}
-		
-	.home-flex {
-		display: flex;
-		justify-content: center;
-	}
-
-}
-
-/*portfolio*/
-.tab-navigation {
-	display: flex;
-	justify-content: center;
-	margin-bottom: 20px;
-	gap: 1rem;
-}
-
-.tab-button {
-	background-color: #C1DBC2;
-	border: 1px solid #C1DBC2;
-	color: white;
-	cursor: pointer;
-	padding: 10px 20px;
-	transition: background-color 0.3s ease;
-}
-
-.tab-button.active {
-	background-color: #A5C2A6;
-}
-
-.tab-item {
-	display: none;
-}
-
-.tab-item.show {
-	display: block;
 }
 
 /* Forms
@@ -885,36 +656,36 @@ textarea {
 	display: none;
 	list-style: none;
 	margin: 0;
-	padding-left: 0;
+	padding-right: 0;
 }
 
 .main-navigation ul ul {
 	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
-	float: left;
+	float: right;
 	position: absolute;
 	top: 100%;
-	left: -999em;
+	right: -999em;
 	z-index: 99999;
 }
 
 .main-navigation ul ul ul {
-	left: -999em;
+	right: -999em;
 	top: 0;
 }
 
-.main-navigation ul ul li:hover>ul,
-.main-navigation ul ul li.focus>ul {
+.main-navigation ul ul li:hover > ul,
+.main-navigation ul ul li.focus > ul {
 	display: block;
-	left: auto;
+	right: auto;
 }
 
 .main-navigation ul ul a {
 	width: 200px;
 }
 
-.main-navigation ul li:hover>ul,
-.main-navigation ul li.focus>ul {
-	left: auto;
+.main-navigation ul li:hover > ul,
+.main-navigation ul li.focus > ul {
+	right: auto;
 }
 
 .main-navigation li {
@@ -944,8 +715,10 @@ textarea {
 }
 
 .site-main .comment-navigation,
-.site-main .posts-navigation,
-.site-main .post-navigation {
+.site-main
+.posts-navigation,
+.site-main
+.post-navigation {
 	margin: 0 0 1.5em;
 }
 
@@ -1039,8 +812,8 @@ textarea {
 
 .wp-caption img[class*="wp-image-"] {
 	display: block;
-	margin-left: auto;
 	margin-right: auto;
+	margin-left: auto;
 }
 
 .wp-caption .wp-caption-text {
@@ -1151,7 +924,7 @@ textarea {
 	font-size: 0.875rem;
 	font-weight: 700;
 	height: auto;
-	left: 5px;
+	right: 5px;
 	line-height: normal;
 	padding: 15px 23px 14px;
 	text-decoration: none;
@@ -1168,21 +941,13 @@ textarea {
 /* Alignments
 --------------------------------------------- */
 .alignleft {
-
-	/*rtl:ignore*/
 	float: left;
-
-	/*rtl:ignore*/
 	margin-right: 1.5em;
 	margin-bottom: 1.5em;
 }
 
 .alignright {
-
-	/*rtl:ignore*/
 	float: right;
-
-	/*rtl:ignore*/
 	margin-left: 1.5em;
 	margin-bottom: 1.5em;
 }
@@ -1190,651 +955,7 @@ textarea {
 .aligncenter {
 	clear: both;
 	display: block;
-	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 1.5em;
-}
-
-
-
-/* Amy Styling */
-
-/* Color codes:
-	Dark Green(buttons too): #A5c2a6
-	Light Green: #C1DBC2
-	Dark DARK Green(THIS IS USED FOR ANY DARK FONTS, HEADERS AND PARAGRAPHS): #3C4C48
-	Light Yellow(only used in the thestimonials): #FCF9E1
-
-*/
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-li {
-	font-family: 'Raleway', sans-serif;
-	color: #3C4C48;
-}
-
-h1 {
-	font-size: 45px;
-}
-
-h2 {
-	font-size: 40px;
-}
-
-h3 {
-	font-size: 37px;
-}
-
-h4 {
-	font-size: 30px;
-}
-
-h5 {
-	font-size: 27px;
-}
-
-h6 {
-	font-size: 22px;
-}
-
-p {
-	font-size: 16px;
-	line-height: 24px;
-}
-
-
-a.btn:link {
-	color: white;
-}
-
-a.btn:visited {
-	color: white;
-}
-
-/* selected link */
-a.btn:active {
-	color: #3C4C48;
-}
-
-@media only screen and (min-width: 800px) {
-	h1 {
-		font-size: 55px;
-	}
-
-	h2 {
-		font-size: 50px;
-	}
-
-	h3 {
-		font-size: 47px;
-	}
-
-	h4 {
-		font-size: 40px;
-	}
-
-	h5 {
-		font-size: 32px;
-	}
-
-	h6 {
-		font-size: 27px;
-	}
-
-	p {
-		font-size: 18px;
-		line-height: 27px;
-	}
-
-}
-
-/* btn styling */
-
-.btn {
-	background-color: #A5c2a6;
-	color: white;
-	padding: 0.75rem 1.5rem;
-	border-radius: 0.7rem;
-}
-
-.btn a:link {
-	color: white;
-}
-
-
-.btn a:hover {
-	background-color: #C1DBC2;
-	color: #3C4C48;
-}
-
-
-
-/* ABOUT AMY SECTION */
-
-.about-amy h1 {
-	text-align: center;
-}
-
-.about-content {
-	padding: 1rem 2rem;
-}
-
-.about-content div:nth-child(2) {
-	padding-top: 1.5rem;
-}
-
-
-@media only screen and (min-width: 800px) {
-	div.statement p {
-		padding: 2rem 10rem;
-	}
-
-	.about-content {
-		display: flex;
-		flex-wrap: wrap;
-		width: 100%;
-		/* grid-template-columns: 300px 1fr;
-		gap: 1rem;
-		align-items: center;
-		max-width: 800px;
-		margin: 0 auto; */
-	}
-
-	.about-amy .flex {
-		display: flex;
-	}
-
-	.about-amy .box {
-		height: auto;
-		width: 50%;
-		width: 50%;
-		align-content: center;
-		display: flex;
-		flex-wrap: wrap;
-	}
-
-	.about-amy .flexbox {
-		flex-direction: row-reverse;
-	}
-
-	.about-amy p.box {
-		padding: 0 1rem;
-	}
-}
-
-
-@media only screen and (min-width: 1000px) {
-	.about-content {
-		max-width: 1200px;
-		margin: auto;
-	}
-}
-
-
-
-/* COURSE SECTION */
-
-h1,
-h2,
-h3 p {
-	text-align: center;
-}
-
-.course-section,
-.faq-section {
-	padding: 2rem;
-}
-
-.course-section .questions {
-	margin: 1rem 0;
-}
-
-.course-section .questions h5 {
-	color: #3C4C48;
-	padding: 2rem;
-}
-
-.blurb-text {
-	padding: 1rem auto;
-}
-
-.blurb-text a.btn {
-	margin: 0 5rem;
-}
-
-.course-section .capitalize {
-	text-transform: uppercase;
-	margin-bottom: 0.2rem;
-}
-
-.course-section .fineprint {
-	font-size: 14px;
-	margin-bottom: none;
-}
-
-.course-section .btn {
-	margin: 1rem auto;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	box-shadow: 3px 3px 10px rgb(0 0 0 / 0.2);
-}
-
-/* overlaps */
-.overlaps {
-	margin-top: 2.5rem;
-	display: flex;
-	flex-direction: column;
-}
-
-.overlaps img {
-	width: 70%;
-}
-
-.overlaps img:nth-child(2) {
-	padding-top: 2rem;
 	margin-left: auto;
-}
-
-
-/* faq section */
-.faq {
-	background-color: #A5c2a6;
-	padding: 1rem;
-	margin-top: 2rem;
-}
-
-.faq-header{
-	text-align: center;
-}
-
-
-.faq-imessage-icon {
-	text-align: center;
-}
-
-.faq p {
-	color: white;
-}
-
-/* .imessage {
-	display: flex;
-	flex-direction: column;
-	padding: 1rem 0;
-  } */
-
-.faq-margin {
-	margin-bottom: 1.5rem;
-}
-
-.answer {
-	padding-left: 1rem;
-}
-
-
-
-/* LEARN MORE SECTION */
-
-div.learn-hero-banner {
-	padding: 2rem;
-	text-align: center;
-	background-image: url(https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/03/5-e1680541968462.jpg);
-	background-size: cover;
-	background-position: bottom;
-	background-repeat: no-repeat;
-
-}
-
-.learn-hero-banner p {
-	border-radius: 1rem;
-	padding: 1.5rem;
-	background-color: rgba(255, 255, 255, 0.5);
-	margin: 2rem 0 10rem 0;
-}
-
-a.btn.course {
-	text-transform: uppercase;
-	margin-bottom: .5rem;
-}
-
-
-/* Testimonials */
-.horizontal-contente {
-	display: flex;
-	overflow-x: scroll;
-	align-items: center;
-	height: 350px;
-	/*Remove scrollbar fire-fox*/
-	scrollbar-width: none;
-	gap: 1.5rem;
-	/* overflow-x: hidden; */
-	/* Hide horizontal scrollbar */
-}
-
-
-
-.horizontal-contente div {
-	height: 200px;
-	width: 200px;
-	/* background: orange; */
-	/* background-color: purple; */
-	/* margin: 1rem 0.5rem; */
-	flex-shrink: 0;
-	flex-grow: 0;
-	flex-basis: 330px;
-	transition: all 300ms ease-in;
-}
-
-/* Whats included section */
-
-.whats-included {
-	padding: 2rem;
-}
-
-.whats-included h2 {
-	padding-bottom: 1rem;
-}
-
-div.darkgreen-card {
-	background-color: #A5c2a6;
-	padding: 2rem;
-	margin-top: 1rem;
-}
-
-.darkgreen-card p:nth-child(2) {
-	text-transform: uppercase;
-}
-
-.darkgreen-card p,
-.darkgreen-card li {
-	color: white;
-	padding: 0.12rem 0;
-}
-
-.darkgreen-card ul {
-	margin: 0;
-}
-
-.darkgreen-card ul.dashed {
-	list-style-type: none;
-	padding-left: 0;
-}
-
-.darkgreen-card ul.dashed>li:before {
-	content: "-";
-	text-indent: -20px;
-}
-
-.lightgreen-card {
-	margin: 1rem 0;
-	background-color: #C1DBC2;
-	padding: 2rem;
-}
-
-.lightgreen-card p {
-	text-transform: uppercase;
-}
-
-.lightgreen-card p,
-.lightgreen-card li {
-	color: white;
-	padding: 0.12rem 0;
-}
-
-.lightgreen-card ul {
-	margin: 0;
-}
-
-.lightgreen-card ul.dashed {
-	list-style-type: none;
-	padding-left: 0;
-}
-
-.lightgreen-card ul.dashed>li:before {
-	content: "-";
-	text-indent: -20px;
-}
-
-/* course iamges */
-.course-images {
-	padding: 3rem 0;
-}
-
-.course-images h4 {
-	text-align: center;
-	padding: .5rem 0;
-}
-
-/* bonus section */
-.bonus-section {
-	text-align: center;
-	padding-bottom: 1rem;
-}
-
-.bonus-section div {
-	padding: 1rem 0;
-}
-
-/* BENEFITS SECTION*/
-.benefits-section {
-	background-color: #A5c2a6;
-	text-align: center;
-	padding: 3rem 2rem 3rem 2rem;
-}
-
-.benefits-section h2 {
-	padding-bottom: 2rem;
-}
-
-.benefits-section h2,
-.benefits-section h6,
-.benefits-section p {
-	color: white;
-}
-
-.brain,
-.dollar-sign,
-.light-bulb {
-	height: 7rem;
-	width: 7rem;
-	padding: 2rem;
-	border-radius: 1rem;
-	margin: 1rem auto;
-	box-shadow: inset 0 0 10px #7e7e7eb0;
-}
-
-.light-bulb {
-	background-color: #3C4C48;
-}
-
-.brain {
-	background-color: #f5e6e6;
-}
-
-.dollar-sign {
-	background-color: #C1DBC2;
-}
-
-
-/* Wondering section */
-.wondering-section {
-	padding: 4rem 2rem;
-}
-
-.wondering-section h6 {
-	padding: 2rem 0 1rem 0;
-}
-
-.wondering-section ul {
-	margin: 0;
-}
-
-
-/* Bottom Section */
-.bottom-section {
-	padding: 0 2rem;
-	text-align: center;
-}
-
-.bottom-section h2,
-.bottom-section h4 {
-	font-weight: 600;
-}
-
-.bottom-section .btn {
-	margin: 1rem auto;
-}
-
-.bottom-section div:nth-child(2) {
-	padding-top: 3rem;
-}
-
-.bottom-section a:link {
-	color: #3C4C48;
-}
-
-/* visited link */
-a:visited {
-	color: #3C4C48;
-}
-
-a:hover {
-	color: #A5c2a6;
-}
-
-
-
-
-@media only screen and (min-width: 500px) {
-
-	/* learn more */
-	div.learn-hero-banner {
-		background-position: center;
-	}
-
-	.learn-hero-banner p {
-		width: 60%;
-		margin-left: auto;
-		margin-right: auto;
-	}
-
-}
-
-@media only screen and (min-width: 800px) {
-	.course-section h1 {
-		margin-left: 3rem;
-		margin-right: 3rem;
-	}
-
-	.course-section-flex {
-		display: flex;
-		width: 100%;
-	}
-
-	.course-section-flex img {
-		width: 50%;
-	}
-
-	.course-section-flex .questions {
-		width: 50%
-	}
-
-	.blurb-text {
-		margin: 1rem 10rem;
-		text-align: center;
-	}
-
-
-	/* faq section */
-	div.imessage-margin p {
-		max-width: 50%;
-	}
-
-	p.from-me {
-		margin-left: auto;
-		display: flex;
-	}
-
-	/* learn-more */
-	.learn-hero-banner p {
-		margin-bottom: 4rem;
-	}
-
-	/* whats inlcuded */
-
-	.included-row {
-		display: flex;
-		width: 100%;
-	}
-
-	.included-row div {
-		height: auto;
-		width: 50%;
-		width: 50%;
-		align-content: center;
-		display: flex;
-		flex-wrap: wrap;
-	}
-
-	.whats-included .first-row {
-
-		margin-bottom: 1rem;
-	}
-
-	div.darkgreen-card,
-	div.lightgreen-card {
-		margin-top: 0;
-		margin-bottom: 0;
-	}
-
-	.darkgreen-card {
-		margin-left: 1rem;
-	}
-
-	.lightgreen-card {
-		margin-right: 1rem;
-	}
-
-	/* bonus section */
-	.bonus-section {
-		width: 50%;
-		margin: auto;
-	}
-
-	/* Benefits of calligraphy */
-	.benefits-section-flex {
-		display: flex;
-		justify-content: space-evenly;
-	}
-
-	.benefits-container {
-		max-width: 33.33%;
-		padding: 0 1rem;
-	}
-
-	.light-bulb,
-	.brain,
-	.dollar-sign {
-		width: 6rem;
-		height: 6rem;
-	}
-}
-
-@media only screen and (min-width: 1200px) {
-	.course-section,
-	.faq-section,
-	.testimonials,
-	.whats-included,
-	.benefits-section-flex,
-	.wondering-section,
-	.bottom-section{
-		max-width: 1200px;
-		margin: auto;
-	}
+	margin-bottom: 1.5em;
 }

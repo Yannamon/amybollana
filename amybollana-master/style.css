@@ -667,15 +667,8 @@ a:active {
 	margin-right: 2rem;
 	border-radius: 8px;
 }
-.home-gal-cont>div {
-	height: 500px;
-	width: 500px;
-	overflow: hidden;
-	margin-top: 2rem;
-}
 
-
-.home-gal>div {
+.home-gal>div>div {
 	height: 500px;
 	width: 500px;
 	overflow: hidden;
@@ -734,20 +727,22 @@ a:active {
 		font-size: 1.5rem;
 		line-height: 3rem;
 	}
-	.home-gal-cont>div {
-		height: 600px;
-			width: 600px;
-			overflow: hidden;
-			margin-top: 2rem;
-	}
 
-		.home-gal>div {
-			height: 300px;
-			width: 300px;
+		.home-gal>div>div {
+			height: 400px;
+			width: 400px;
 			overflow: hidden;
 			margin-top: 2rem;
 		}
-		
+
+		.home-gal>div>div :nth-child(1) {
+			height: 600px;
+			width: 600px;
+		}
+		.home-gal>div>div :nth-child(2) {
+			height: 600px;
+			width: 600px;
+		}
 	.home-flex {
 		display: flex;
 		justify-content: center;
@@ -1450,10 +1445,6 @@ h3 p {
 	margin-top: 2rem;
 }
 
-.faq-header{
-	text-align: center;
-}
-
 
 .faq-imessage-icon {
 	text-align: center;
@@ -1633,7 +1624,7 @@ div.darkgreen-card {
 }
 
 .benefits-section h2,
-.benefits-section h6,
+.benefits-section h5,
 .benefits-section p {
 	color: white;
 }
@@ -1823,18 +1814,5 @@ a:hover {
 	.dollar-sign {
 		width: 6rem;
 		height: 6rem;
-	}
-}
-
-@media only screen and (min-width: 1200px) {
-	.course-section,
-	.faq-section,
-	.testimonials,
-	.whats-included,
-	.benefits-section-flex,
-	.wondering-section,
-	.bottom-section{
-		max-width: 1200px;
-		margin: auto;
 	}
 }
