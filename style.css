@@ -1236,6 +1236,12 @@ textarea {
 	Light Yellow(only used in the thestimonials): #FCF9E1
 */
 
+/* Nav styling */
+.themecolorone {
+	background-color: white;
+}
+
+
 h1,
 h2,
 h3,
@@ -1279,15 +1285,20 @@ p {
 
 /* nav styling */
 nav a{
-	color: white;
+	color:  #A5c2a6
 }
 
 nav a:visited {
-	color: white;
+	color:  #A5c2a6;
 }
 
 nav a:hover {
 	color: #3C4C48;
+}
+
+nav a:active{
+	color: #3C4C48;
+	text-decoration: underline;
 }
 
 
@@ -1497,7 +1508,7 @@ h3 p {
 /* faq section */
 .faq {
 	background-color: #A5c2a6;
-	padding: 1rem;
+	padding: 2rem 2rem 0.5rem 2rem;
 	margin-top: 2rem;
 }
 
@@ -1535,11 +1546,11 @@ h3 p {
 div.learn-hero-banner {
 	padding: 2rem;
 	text-align: center;
-	background-image: url(https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/03/5-e1680541968462.jpg);
+	background-image: url(https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/5-e1680541968462-1.jpg);
 	background-size: cover;
 	background-position: bottom;
 	background-repeat: no-repeat;
-
+	background-attachment: fixed;
 }
 
 .learn-hero-banner p {
@@ -1746,10 +1757,16 @@ div.darkgreen-card {
 	padding-top: 3rem;
 }
 
-.bottom-section a:link {
-	color: #3C4C48;
+.bottom-section h6 a {
+	color: #A5c2a6;
 }
 
+.bottom-section h6 a:visited {
+	color: #A5c2a6;
+}
+.bottom-section h6 a:hover{
+	color: #3C4C48;
+}
 
 
 
@@ -1831,6 +1848,7 @@ div.darkgreen-card {
 
 	div.darkgreen-card,
 	div.lightgreen-card {
+		width: 60%;
 		margin-top: 0;
 		margin-bottom: 0;
 	}
@@ -1858,13 +1876,6 @@ div.darkgreen-card {
 	.benefits-container {
 		max-width: 33.33%;
 		padding: 0 1rem;
-	}
-
-	.light-bulb,
-	.brain,
-	.dollar-sign {
-		width: 6rem;
-		height: 6rem;
 	}
 }
 

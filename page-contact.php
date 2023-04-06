@@ -17,7 +17,7 @@ get_header();
 
 <body>
     <div>
-        <!-- Insert form plugin -->
+    <?php echo do_shortcode('[wpforms id="7"]'); ?>
     </div>
     <div class="socials-div">
         <h3>Socials</h3>
