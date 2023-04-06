@@ -70,41 +70,18 @@
 
 <nav id="site-navigation" class="main-navigation navbar navbar-dark themecolorone">
 			<!--<2button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php /*esc_html_e( 'Primary Menu', 'amybollana' );*/ ?></2button> -->
-		
+					<h2 class="sr-only"> Home galery</h2>
+	<h2 class="sr-only">Top navigation</h2>			
 	<nav class="navbar navbar-expand-lg navbar-light">
   <div class="container-fluid">
+	<h3 class="sr-only">Navigation toggle</h3>
     <a class="navbar-brand" href="#">
 		<img src="<?php echo get_template_directory_uri(); ?>/inc/amybollana-logo.png" alt="amybollana-logo" width="100" height="100">
 	</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <!-- <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
-      <ul class="navbar-nav">
-		<li class="nav-item">
-		  <a class="nav-link active" aria-current="page" href="<?php echo esc_url( get_permalink()) ?>">Home</a>
-		</li>
-		<li class="nav-item">
-		  <a class="nav-link active" aria-current="page" href="<?php echo esc_url(home_url('template-parts/page-aboutamy.php')); ?>">About</a>
-		</li>
-		<li class="nav-item">
-		  <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
-		</li>
-		<li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="true">
-            Course
-          </a>
-          <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarDarkDropdownMenuLink">
-            <li><a class="dropdown-item" href="#">FAQ</a></li>
-            <li><a class="dropdown-item" href="#">About the course</a></li>
-          </ul>
-        </li>
-		<li class="nav-item">
-		  <a class="nav-link active" aria-current="page" href="#">Contact</a>
-		</li>
-      </ul>
-    </div>
-  </div> -->
+    
 </nav>
 
 			<?php
