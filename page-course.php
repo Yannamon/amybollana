@@ -130,7 +130,7 @@ get_header();
                     <p class="p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod ut dicta doloremque iste voluptates, odit facilis non, quisquam accusantium </p>
                 </div>
             </div>
-            <div class="amybackground p-2 sr-only">span</div>
+            <div class="amybackground p-4"></div>
     </section>
     <section class="testimonials">
         <div class="whats-included">

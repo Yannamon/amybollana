@@ -1633,6 +1633,10 @@ a.btn.course {
 	padding: 1rem 1rem 2rem 2rem;
 }
 
+.horizontal-contente>div:nth-child(1){
+	margin-left: 2rem;
+}
+
 .testframe{
 	width: 600px;
 	height: 600px;
@@ -1949,7 +1953,7 @@ div.darkgreen-card {
 			height: 650px;
 		}
 		.horizontal-contente::-webkit-scrollbar {
-					width: 12px;
+					max-width: 12px;
 					/* width of the entire scrollbar */
 				}
 		.testframe {
@@ -1957,13 +1961,18 @@ div.darkgreen-card {
 					height: 700px;
 					overflow: hidden;
 				}
-
+				.horizontal-contente>div:nth-child(1) {
+					margin-left: 12rem;
+				}
 		.horizontal-contente>div {
 			height: 80%;
 		}
 		.cardtest img {
-			height: 80%;
+			height: 100%;
 
+		}
+		.cardtest p {
+			padding: 1rem 1rem;
 		}
 	.cardborder {
 			flex-direction: column;
