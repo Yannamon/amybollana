@@ -719,10 +719,10 @@ a:active {
 		justify-content: center;
 		align-items: center;
 	}
-		.home-sec-nav img {
+		/* .home-sec-nav img {
 			margin-left: 7rem;
 			margin-right: 8rem;
-		}
+		} */
 	
 	
 	.home-sec-nav img {
@@ -829,12 +829,16 @@ a:active {
 	/* margin-right: 1rem; */
 }
 
+.footer-style p {
+	margin-left: 10%;
+}
+
 .instagram {
-	margin-left: 47%;
+	margin-left: 40%;
 }
 
 .footer-style>img:nth-child(1) {
-	margin-left: 48%;
+	margin-left: 40%;
 	height: 100px;
 		width: 100px;
 }
@@ -2017,6 +2021,18 @@ div.darkgreen-card {
 			height: 100%;
 
 		} */
+		.instagram {
+					margin-left: 47%;
+				}
+		
+				.footer-style>img:nth-child(1) {
+					margin-left: 48%;
+					height: 100px;
+					width: 100px;
+				}
+								.footer-style p {
+									margin-left: 38%;
+								}
 		.cardtest p {
 			padding: 1rem 1rem;
 		}
