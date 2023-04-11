@@ -57,7 +57,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 /* Normalize
 --------------------------------------------- */
 
-/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
 /* Document
 	 ========================================================================== */
@@ -594,7 +594,7 @@ a:active {
 	border: 1px solid #C1DBC2;
 	border-radius: 8px;
 	padding: 0.5rem 1rem;
-	margin-left: 5rem;
+	margin-left: 4rem;
 }
 
 .home-about a {
@@ -605,7 +605,7 @@ a:active {
 .home-port {
 	background-color: #C1DBC2;
 	color: #fff;
-	height: 300px;
+	height: 320px;
 }
 
 .home-port p {
@@ -632,6 +632,10 @@ a:active {
 	margin-left: 5rem;
 	margin-top: 2rem;
 	margin-bottom: 2rem;
+}
+
+.home-button-second:hover {
+	color: #3C4C48;
 }
 
 .home-port a {
@@ -695,6 +699,11 @@ a:active {
 	margin-top: 2rem;
 }
 
+.port-img img {
+	height: 100%;
+	width: 100%;
+}
+
 
 /* .home-gal-one img{
 	height: 40%;
@@ -714,18 +723,8 @@ a:active {
 			margin-left: 7rem;
 			margin-right: 8rem;
 		}
-	.port-img-gal-one>div {
-		height: 600px;
-			width: 600px;
-			overflow: hidden;
-			margin-top: 2rem;
-	}
-	.port-img-gal-two>div {
-		height: 200px;
-			width: 200px;
-			overflow: hidden;
-			margin-top: 2rem;
-	}
+	
+	
 	.home-sec-nav img {
 		border-radius: 45%;
 		height: 30%;
@@ -733,7 +732,7 @@ a:active {
 	}
 	
 	.container>.home-button:nth-child(1) {
-		margin-left: 25%;
+		margin-left: 30%;
 	}
 
 	.home-about p {
@@ -748,7 +747,7 @@ a:active {
 	}
 
 	.home-port {
-		height: 200px;
+		height: 220px;
 	}
 
 	.home-port h2 {
@@ -818,6 +817,29 @@ a:active {
 .tab-item.show {
 	display: block;
 }
+/*footer*/
+
+.footer-style h2{
+	font-size: 2rem;
+}
+.footer-style img {
+	height: 50px;
+	width: 50px;
+	/* margin-left: 35%; */
+	/* margin-right: 1rem; */
+}
+
+.instagram {
+	margin-left: 47%;
+}
+
+.footer-style>img:nth-child(1) {
+	margin-left: 48%;
+	height: 100px;
+		width: 100px;
+}
+
+
 
 /* Forms
 --------------------------------------------- */
@@ -1289,6 +1311,7 @@ p {
 }
 
 /* nav styling */
+
 nav a{
 	color:  #A5c2a6
 }
@@ -1949,6 +1972,11 @@ div.darkgreen-card {
 		max-width: 1200px;
 		margin: auto;
 	}
+		nav ul {
+			display: flex;
+			justify-content: space-between;
+		}
+
 		.horizontal-contente {
 			height: 650px;
 		}
@@ -1967,10 +1995,28 @@ div.darkgreen-card {
 		.horizontal-contente>div {
 			height: 80%;
 		}
-		.cardtest img {
+				.port-img-gal-one>div {
+					height: 800px;
+					width: 800px;
+					overflow: hidden;
+					margin-top: 2rem;
+					margin-right: 4rem;
+				}
+		
+				.port-img-gal-two>div {
+					height: 800px;
+					width: 800px;
+					overflow: hidden;
+					margin-top: 2rem;
+				}
+				.port-img img {
+					height: 50%;
+					width: 50%;
+				}
+		/* .cardtest img {
 			height: 100%;
 
-		}
+		} */
 		.cardtest p {
 			padding: 1rem 1rem;
 		}

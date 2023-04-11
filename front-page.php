@@ -36,7 +36,7 @@ get_header();
 		<section>
 		<div class="container home-flex mb-3">
 			<div class="front-home-profile">
-				<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/Profile-Pic-1.webp" alt="">
+				<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/Profile-Pic-1.webp" alt="Amy Bollana profile">
 			</div>
 			<div class="home-about">
 				<h2 class="headerfont mt-2 mb-4">Amy Bollana</h2>
@@ -57,10 +57,10 @@ get_header();
 		</div>
 		</section>
 		<section class="home-port">
-			<div class="container">
+			<div class="container pt-1">
 			<h2>Calligraphy | Engraving | Illustration</h2>
 			<p>Say hello to some of Amy's World</p>
-			<a class="home-button-second btn" href="https://amybollana.web.dmitcapstone.ca/portfolio/">Portfolio</a>
+			<a class="home-button-second" href="https://amybollana.web.dmitcapstone.ca/portfolio/">Portfolio</a>
 			</div>
 		</section>
 		<section class="container mb-4">
@@ -68,46 +68,46 @@ get_header();
 
 			<div class="row home-gal-cont">
 				<div class="col-lg-6">
-					<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/IMG_8277-scaled-2.webp" alt="">
+					<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/IMG_8277-scaled-2.webp" alt="green glass engraving from Amy Bollana Design">
 				</div>
 				<div class="col-lg-6">
-					<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/IMG_8265-scaled-1.webp" alt="">
+					<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/IMG_8265-scaled-1.webp" alt=" bleu perfume with angraving">
 				</div>
 			</div>
 			<div class="row home-gal">
 				<div class="col-lg-3">
-					<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/Faith-is-Cross-mockups-scaled-1.webp" alt="">
+					<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/Faith-is-Cross-mockups-scaled-1.webp" alt="cross shaped calligraphy">
 				</div>
 				<div class="col-lg-3">
-					<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/IMG_7685-scaled-1.jpg" alt="">
+					<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/IMG_7685-scaled-1.jpg" alt="engraving on wood">
 				</div>
 				<div class="col-lg-3">
-					<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/House-Illustration-Jenna-scaled-1.webp" alt="">
+					<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/House-Illustration-Jenna-scaled-1.webp" alt="illustration of an house">
 				</div>
 				<div class="col-lg-3">
-					<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/IMG_6824-scaled-1.webp" alt="">
+					<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/IMG_6824-scaled-1.webp" alt="different colour wood with engraving">
 				</div>
 		</section>
 
 		<div class="container home-sec-nav centre">
 			<div>
-				<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/il_794xN.2352517592_4984.webp" alt="">
+				<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/il_794xN.2352517592_4984.webp" alt="card with heart shape">
 				<h3>About</h3>
 			</div>
 			<div>
-				<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/il_794xN.2087262002_ra0x.webp" alt="">
+				<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/il_794xN.2087262002_ra0x.webp" alt="frame with hello calligraphy">
 				<h3>Portfolio</h3>
 			</div>
 			<div>
-				<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/il_794xN.3090994128_8q4l.webp" alt="">
+				<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/il_794xN.3090994128_8q4l.webp" alt="sketch with hope calligraphy">
 				<h3>Course</h3>
 			</div>
 			<div>
-				<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/il_794xN.2321811031_gpvx.webp" alt="">
+				<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/il_794xN.2321811031_gpvx.webp" alt="loved bookmark">
 				<h3>Contact</h3>
 			</div>
 			<div>
-				<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/IMG_4276.webp" alt="">
+				<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/IMG_4276.webp" alt="stone engraving">
 				<h3>Shop Now</h3>
 			</div>
 		</div>
