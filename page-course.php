@@ -105,24 +105,34 @@ get_header();
             <a class="btn course" href="#">I want this course!</a>
         </div>
     </section>
-
-    <section class="testimonials">
-        <h2 class="container headerfont home-cards mt-3">Testimonials</h2>
-            <div class="container horizontal-content gap-3">
-                <div class="cardborder d-flex-sm cardtest">
+    <section>
+        <div class="amybackground">
+        <h2 class="container headerfont home-cards pt-3">Testimonials</h2>
+        </div>
+            <div class="horizontal-contente">
+                <div class="cardborder cardtest">
+                    <div class="testframe">
                     <img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/viktor-zhulin-8W5J5XvIVvI-unsplash.png" alt="">
+                    </div>
                     <p class="p-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae eius rem animi iure nihil voluptate? Dolorem sint ea suscipit eum </p>
+                    
                 </div>
-                <div class="cardborder d-flex-sm cardtest">
+                <div class="cardborder cardtest">
+                    <div class="testframe">
                     <img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/josh-rich-cs-ZB4ZINhM-unsplash.png" alt="">
+                    </div>
                     <p class="p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse nostrum a natus cum facere amet at nemo tempore ab, eum dolores libero</p>
                 </div>
-                <div class="cardborder d-flex-sm cardtest">
+                <div class="cardborder cardtest">
+                    <div class="testframe">
                     <img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/egor-litvinov-1MjshlyyNg-unsplash.png" alt="">
+                    </div>
                     <p class="p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod ut dicta doloremque iste voluptates, odit facilis non, quisquam accusantium </p>
                 </div>
             </div>
-
+            <div class="amybackground p-2 sr-only">span</div>
+    </section>
+    <section class="testimonials">
         <div class="whats-included">
             <h2>What's Included</h2>
             <div class="included-row first-row">

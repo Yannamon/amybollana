@@ -652,12 +652,17 @@ a:active {
 	font-size: 25px;
 	margin-bottom: 2rem
 }
-
-.home-cards {
+/* .cardtest{
 	display: flex;
 	flex-direction: horizontal;
 	justify-content: center;
 	align-items: center;
+} */
+.home-cards {
+	display: flex;
+	flex-direction: horizontal;
+	/* justify-content: center;
+	align-items: center; */
 }
 
 .home-cards img {
@@ -1569,29 +1574,78 @@ a.btn.course {
 /* Testimonials */
 .horizontal-contente {
 	display: flex;
+	flex-direction: row;
 	overflow-x: scroll;
 	align-items: center;
-	height: 350px;
+	height: 300px;
 	/*Remove scrollbar fire-fox*/
 	scrollbar-width: none;
-	gap: 1.5rem;
+	overflow-y: hidden;
+	gap: 5rem;
+	background-color: #A5c2a6;
 	/* overflow-x: hidden; */
 	/* Hide horizontal scrollbar */
 }
 
+.amybackground {
+	background-color: #A5c2a6;
+}
 
+.amybackground h2 {
+    margin-bottom: 0;
+	color: #fff;
+}
 
-.horizontal-contente div {
+.horizontal-contente::-webkit-scrollbar {
+	width: 12px;
+	/* width of the entire scrollbar */
+}
+
+.horizontal-contente::-webkit-scrollbar-thumb {
+	background-color: #fff;
+	border-radius: 20px;
+		margin-bottom: 2rem;
+}
+
+.cardborder {
+	border: 1px solid transparent;
+	border-radius: 1rem;
+	display: flex;
+}
+.cardborder:hover {
+	-webkit-box-shadow: 6px 14px 15px -4px #94A795;
+		box-shadow: 6px 14px 15px -4px #94A795;
+}
+.cardborder p {
+	color: #fff
+}
+
+.horizontal-contente>div {
 	height: 200px;
-	width: 200px;
+	width: 550px;
 	/* background: orange; */
-	/* background-color: purple; */
+	background-color: #C1DBC2;
 	/* margin: 1rem 0.5rem; */
 	flex-shrink: 0;
 	flex-grow: 0;
-	flex-basis: 330px;
+	/* flex-basis: 330px; */
 	transition: all 300ms ease-in;
+	padding: 1rem 1rem 2rem 2rem;
 }
+
+.testframe{
+	width: 600px;
+	height: 600px;
+	overflow: hidden;
+}
+/* .horizontal-contente img {
+	padding: 1rem 1rem 2rem 2rem;
+} */
+.horizontal-contente p {
+	padding-bottom: 40%;
+}
+
+
 
 /* Whats included section */
 
@@ -1891,4 +1945,27 @@ div.darkgreen-card {
 		max-width: 1200px;
 		margin: auto;
 	}
+		.horizontal-contente {
+			height: 650px;
+		}
+		.horizontal-contente::-webkit-scrollbar {
+					width: 12px;
+					/* width of the entire scrollbar */
+				}
+		.testframe {
+					width: 700px;
+					height: 700px;
+					overflow: hidden;
+				}
+
+		.horizontal-contente>div {
+			height: 80%;
+		}
+		.cardtest img {
+			height: 80%;
+
+		}
+	.cardborder {
+			flex-direction: column;
+		}
 }
