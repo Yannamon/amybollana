@@ -1892,3 +1892,23 @@ div.darkgreen-card {
 		margin: auto;
 	}
 }
+
+
+/* contact */
+.contact{
+	padding: 2rem;
+}
+
+.wpforms-form.wpforms-field-label{
+	font-weight: none;
+	padding-top:0.5rem;
+}
+
+.wp-forms-form textarea{
+	border-bottom: 1px solid #ccc;
+}
+
+.contact-btn button.wpforms-submit{
+	border-radius: 1rem;
+	background-color: #A5c2a6;
+}

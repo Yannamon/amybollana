@@ -16,17 +16,9 @@ get_header();
 ?>
 
 <body>
-    <div>
+    <section class="contact">
     <?php echo do_shortcode('[wpforms id="7"]'); ?>
-    </div>
-    <div class="socials-div">
-        <h3>Socials</h3>
-        <a href="#">amybollanadesign</a>
-        <a href="#">amybollanadesign</a>
-        <a href="#">amybollanadesign</a>
-    </div>
-
-    <!-- Find vector images -->
+    </section>
 </body>
 
 <?php get_footer(); ?>
