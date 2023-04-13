@@ -3,97 +3,113 @@
  *
  * Handles toggling the navigation menu for small screens and enables TAB key
  * navigation support for dropdown menus.
- */
-( function() {
-	const siteNavigation = document.getElementById( 'site-navigation' );
+ */(function () {
+	console.log('js is linked')
+	document.addEventListener("DOMContentLoaded", () => {
+		const hamburger = document.querySelector(".menu-toggle");
+		const navMenu = document.querySelector(".nav-menu");
 
-	// Return early if the navigation doesn't exist.
-	if ( ! siteNavigation ) {
-		return;
-	}
+		hamburger.addEventListener("click", () => {
+			console.log('clicked')
+			hamburger.classList.toggle("active");
+			navMenu.classList.toggle("active");
+		});
 
-	const button = siteNavigation.getElementsByTagName( 'button' )[ 0 ];
+		document.querySelectorAll(".nav-menu > .menu-item > .menu-link").forEach(n => n.addEventListener("click", () => {
+			hamburger.classList.remove("active");
+			navMenu.classList.remove("active");
+		}));
+	});
+})();
+// 	const siteNavigation = document.getElementById( 'site-navigation' );
 
-	// Return early if the button doesn't exist.
-	if ( 'undefined' === typeof button ) {
-		return;
-	}
+// 	// Return early if the navigation doesn't exist.
+// 	if ( ! siteNavigation ) {
+// 		return;
+// 	}
 
-	const menu = siteNavigation.getElementsByTagName( 'ul' )[ 0 ];
+// 	const button = siteNavigation.getElementsByTagName( 'button' )[ 0 ];
 
-	// Hide menu toggle button if menu is empty and return early.
-	if ( 'undefined' === typeof menu ) {
-		button.style.display = 'none';
-		return;
-	}
+// 	// Return early if the button doesn't exist.
+// 	if ( 'undefined' === typeof button ) {
+// 		return;
+// 	}
 
-	if ( ! menu.classList.contains( 'nav-menu' ) ) {
-		menu.classList.add( 'nav-menu' );
-	}
+// 	const menu = siteNavigation.getElementsByTagName( 'ul' )[ 0 ];
 
-	// Toggle the .toggled class and the aria-expanded value each time the button is clicked.
-	button.addEventListener( 'click', function() {
-		siteNavigation.classList.toggle( 'toggled' );
+// 	// Hide menu toggle button if menu is empty and return early.
+// 	if ( 'undefined' === typeof menu ) {
+// 		button.style.display = 'none';
+// 		return;
+// 	}
 
-		if ( button.getAttribute( 'aria-expanded' ) === 'true' ) {
-			button.setAttribute( 'aria-expanded', 'false' );
-		} else {
-			button.setAttribute( 'aria-expanded', 'true' );
-		}
-	} );
+// 	if ( ! menu.classList.contains( 'nav-menu' ) ) {
+// 		menu.classList.add( 'nav-menu' );
+// 	}
 
-	// Remove the .toggled class and set aria-expanded to false when the user clicks outside the navigation.
-	document.addEventListener( 'click', function( event ) {
-		const isClickInside = siteNavigation.contains( event.target );
+// 	// Toggle the .toggled class and the aria-expanded value each time the button is clicked.
+// 	button.addEventListener( 'click', function() {
+// 		siteNavigation.classList.toggle( 'toggled' );
 
-		if ( ! isClickInside ) {
-			siteNavigation.classList.remove( 'toggled' );
-			button.setAttribute( 'aria-expanded', 'false' );
-		}
-	} );
+// 		if ( button.getAttribute( 'aria-expanded' ) === 'true' ) {
+// 			button.setAttribute( 'aria-expanded', 'false' );
+// 		} else {
+// 			button.setAttribute( 'aria-expanded', 'true' );
+// 		}
+// 	} );
 
-	// Get all the link elements within the menu.
-	const links = menu.getElementsByTagName( 'a' );
+// 	// Remove the .toggled class and set aria-expanded to false when the user clicks outside the navigation.
+// 	document.addEventListener( 'click', function( event ) {
+// 		const isClickInside = siteNavigation.contains( event.target );
 
-	// Get all the link elements with children within the menu.
-	const linksWithChildren = menu.querySelectorAll( '.menu-item-has-children > a, .page_item_has_children > a' );
+// 		if ( ! isClickInside ) {
+// 			siteNavigation.classList.remove( 'toggled' );
+// 			button.setAttribute( 'aria-expanded', 'false' );
+// 		}
+// 	} );
 
-	// Toggle focus each time a menu link is focused or blurred.
-	for ( const link of links ) {
-		link.addEventListener( 'focus', toggleFocus, true );
-		link.addEventListener( 'blur', toggleFocus, true );
-	}
+// 	// Get all the link elements within the menu.
+// 	const links = menu.getElementsByTagName( 'a' );
 
-	// Toggle focus each time a menu link with children receive a touch event.
-	for ( const link of linksWithChildren ) {
-		link.addEventListener( 'touchstart', toggleFocus, false );
-	}
+// 	// Get all the link elements with children within the menu.
+// 	const linksWithChildren = menu.querySelectorAll( '.menu-item-has-children > a, .page_item_has_children > a' );
 
-	/**
-	 * Sets or removes .focus class on an element.
-	 */
-	function toggleFocus() {
-		if ( event.type === 'focus' || event.type === 'blur' ) {
-			let self = this;
-			// Move up through the ancestors of the current link until we hit .nav-menu.
-			while ( ! self.classList.contains( 'nav-menu' ) ) {
-				// On li elements toggle the class .focus.
-				if ( 'li' === self.tagName.toLowerCase() ) {
-					self.classList.toggle( 'focus' );
-				}
-				self = self.parentNode;
-			}
-		}
+// 	// Toggle focus each time a menu link is focused or blurred.
+// 	for ( const link of links ) {
+// 		link.addEventListener( 'focus', toggleFocus, true );
+// 		link.addEventListener( 'blur', toggleFocus, true );
+// 	}
 
-		if ( event.type === 'touchstart' ) {
-			const menuItem = this.parentNode;
-			event.preventDefault();
-			for ( const link of menuItem.parentNode.children ) {
-				if ( menuItem !== link ) {
-					link.classList.remove( 'focus' );
-				}
-			}
-			menuItem.classList.toggle( 'focus' );
-		}
-	}
-}() );
+// 	// Toggle focus each time a menu link with children receive a touch event.
+// 	for ( const link of linksWithChildren ) {
+// 		link.addEventListener( 'touchstart', toggleFocus, false );
+// 	}
+
+// 	/**
+// 	 * Sets or removes .focus class on an element.
+// 	 */
+// 	function toggleFocus() {
+// 		if ( event.type === 'focus' || event.type === 'blur' ) {
+// 			let self = this;
+// 			// Move up through the ancestors of the current link until we hit .nav-menu.
+// 			while ( ! self.classList.contains( 'nav-menu' ) ) {
+// 				// On li elements toggle the class .focus.
+// 				if ( 'li' === self.tagName.toLowerCase() ) {
+// 					self.classList.toggle( 'focus' );
+// 				}
+// 				self = self.parentNode;
+// 			}
+// 		}
+
+// 		if ( event.type === 'touchstart' ) {
+// 			const menuItem = this.parentNode;
+// 			event.preventDefault();
+// 			for ( const link of menuItem.parentNode.children ) {
+// 				if ( menuItem !== link ) {
+// 					link.classList.remove( 'focus' );
+// 				}
+// 			}
+// 			menuItem.classList.toggle( 'focus' );
+// 		}
+// 	}
+// }() );
