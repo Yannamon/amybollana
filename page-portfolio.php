@@ -23,47 +23,7 @@ get_header();
         <title>Portfolio-amybollana</title>
     </head>
     <body>
-        <main id="primary" class="site-main">
-        <section>
-            <h1>Portfolio</h1>
-        <section>
-            <div class="tab-navigation">
-                <button class="tab-button active" data-filter="category-1">Calligraphy</button>
-                 <button class="tab-button" data-filter="category-2">Engraving</button>
-                 <button class="tab-button" data-filter="category-3">Illustration</button>
-            </div>
-            <div class="tab-content port-img container">
-                <div class="row">
-                 <div class="tab-item category-1 col"><img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/03/IMG_6821.jpg" alt=""></div>
-                 <div class="tab-item category-1 col"><img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/03/IMG_5465.jpg" alt=""></div>
-                <div class="tab-item category-1 col"><img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/03/IMG_5462.jpg" alt=""></div>
-                <div class="tab-item category-1 col"><img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/03/Faith-is-Cross-mockups-scaled.jpg" alt=""></div>
-                <div class="tab-item category-1 col"><img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/03/251095519_280627210646420_7594947262000054359_n.jpg" alt=""></div>
-                <div class="tab-item category-1 col"><img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/03/Screen-Shot-2021-04-19-at-1.18.41-PM.png" alt=""></div>
-                 <div class="tab-item category-1 col"><img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/03/Proverbs-2-mockups2.jpg" alt=""></div>
-                <div class="tab-item category-2 col"><img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/03/IMG_4276.jpg" alt=""></div>
-                <div class="tab-item category-2 col"><img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/03/IMG_8265.jpg" alt=""></div>
-                <div class="tab-item category-2 col"><img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/03/IMG_8267-2.jpg" alt=""></div>
-                <div class="tab-item category-2 col"><img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/03/IMG_8269.jpg" alt=""></div>
-                <div class="tab-item category-2 col"><img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/03/IMG_7685-scaled.jpg" alt=""></div>
-                <div class="tab-item category-2 col"><img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/03/IMG_8277.jpg" alt=""></div>
-                <div class="tab-item category-2 col"><img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/03/20230120_114925.jpg" alt=""></div>
-                <div class="tab-item category-2 col"><img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/03/IMG_8177.jpg" alt=""></div>
-                <div class="tab-item category-2 col"><img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/03/IMG_7396.jpg" alt=""></div>
-                <div class="tab-item category-2 col"><img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/03/IMG_7913.jpg" alt=""></div>
-                <div class="tab-item category-2 col"><img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/03/IMG_6824.jpg" alt=""></div>
-                <div class="tab-item category-2 col"><img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/03/IMG_4297.jpg" alt=""></div>
-                <div class="tab-item category-3 col"><img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/03/IMG_4283.jpg" alt=""></div>
-                <div class="tab-item category-3 col"><img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/03/House-Illustration-Mock-up3.jpg" alt=""></div>
-                <div class="tab-item category-3 col"><img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/03/House-Illustration-Mock-up2.jpg" alt=""></div>
-                <div class="tab-item category-3 col"><img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/03/House-Illustration-Mock-up-scaled.jpg" alt=""></div>
-                <div class="tab-item category-3 col"><img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/03/House-Illustration-Jenna-scaled.jpg" alt=""></div>
-            </div>
-</div>
-
-        </section>
-        </section>
-		<?php
+      <?php
 		while ( have_posts() ) :
 			the_post();
 
@@ -76,6 +36,47 @@ get_header();
 
 		endwhile; // End of the loop.
 		?>
+        <main id="primary" class="site-main">
+            <h1 class="sr-only">Portfolio</h1>
+             <section>
+            <h2 class="sr-only">Portfolio navigation</h2>
+
+            <div class="tab-navigation">
+                <button class="tab-button active" data-filter="category-1">Calligraphy</button>
+                 <button class="tab-button" data-filter="category-2">Engraving</button>
+                 <button class="tab-button" data-filter="category-3">Illustration</button>
+            </div>
+            <div class="tab-content port-img container">
+                <div class="row gap-4">
+                 <div class="tab-item category-1 port-img-gal-one col-lg-4"><div class="col col-sm-4"><img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/IMG_6821-scaled-1.jpg" alt="Calligraphy abc"></div></div>
+                 <div class="tab-item category-1 port-img-gal-one col-lg-4"><div class="col col-sm-4"><img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/Faith-is-Cross-mockups-scaled-1.webp" alt="Calligraphy cross shape"></div></div>
+                <div class="tab-item category-1 port-img-gal-one col-lg-4"><div class="col col-sm-4"><img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/IMG_7408-scaled-1.jpg" alt="Calligraphy poem"></div></div>
+                <div class="tab-item category-1 port-img-gal-one col-lg-4"><div class="col col-sm-4"><img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/Proverbs-2-mockups2-scaled-1.webp" alt="Calligraphy portrait frame"></div></div>
+                <div class="tab-item category-1 port-img-gal-one col-lg-4"><div class="col col-sm-4"><img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/IMG_7434.webp" alt="Group Calligraphy portrait frame"></div></div>
+                <div class="tab-item category-1 port-img-gal-one col-lg-4"><div class="col col-sm-4"><img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/03/Screen-Shot-2021-04-19-at-1.18.41-PM.png" alt="grateful calligraphy"></div></div>
+                 <div class="tab-item category-1 port-img-gal-one col-lg-4"><div class="col col-sm-4"><img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/IMG_5462-scaled-1.webp" alt="hand writen calligraphy"></div></div>
+                <div class="tab-item category-2 port-img-gal-one"><div class="col col-sm-4 col-lg-3"><img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/IMG_4276.webp" alt="engraving calligrahpy on stone"></div></div>
+                <div class="tab-item category-2 port-img-gal-one"><div class="col col-sm-4 col-lg-3"><img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/IMG_8177.webp" alt="engraving calligraphy on champagne"></div></div>
+                <div class="tab-item category-2 port-img-gal-one"><div class="col col-sm-4 col-lg-3"><img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/IMG_8265-scaled-1.webp" alt="engraving calligraphy on perfume"></div></div>
+                <div class="tab-item category-2 port-img-gal-one"><div class="col col-sm-4 col-lg-3"><img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/IMG_8277-scaled-2.webp" alt="engraving calligraphy on glass bottle"></div></div>
+                <div class="tab-item category-2 port-img-gal-one"><div class="col col-sm-4 col-lg-3"><img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/IMG_7685-scaled-1.webp" alt="engraving calligraphy on wood"></div></div>
+                <div class="tab-item category-2 port-img-gal-one"><div class="col col-sm-4 col-lg-3"><img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/IMG_8267-2.webp" alt="second engraving calligraphy on perfume"></div></div>
+                <div class="tab-item category-2 port-img-gal-one"><div class="col col-sm-4 col-lg-3"><img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/IMG_8269.webp" alt="engraving calligraphy on glass candle"></div></div>
+                <div class="tab-item category-2 port-img-gal-one"><div class="col col-sm-4 col-lg-3"><img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/IMG_8109.webp" alt="engraving calligraphy on mug"></div></div>
+                <div class="tab-item category-2 port-img-gal-one"><div class="col col-sm-4 col-lg-3"><img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/IMG_7913-scaled-1.webp" alt=" third engraving calligraphy on perfume"></div></div>
+                <div class="tab-item category-2 port-img-gal-one"><div class="col col-sm-4 col-lg-3"><img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/20230120_114925-scaled-1.webp" alt="blue engraving calligraphy on glass bottle"></div></div>
+                <div class="tab-item category-2 port-img-gal-one"><div class="col col-sm-4 col-lg-3"><img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/IMG_6824-scaled-1.webp" alt="different colour wood with engraving"></div></div>
+                <div class="tab-item category-2 port-img-gal-one"><div class="col col-sm-4 col-lg-3"><img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/IMG_7396-scaled-1.webp" alt="circular glass engraving"></div></div>
+                <div class="tab-item category-2 port-img-gal-one"><div class="col col-sm-4 col-lg-3"><img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/IMG_4297-scaled-1.webp" alt="engraving on wood"></div></div>
+                <div class="tab-item category-3 port-img-gal-one"><div class="col col-sm-4 col-lg-3"><img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/House-Illustration-Mock-up2-scaled-1-1.webp" alt="illustration house one"></div></div>
+                <div class="tab-item category-3 port-img-gal-one"><div class="col col-sm-4 col-lg-3"><img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/House-Illustration-Mock-up3-scaled-1.webp" alt="illustration house two"></div></div>
+                <div class="tab-item category-3 port-img-gal-one"><div class="col col-sm-4 col-lg-3"><img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/House-Illustration-Mock-up-scaled-1.webp" alt="illustration house three"></div></div>
+                <div class="tab-item category-3 port-img-gal-one"><div class="col col-sm-4 col-lg-3"><img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/House-Illustration-Jenna-scaled-1.webp" alt="illustration house four"></div></div>
+            </div>
+           </div>
+
+        </section>
+		
         <script>
             const buttons = document.querySelectorAll('.tab-button');
 const items = document.querySelectorAll('.tab-item');
@@ -123,5 +124,4 @@ buttons.forEach(button => {
     </html>
 	
 <?php
-get_sidebar();
 get_footer();
