@@ -1867,6 +1867,49 @@ a.btn.course {
 	padding-bottom: 40%;
 }
 
+.horizontal-contente {
+	height: 650px;
+}
+
+.horizontal-contente::-webkit-scrollbar {
+	max-width: 12px;
+	/* width of the entire scrollbar */
+}
+
+.testframe {
+	width: 700px;
+	height: 700px;
+	overflow: hidden;
+}
+
+.horizontal-contente>div:nth-child(1) {
+	margin-left: 12rem;
+}
+
+.horizontal-contente>div {
+	height: 80%;
+}
+
+.port-img-gal-one>div {
+	height: 800px;
+	width: 800px;
+	overflow: hidden;
+	margin-top: 2rem;
+	margin-right: 4rem;
+}
+
+.port-img-gal-two>div {
+	height: 800px;
+	width: 800px;
+	overflow: hidden;
+	margin-top: 2rem;
+}
+
+.port-img img {
+	height: 50%;
+	width: 50%;
+}
+
 
 
 /* Whats included section */
@@ -2172,75 +2215,28 @@ div.darkgreen-card {
 
 
 /* contact */
-.contact{
-	padding: 2rem;
+.contact-form{
+	margin: 2rem;
+	max-width: 600px;
+    display: block;
 }
 
-.wpforms-form.wpforms-field-label{
-	font-weight: none;
-	padding-top:0.5rem;
+.contact input[type=text],
+.contact input[type=email],
+.contact textarea{
+	border: none;
+    border-bottom: 2px solid black;
 }
 
-.wp-forms-form textarea{
-	border-bottom: 1px solid #ccc;
+.contact input[type=submit], input[type=reset]{
+	background-color:#A5C2A6;
+	color:white;
+	border-radius: 0.5rem;
+	padding: 1rem 4rem;
 }
 
-.contact-btn button.wpforms-submit{
-	border-radius: 1rem;
-	background-color: #A5c2a6;}
 
 
-
-
-
-
-	.horizontal-contente {
-		height: 650px;
-	}
-
-	.horizontal-contente::-webkit-scrollbar {
-		max-width: 12px;
-		/* width of the entire scrollbar */
-	}
-
-	.testframe {
-		width: 700px;
-		height: 700px;
-		overflow: hidden;
-	}
-
-	.horizontal-contente>div:nth-child(1) {
-		margin-left: 12rem;
-	}
-
-	.horizontal-contente>div {
-		height: 80%;
-	}
-
-	.port-img-gal-one>div {
-		height: 800px;
-		width: 800px;
-		overflow: hidden;
-		margin-top: 2rem;
-		margin-right: 4rem;
-	}
-
-	.port-img-gal-two>div {
-		height: 800px;
-		width: 800px;
-		overflow: hidden;
-		margin-top: 2rem;
-	}
-
-	.port-img img {
-		height: 50%;
-		width: 50%;
-	}
-
-	/* .cardtest img {
-			height: 100%;
-
-		} */
 	.instagram {
 		margin-left: 47%;
 	}
