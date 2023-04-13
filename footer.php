@@ -12,12 +12,12 @@
 ?>
 
 	<footer id="colophon" class="site-footer">
-		<div class="site-info">
-			<img src="" alt="">
+		<div class="site-info footer-style">
+			<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/cropped-ABD-logo-1-scaled-1.webp" alt="Amy Bollana Design logo">
 			<h2>Our Socials:</h2>
 			<div>
-				<img src="" alt="">
-				<img src="" alt="">
+				<a class="instagram" href="https://ssl.gstatic.com/atari/images/sociallinks/instagram_white_28dp.png"><img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/insta.svg" alt="instagram logo"></a>
+				<a href="https://www.facebook.com/amybollanadesign"><img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/fb.svg" alt="facebook logo"></a>
 			</div>
 			<p>Copyright © 2023 | Amy Bollana Design | Calligraphy</p>
 			<!-- <a href=" -->
