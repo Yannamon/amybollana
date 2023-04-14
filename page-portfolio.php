@@ -23,21 +23,9 @@ get_header();
         <title>Portfolio-amybollana</title>
     </head>
     <body>
-      <?php
-		while ( have_posts() ) :
-			the_post();
-
-			get_template_part( 'template-parts/content', 'page' );
-
-			// If comments are open or we have at least one comment, load up the comment template.
-			if ( comments_open() || get_comments_number() ) :
-				comments_template();
-			endif;
-
-		endwhile; // End of the loop.
-		?>
+     
         <main id="primary" class="site-main">
-            <h1 class="sr-only">Portfolio</h1>
+            <h1>Portfolio</h1>
              <section>
             <h2 class="sr-only">Portfolio navigation</h2>
 

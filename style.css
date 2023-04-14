@@ -704,9 +704,13 @@ a:active {
 	margin-top: 2rem;
 }
 
+.port-img>div {
+	margin-left: 4%;
+}
+
 .port-img>div>div {
-	height: 500px;
-	width: 500px;
+	height: 400px;
+	width: 400px;
 	overflow: hidden;
 	margin-top: 2rem;
 }
@@ -728,21 +732,17 @@ a:active {
 @media screen and (min-width: 768px) {
 	.home-sec-nav {
 		display: flex;
-		justify-content: center;
+		justify-content: space-between;
 		align-items: center;
+
 	}
 
-	.home-sec-nav img {
+	/* .home-sec-nav img {
 		margin-left: 7rem;
 		margin-right: 8rem;
-	}
+	} */
 
-	.port-img-gal-one>div {
-		height: 600px;
-		width: 600px;
-		overflow: hidden;
-		margin-top: 2rem;
-	}
+	
 
 	.port-img-gal-two>div {
 		height: 200px;
@@ -751,16 +751,11 @@ a:active {
 		margin-top: 2rem;
 	}
 
-	/* .home-sec-nav img {
-			margin-left: 7rem;
-			margin-right: 8rem;
-		} */
-
 
 	.home-sec-nav img {
 		border-radius: 45%;
-		height: 30%;
-		width: 30%;
+		height: 150px;
+		width: 150px;
 	}
 
 	/* .container>.home-button:nth-child(1) {
@@ -862,8 +857,9 @@ a:active {
 
 /*footer*/
 
-.footer-style h2 {
+.footer-style h6 {
 	font-size: 2rem;
+	margin-left: 32%;
 }
 
 .footer-style img {
@@ -878,7 +874,7 @@ a:active {
 }
 
 .instagram {
-	margin-left: 40%;
+	margin-left: 38%;
 }
 
 .footer-style>img:nth-child(1) {
@@ -2193,8 +2189,54 @@ div.darkgreen-card {
 		max-width: 1200px;
 		margin: auto;
 	}
+		.footer-style h6 {
+			font-size: 2rem;
+			margin-left: 45%;
+		}
+		.footer-style p {
+			margin-left: 38%;
+		}
+		.instagram {
+	margin-left: 47%;
+}
+		.footer-style>img:nth-child(1) {
+			margin-left: 47%;
+			height: 100px;
+			width: 100px;
+		}
+
+		.home-port div{
+			margin-left: 17%;
+		}
+
+		.home-gal-big img {
+			height: 100%;
+		}
+
+				.port-img-gal-one>div {
+					height: 800px;
+					width: 800px;
+					overflow: hidden;
+					margin-top: 2rem;
+				}
+								.cardtest p {
+									padding: 1rem 1rem;
+								}
+				
+								.cardborder {
+									flex-direction: column;
+								}
 }
 
+.home-gal-cont div {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.home-gal div {
+	margin-left: auto;
+	margin-right: auto;
+}
 
 /* contact */
 .contact-form {
@@ -2220,24 +2262,8 @@ input[type=reset] {
 
 
 
-.instagram {
-	margin-left: 47%;
-}
 
-.footer-style>img:nth-child(1) {
-	margin-left: 48%;
-	height: 100px;
-	width: 100px;
-}
 
-.footer-style p {
-	margin-left: 38%;
-}
 
-.cardtest p {
-	padding: 1rem 1rem;
-}
 
-.cardborder {
-	flex-direction: column;
-}
+

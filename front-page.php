@@ -89,7 +89,7 @@ get_header();
 					<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/IMG_7685-scaled-1.jpg"
 						alt="engraving on wood">
 				</div>
-				<div class="col-lg-3">
+				<div class="col-lg-3 home-gal-big">
 					<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/House-Illustration-Jenna-scaled-1.webp"
 						alt="illustration of an house">
 				</div>
@@ -99,7 +99,7 @@ get_header();
 				</div>
 		</section>
 
-		<div class="container home-sec-nav centre">
+		<div class="container home-sec-nav">
 			<a href=" <?php echo get_permalink(get_page_by_path('about-amy')); ?>">
 				<div>
 					<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/il_794xN.2352517592_4984.webp"
@@ -133,46 +133,13 @@ get_header();
 
 			<a href="<?php echo get_permalink(get_page_by_path('shop-now')); ?>">
 				<div>
-					<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/IMG_4276.webp"
+					<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/IMG_4276-e1681414927216.webp"
 						alt="stone engraving">
 					<h3>Shop Now</h3>
 				</div>
 			</a>
 		</div>
-		<?php
-		if (have_posts()):
-
-			if (is_home() && !is_front_page()):
-				?>
-				<header>
-					<h1 class="page-title screen-reader-text">
-						<?php single_post_title(); ?>
-					</h1>
-				</header>
-				<?php
-			endif;
-
-			/* Start the Loop */
-			while (have_posts()):
-				the_post();
-
-				/*
-				 * Include the Post-Type-specific template for the content.
-				 * If you want to override this in a child theme, then include a file
-				 * called content-___.php (where ___ is the Post Type name) and that will be used instead.
-				 */
-				get_template_part('template-parts/content', get_post_type());
-
-			endwhile;
-
-			the_posts_navigation();
-
-		else:
-
-			get_template_part('template-parts/content', 'none');
-
-		endif;
-		?>
+		
 
 	</main><!-- #main -->
 </body>
