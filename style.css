@@ -2181,7 +2181,6 @@ div.darkgreen-card {
 
 	.course-section,
 	.faq-section,
-	.testimonials,
 	.whats-included,
 	.benefits-section-flex,
 	.wondering-section,
@@ -2240,7 +2239,7 @@ div.darkgreen-card {
 
 /* contact */
 .contact-form {
-	margin: 2rem;
+	margin: auto;
 	max-width: 600px;
 	display: block;
 }
