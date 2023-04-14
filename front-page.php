@@ -133,7 +133,7 @@ get_header();
 
 			<a href="<?php echo get_permalink(get_page_by_path('shop-now')); ?>">
 				<div>
-					<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/IMG_4276-e1681414927216.webp"
+					<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/IMG_4276.webp"
 						alt="stone engraving">
 					<h3>Shop Now</h3>
 				</div>
