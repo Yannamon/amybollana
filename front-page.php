@@ -26,7 +26,6 @@ get_header();
 
 <body>
 	<main id="primary" class="site-main">
-		<h1 class="sr-only">Amy Bollana</h1>
 		<section>
 			<div class="container">
 				<h2 class="sr-only">Home top section</h2>
