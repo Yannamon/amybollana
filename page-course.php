@@ -112,40 +112,50 @@ get_header();
             <a class="btn course" href="#">I want this course!</a>
         </div>
     </section>
-    <section>
-        <div class="amybackground">
-            <h2 class="container headerfont home-cards pt-3">Testimonials</h2>
-        </div>
+
+    <section class="testimonials">
+        <h2>Testimonials</h2>
         <div class="horizontal-contente">
             <div class="cardborder cardtest">
                 <div class="testframe">
-                    <img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/viktor-zhulin-8W5J5XvIVvI-unsplash.png"
-                        alt="">
+                    <img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/egor-litvinov-1MjshlyyNg-unsplash.webp"
+                        alt="unsplash image">
                 </div>
-                <p class="p-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae eius rem animi iure nihil
-                    voluptate? Dolorem sint ea suscipit eum </p>
+                <h6 class="testimonial-names">Heather M</h6>
+                <p>Amy's calligraphy class was excellent. She thoughtfully explained everything so that I could easily
+                    understand the technique. It was fun to try something new and now that I've practiced I can actually
+                    make beautiful handwriting for my homemade cards. I totally recommend this class. The best part was
+                    practicing on my own later because I didn't realize how relaxing and therapeutic artistic writing
+                    could be. </p>
 
             </div>
             <div class="cardborder cardtest">
                 <div class="testframe">
-                    <img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/josh-rich-cs-ZB4ZINhM-unsplash.png"
-                        alt="">
+                    <img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/josh-rich-cs-ZB4ZINhM-unsplash.webp"
+                        alt="unsplash image">
                 </div>
-                <p class="p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse nostrum a natus cum facere
-                    amet at nemo tempore ab, eum dolores libero</p>
+                <h6 class="testimonial-names">Denise L</h6>
+                <p>My teenage daughter and I enjoyed the calligraphy class! I felt encouraged how fast I was
+                    able to start this! I liked the casual feel of the online session, it was fun!</p>
             </div>
             <div class="cardborder cardtest">
                 <div class="testframe">
-                    <img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/egor-litvinov-1MjshlyyNg-unsplash.png"
-                        alt="">
+                    <img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/christopher-campbell-rDEOVtE7vOs-unsplash.webp"
+                        alt="unsplash image">
                 </div>
-                <p class="p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod ut dicta doloremque iste
-                    voluptates, odit facilis non, quisquam accusantium </p>
+                <h6 class="testimonial-names">Sharleen B</h6>
+                <p>I have always thought of myself as a calligraphy artist because as a teen I had a
+                    calligraphy pen and played around with it. Taking this course really opened my Eyes in a fabulous
+                    way. I understand now the physics and logic of calligraphy, and how elegant and clean it is. Amy
+                    laid out the plan and then was clear, concise and helpful with her instructions. I really enjoyed
+                    the friendly “sitting down for coffee” tone and quality of her voice, and her printout package was
+                    super helpful.</p>
             </div>
         </div>
-        <div class="amybackground p-4"></div>
+
     </section>
-    <section class="testimonials">
+
+    <section>
         <div class="whats-included">
             <h2>What's Included</h2>
             <div class="included-row first-row">
