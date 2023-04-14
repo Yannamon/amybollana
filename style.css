@@ -2097,6 +2097,9 @@ div.darkgreen-card {
 
 	.course-section-flex img {
 		width: 50%;
+		width: 50%;
+		height: 100%;
+		margin: auto;
 	}
 
 	.course-section-flex .questions {

@@ -21,7 +21,7 @@ get_header();
             <h1>Simple Brush Calligraphy for Beginners</h1>
 
             <div class="course-section-flex">
-                <img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/unnamed-2.webp"
+                <img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/1-e1681444078470.webp"
                     alt="Laptop image of calligraphy lesson">
 
                 <div class="questions">
@@ -46,10 +46,12 @@ get_header();
                 <a class="btn" href="#learn-more">Learn More</a>
             </div>
         </div>
-    
+
         <div class="overlaps">
-            <img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/unnamed-2.webp" alt="Sending hugs postcard">
-            <img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/Proverbs-2-mockups2-scaled-1.webp" alt="Calligraphy work in a picture frame">
+            <img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/unnamed-2.webp"
+                alt="Sending hugs postcard">
+            <img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/Proverbs-2-mockups2-scaled-1.webp"
+                alt="Calligraphy work in a picture frame">
         </div>
     </section>
 
@@ -63,19 +65,22 @@ get_header();
         <div class="faq">
             <div class="faq-margin">
                 <p>Q: Do I have to have nice handwriting to do calligraphy?</p>
-                <p class="answer">A: Aboslutley not! You will learn a sytem of drawing simple basic strokes to create letters. Anyone can
+                <p class="answer">A: Aboslutley not! You will learn a sytem of drawing simple basic strokes to create
+                    letters. Anyone can
                     do it!</p>
             </div>
 
             <div class="faq-margin">
                 <p>Q: I am left handed. Can I do calligraphy?</p>
-                <p class="answer">A: Yes! There are alot of left handed calligraphers. I provide a few tips but it will take some
+                <p class="answer">A: Yes! There are alot of left handed calligraphers. I provide a few tips but it will
+                    take some
                     experimenting to find out what will work for you.</p>
             </div>
 
             <div class="faq-margin">
                 <p>Q: I was given a calligraphy set as a gift. Can I use that in this course?</p>
-                <p class="answer">A: In this course we are doing modern calligraphy with a brush pen, which has a flexible nib that will
+                <p class="answer">A: In this course we are doing modern calligraphy with a brush pen, which has a
+                    flexible nib that will
                     create thick and thin strokes. Most calligraphy sets that people have conatin a broad edged nib that
                     can be used for certain types of calligraphy such as Italic and Blackletter it will not be used in
                     this course.</p>
@@ -83,10 +88,12 @@ get_header();
 
             <div class="faq-margin">
                 <p>Q: What kind of pen do I need for this course?</p>
-                <p class="answer">A: The best brush pen to use for this course is the Tombow Fudenosuke which you can find at most art
+                <p class="answer">A: The best brush pen to use for this course is the Tombow Fudenosuke which you can
+                    find at most art
                     stores. We will use the hard tip pen. (It comes in a soft tip too) If you cannot find this pen, a
                     Pental Sign Brush Pen would work.</p>
-                <p class="answer">A: Learning calligraphy is really quite imple. In less than tow hours, I will give you the tools to
+                <p class="answer">A: Learning calligraphy is really quite imple. In less than tow hours, I will give you
+                    the tools to
                     learn calligraphy and start a creative, mindful practice.</p>
             </div>
         </div>
@@ -107,37 +114,44 @@ get_header();
     </section>
     <section>
         <div class="amybackground">
-        <h2 class="container headerfont home-cards pt-3">Testimonials</h2>
+            <h2 class="container headerfont home-cards pt-3">Testimonials</h2>
         </div>
-            <div class="horizontal-contente">
-                <div class="cardborder cardtest">
-                    <div class="testframe">
-                    <img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/viktor-zhulin-8W5J5XvIVvI-unsplash.png" alt="">
-                    </div>
-                    <p class="p-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae eius rem animi iure nihil voluptate? Dolorem sint ea suscipit eum </p>
-                    
+        <div class="horizontal-contente">
+            <div class="cardborder cardtest">
+                <div class="testframe">
+                    <img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/viktor-zhulin-8W5J5XvIVvI-unsplash.png"
+                        alt="">
                 </div>
-                <div class="cardborder cardtest">
-                    <div class="testframe">
-                    <img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/josh-rich-cs-ZB4ZINhM-unsplash.png" alt="">
-                    </div>
-                    <p class="p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse nostrum a natus cum facere amet at nemo tempore ab, eum dolores libero</p>
-                </div>
-                <div class="cardborder cardtest">
-                    <div class="testframe">
-                    <img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/egor-litvinov-1MjshlyyNg-unsplash.png" alt="">
-                    </div>
-                    <p class="p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod ut dicta doloremque iste voluptates, odit facilis non, quisquam accusantium </p>
-                </div>
+                <p class="p-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae eius rem animi iure nihil
+                    voluptate? Dolorem sint ea suscipit eum </p>
+
             </div>
-            <div class="amybackground p-4"></div>
+            <div class="cardborder cardtest">
+                <div class="testframe">
+                    <img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/josh-rich-cs-ZB4ZINhM-unsplash.png"
+                        alt="">
+                </div>
+                <p class="p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse nostrum a natus cum facere
+                    amet at nemo tempore ab, eum dolores libero</p>
+            </div>
+            <div class="cardborder cardtest">
+                <div class="testframe">
+                    <img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/egor-litvinov-1MjshlyyNg-unsplash.png"
+                        alt="">
+                </div>
+                <p class="p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod ut dicta doloremque iste
+                    voluptates, odit facilis non, quisquam accusantium </p>
+            </div>
+        </div>
+        <div class="amybackground p-4"></div>
     </section>
     <section class="testimonials">
         <div class="whats-included">
             <h2>What's Included</h2>
             <div class="included-row first-row">
                 <div>
-                    <img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/3.webp" alt="Thank you card">
+                    <img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/3.webp"
+                        alt="Thank you card">
                 </div>
 
                 <div class="darkgreen-card">
@@ -174,18 +188,21 @@ get_header();
                     </ul>
                 </div>
                 <div>
-                    <img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/unnamed-1.webp" alt="Happy birthday card">
+                    <img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/unnamed-1.webp"
+                        alt="Happy birthday card">
                 </div>
             </div>
 
             <div class="course-images">
                 <div>
                     <h4>Printable Workbook</h4>
-                    <img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/9-e1680545269287.webp" alt="Stack of workbooks sheets">
+                    <img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/9-e1680545269287.webp"
+                        alt="Stack of workbooks sheets">
                 </div>
                 <div>
                     <h4>Clear Video Insturction</h4>
-                    <img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/03/8-e1680545297860.jpg" alt="">
+                    <img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/03/8-e1680545297860.jpg"
+                        alt="">
                 </div>
             </div>
 
@@ -202,91 +219,97 @@ get_header();
         </div>
     </section>
 
-        <!-- Benefits of Calligraphy -->
-        <section class="benefits-section">
-            <div>
-                <h2>Benefits of Calligraphy</h2>
+    <!-- Benefits of Calligraphy -->
+    <section class="benefits-section">
+        <div>
+            <h2>Benefits of Calligraphy</h2>
 
-                <div class="benefits-section-flex">
-                    <div class="benefits-container">
-                        <div class="light-bulb" >
-                            <img class="light-bulb-image style-svg" src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/light-bulb.svg" alt="Outline of a light bulb">
-                        </div>
-                        <h6>
-                            Begin a simple creative outlet
-                        </h6>
-                        <p>
-                            You will have so much fun with this new creative skill.
-                        </p>
+            <div class="benefits-section-flex">
+                <div class="benefits-container">
+                    <div class="light-bulb">
+                        <img class="light-bulb-image style-svg"
+                            src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/light-bulb.svg"
+                            alt="Outline of a light bulb">
                     </div>
+                    <h6>
+                        Begin a simple creative outlet
+                    </h6>
+                    <p>
+                        You will have so much fun with this new creative skill.
+                    </p>
+                </div>
 
-                    <div class="benefits-container">
-                        <div class="brain">
-                            <img class="brain-image style-svg" src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/brain.svg" alt="Outline of a brain">
-                        </div>
-                        <h6>
-                            Improve mindfulness & mental health
-                        </h6>
-                        <p>
-                            Calligraphy is a therapeutic and editative process.
-                        </p>
+                <div class="benefits-container">
+                    <div class="brain">
+                        <img class="brain-image style-svg"
+                            src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/brain.svg"
+                            alt="Outline of a brain">
                     </div>
+                    <h6>
+                        Improve mindfulness & mental health
+                    </h6>
+                    <p>
+                        Calligraphy is a therapeutic and editative process.
+                    </p>
+                </div>
 
-                    <div class="benefits-container">
-                        <div class="dollar-sign">
-                            <img class="dollar-sign-image style-svg" src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/dollar-sign-symbol-bold-text-svgrepo-com-1.svg" alt="Dollar sign">
-                        </div>
-                        <h6>
-                            Save money... or even earn a side income
-                        </h6>
-                        <p>
-                            Make your own greeting cards and gifts! Maybe even start doing calligraphy for others and earn a
-                            side income
-                        </p>
+                <div class="benefits-container">
+                    <div class="dollar-sign">
+                        <img class="dollar-sign-image style-svg"
+                            src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/dollar-sign-symbol-bold-text-svgrepo-com-1.svg"
+                            alt="Dollar sign">
                     </div>
-</div>
+                    <h6>
+                        Save money... or even earn a side income
+                    </h6>
+                    <p>
+                        Make your own greeting cards and gifts! Maybe even start doing calligraphy for others and earn a
+                        side income
+                    </p>
+                </div>
             </div>
-        </section>
+        </div>
+    </section>
 
 
-        <!-- Still wondering section -->
-        <section class="wondering-section">
-            <h5>Still wondering if this course is for you?</h5>
-            <div>
-                <h6>Simple Brush Calligraphy is right for you if:</h6>
-                <ul>
-                    <li>You have never taken a calligraphy course before</li>
-                    <li>You enjoy art and journaling and want to have pretty writing</li>
-                    <li>You are interested in using your calligraphy to make special gifts</li>
-                    <li>You want printable worksheets to follow along with as well as a practice schedule so you will
-                        stick with it</li>
-                </ul>
-            </div>
-            <div>
-                <h6>This course is not right for you if:</h6>
-                <ul>
-                    <li>You have taken a calligraphy course before and know the basic strokes and how to combine them
-                    </li>
-                    <li>You classify yourself as an 'intermediate' or 'advanced' calligrapher</li>
-                    <li>You have taken and in-person or ZOOM brush calligraphy class with me. This content is exactly
-                        the same as those classes</li>
-                </ul>
-            </div>
-            </div>
-        </section>
+    <!-- Still wondering section -->
+    <section class="wondering-section">
+        <h5>Still wondering if this course is for you?</h5>
+        <div>
+            <h6>Simple Brush Calligraphy is right for you if:</h6>
+            <ul>
+                <li>You have never taken a calligraphy course before</li>
+                <li>You enjoy art and journaling and want to have pretty writing</li>
+                <li>You are interested in using your calligraphy to make special gifts</li>
+                <li>You want printable worksheets to follow along with as well as a practice schedule so you will
+                    stick with it</li>
+            </ul>
+        </div>
+        <div>
+            <h6>This course is not right for you if:</h6>
+            <ul>
+                <li>You have taken a calligraphy course before and know the basic strokes and how to combine them
+                </li>
+                <li>You classify yourself as an 'intermediate' or 'advanced' calligrapher</li>
+                <li>You have taken and in-person or ZOOM brush calligraphy class with me. This content is exactly
+                    the same as those classes</li>
+            </ul>
+        </div>
+        </div>
+    </section>
 
-        <!-- Bottom Section -->
-        <section class="bottom-section">
-            <div>
-                <h2>Purchase today for $59 CDN</h2>
-                <a class="btn" href="#">Buy Now</a>
-            </div>
+    <!-- Bottom Section -->
+    <section class="bottom-section">
+        <div>
+            <h2>Purchase today for $59 CDN</h2>
+            <a class="btn" href="#">Buy Now</a>
+        </div>
 
-            <div>
-                <h4>More Questions?</h4>
-                <h6>Send me an email at <a href="mailto:amybollanadesign.com">amy@bollanadesign.com</a></h6>
-            </div>
-        </section>
+        <div>
+            <h4>More Questions?</h4>
+            <h6>Send me an email at <a href="mailto:amybollanadesign.com">amy@bollanadesign.com</a></h6>
+        </div>
+    </section>
 </body>
 
 <?php get_footer(); ?>
