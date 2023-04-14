@@ -2151,24 +2151,6 @@ div.darkgreen-card {
 		margin: auto;
 	}
 
-	.footer-style h6 {
-		font-size: 2rem;
-		margin-left: 45%;
-	}
-
-	.footer-style p {
-		margin-left: 38%;
-	}
-
-	.instagram {
-		margin-left: 47%;
-	}
-
-	.footer-style>img:nth-child(1) {
-		margin-left: 47%;
-		height: 100px;
-		width: 100px;
-	}
 
 	.home-port div {
 		margin-left: 17%;
