@@ -16,14 +16,16 @@ get_header();
 ?>
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home-AmyBollana</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Home-AmyBollana</title>
 </head>
+
 <body>
-    <main id="primary" class="site-main">
+	<main id="primary" class="site-main">
 		<h1 class="sr-only">Amy Bollana</h1>
 		<section>
 			<div class="container">
@@ -31,36 +33,38 @@ get_header();
 				<p class="d-flex justify-content-center home-par">Discover great calligraphy and meet Amy
 					Bollana. From custom bookmarks to
 					prints we have you covered.</p>
-				</div>
+			</div>
 		</section>
-		<section>
-		<div class="container home-flex mb-3">
-			<div class="front-home-profile">
-				<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/Profile-Pic-1.webp" alt="Amy Bollana profile">
-			</div>
-			<div class="home-about">
-				<h2 class="headerfont mt-2 mb-4">Amy Bollana</h2>
-				<p>Welcome to Amy Bollana, I am Amy a 
-				designer  and a modern calligrapher 
-				in Sherwood Park, Alberta. I love making 
-				words look beautiful on their own, in a
-				quote or with amazing images.</p>
-				<p>If you need design calligraphy, or hand
-				lettering for your business, special 
-				event or for a gift. I can help you get
- 				your message just right!</p>
-				<div class="container">
-					<a class="home-button btn" href="https://amybollana.web.dmitcapstone.ca/about-amy/">Learn More</a>
-					<a class="home-button btn" href="https://amybollana.web.dmitcapstone.ca/contact/">Contact</a>
+		<section class="home-margin">
+			<div class="container home-flex mb-3">
+				<div class="front-home-profile">
+					<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/Profile-Pic-1.webp"
+						alt="Amy Bollana profile">
+				</div>
+				<div class="home-about">
+					<h2 class="headerfont mt-2 mb-4">Amy Bollana</h2>
+					<p>Welcome to Amy Bollana, I am Amy a
+						designer and a modern calligrapher
+						in Sherwood Park, Alberta. I love making
+						words look beautiful on their own, in a
+						quote or with amazing images.</p>
+					<p>If you need design calligraphy, or hand
+						lettering for your business, special
+						event or for a gift. I can help you get
+						your message just right!</p>
+					<div class="container">
+						<a class="home-button btn" href="https://amybollana.web.dmitcapstone.ca/about-amy/">Learn
+							More</a>
+						<a class="home-button btn" href="https://amybollana.web.dmitcapstone.ca/contact/">Contact</a>
+					</div>
 				</div>
 			</div>
-		</div>
 		</section>
 		<section class="home-port">
 			<div class="container pt-1">
-			<h2>Calligraphy | Engraving | Illustration</h2>
-			<p>Say hello to some of Amy's World</p>
-			<a class="home-button-second" href="https://amybollana.web.dmitcapstone.ca/portfolio/">Portfolio</a>
+				<h2>Calligraphy | Engraving | Illustration</h2>
+				<p>Say hello to some of Amy's World</p>
+				<a class="home-button-second" href="https://amybollana.web.dmitcapstone.ca/portfolio/">Portfolio</a>
 			</div>
 		</section>
 		<section class="container mb-4">
@@ -68,62 +72,75 @@ get_header();
 
 			<div class="row home-gal-cont">
 				<div class="col-lg-6">
-					<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/IMG_8277-scaled-2.webp" alt="green glass engraving from Amy Bollana Design">
+					<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/IMG_8277-scaled-2.webp"
+						alt="green glass engraving from Amy Bollana Design">
 				</div>
 				<div class="col-lg-6">
-					<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/IMG_8265-scaled-1.webp" alt=" bleu perfume with angraving">
+					<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/IMG_8265-scaled-1.webp"
+						alt=" bleu perfume with angraving">
 				</div>
 			</div>
 			<div class="row home-gal">
 				<div class="col-lg-3">
-					<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/Faith-is-Cross-mockups-scaled-1.webp" alt="cross shaped calligraphy">
+					<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/Faith-is-Cross-mockups-scaled-1.webp"
+						alt="cross shaped calligraphy">
 				</div>
 				<div class="col-lg-3">
-					<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/IMG_7685-scaled-1.jpg" alt="engraving on wood">
+					<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/IMG_7685-scaled-1.jpg"
+						alt="engraving on wood">
 				</div>
 				<div class="col-lg-3">
-					<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/House-Illustration-Jenna-scaled-1.webp" alt="illustration of an house">
+					<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/House-Illustration-Jenna-scaled-1.webp"
+						alt="illustration of an house">
 				</div>
 				<div class="col-lg-3">
-					<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/IMG_6824-scaled-1.webp" alt="different colour wood with engraving">
+					<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/IMG_6824-scaled-1.webp"
+						alt="different colour wood with engraving">
 				</div>
 		</section>
 
 		<div class="container home-sec-nav centre">
 			<div>
-				<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/il_794xN.2352517592_4984.webp" alt="card with heart shape">
+				<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/il_794xN.2352517592_4984.webp"
+					alt="card with heart shape">
 				<h3>About</h3>
 			</div>
 			<div>
-				<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/il_794xN.2087262002_ra0x.webp" alt="frame with hello calligraphy">
+				<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/il_794xN.2087262002_ra0x.webp"
+					alt="frame with hello calligraphy">
 				<h3>Portfolio</h3>
 			</div>
 			<div>
-				<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/il_794xN.3090994128_8q4l.webp" alt="sketch with hope calligraphy">
+				<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/il_794xN.3090994128_8q4l.webp"
+					alt="sketch with hope calligraphy">
 				<h3>Course</h3>
 			</div>
 			<div>
-				<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/il_794xN.2321811031_gpvx.webp" alt="loved bookmark">
+				<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/il_794xN.2321811031_gpvx.webp"
+					alt="loved bookmark">
 				<h3>Contact</h3>
 			</div>
 			<div>
-				<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/IMG_4276.webp" alt="stone engraving">
+				<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/IMG_4276.webp"
+					alt="stone engraving">
 				<h3>Shop Now</h3>
 			</div>
 		</div>
 		<?php
-		if ( have_posts() ) :
+		if (have_posts()):
 
-			if ( is_home() && ! is_front_page() ) :
+			if (is_home() && !is_front_page()):
 				?>
 				<header>
-					<h1 class="page-title screen-reader-text"><?php single_post_title(); ?></h1>
+					<h1 class="page-title screen-reader-text">
+						<?php single_post_title(); ?>
+					</h1>
 				</header>
 				<?php
 			endif;
 
 			/* Start the Loop */
-			while ( have_posts() ) :
+			while (have_posts()):
 				the_post();
 
 				/*
@@ -131,21 +148,22 @@ get_header();
 				 * If you want to override this in a child theme, then include a file
 				 * called content-___.php (where ___ is the Post Type name) and that will be used instead.
 				 */
-				get_template_part( 'template-parts/content', get_post_type() );
+				get_template_part('template-parts/content', get_post_type());
 
 			endwhile;
 
 			the_posts_navigation();
 
-		else :
+		else:
 
-			get_template_part( 'template-parts/content', 'none' );
+			get_template_part('template-parts/content', 'none');
 
 		endif;
 		?>
 
 	</main><!-- #main -->
 </body>
+
 </html>
 
 <?php

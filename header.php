@@ -68,10 +68,11 @@
 
 			<nav id="site-navigation" class="main-navigation">
 				<div class="nav-flex">
-					<a class="navbar-brand" href="#">
+					<a class="navbar-brand" href="<?php echo esc_url(home_url('/')); ?>">
 						<img src="<?php echo get_template_directory_uri(); ?>/inc/amybollana-logo.png"
 							alt="amybollana-logo" class="logo">
 					</a>
+
 					<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
 						<span class="menu-toggle-icon"></span>
 						<span class="menu-toggle-icon"></span>
