@@ -19,6 +19,7 @@
 				<a class="instagram" href="https://ssl.gstatic.com/atari/images/sociallinks/instagram_white_28dp.png"><img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/insta.svg" alt="instagram logo"></a>
 				<a href="https://www.facebook.com/amybollanadesign"><img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/fb.svg" alt="facebook logo"></a>
 			</div>
+			<!-- <?php echo apply_shortcodes('[mailpoet_form id="1"]') ?> -->
 			<p>Copyright © 2023 | Amy Bollana Design | Calligraphy</p>
 			<!-- <a href=" -->
 			<?php /*echo esc_url( __( 'https://wordpress.org/', 'amybollana' ) );*/ ?>">
