@@ -650,6 +650,10 @@ a:active {
 	color: #fff;
 }
 
+.home-sec-nav a {
+	text-decoration: none;
+}
+
 .home-sec-nav img {
 	border-radius: 45%;
 	height: 50%;
@@ -1386,6 +1390,7 @@ p {
 	padding-top: 1rem;
 	display: block;
 	max-width: 50%;
+	margin-left: 71px
 }
 
 .menu-toggle {
@@ -1442,6 +1447,7 @@ p {
 @media only screen and (min-width: 600px) {
 	.navbar-brand img {
 		padding: 2rem;
+		margin-left: 0;
 	}
 
 	.nav-menu {

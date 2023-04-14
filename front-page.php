@@ -100,31 +100,44 @@ get_header();
 		</section>
 
 		<div class="container home-sec-nav centre">
-			<div>
-				<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/il_794xN.2352517592_4984.webp"
-					alt="card with heart shape">
-				<h3>About</h3>
-			</div>
-			<div>
-				<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/il_794xN.2087262002_ra0x.webp"
-					alt="frame with hello calligraphy">
-				<h3>Portfolio</h3>
-			</div>
-			<div>
-				<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/il_794xN.3090994128_8q4l.webp"
-					alt="sketch with hope calligraphy">
-				<h3>Course</h3>
-			</div>
-			<div>
-				<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/il_794xN.2321811031_gpvx.webp"
-					alt="loved bookmark">
-				<h3>Contact</h3>
-			</div>
-			<div>
-				<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/IMG_4276.webp"
-					alt="stone engraving">
-				<h3>Shop Now</h3>
-			</div>
+			<a href=" <?php echo get_permalink(get_page_by_path('about-amy')); ?>">
+				<div>
+					<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/il_794xN.2352517592_4984.webp"
+						alt="card with heart shape">
+					<h3>About</h3>
+				</div>
+			</a>
+			<a href="<?php echo get_permalink(get_page_by_path('portfolio')); ?>">
+				<div>
+					<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/il_794xN.2087262002_ra0x.webp"
+						alt="frame with hello calligraphy">
+					<h3>Portfolio</h3>
+				</div>
+			</a>
+
+			<a href="<?php echo get_permalink(get_page_by_path('course')); ?>">
+				<div>
+					<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/il_794xN.3090994128_8q4l.webp"
+						alt="sketch with hope calligraphy">
+					<h3>Course</h3>
+				</div>
+			</a>
+
+			<a href="<?php echo get_permalink(get_page_by_path('contact')); ?>">
+				<div>
+					<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/il_794xN.2321811031_gpvx.webp"
+						alt="loved bookmark">
+					<h3>Contact</h3>
+				</div>
+			</a>
+
+			<a href="<?php echo get_permalink(get_page_by_path('shop-now')); ?>">
+				<div>
+					<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/IMG_4276.webp"
+						alt="stone engraving">
+					<h3>Shop Now</h3>
+				</div>
+			</a>
 		</div>
 		<?php
 		if (have_posts()):
