@@ -716,8 +716,8 @@ a:active {
 }
 
 .port-img img {
-	height: 50%;
-	width: 50%;
+	height: 100%;
+	width: 100%;
 }
 
 
@@ -751,6 +751,10 @@ a:active {
 		margin-top: 2rem;
 	}
 
+	.port-img img {
+		height: 50%;
+		width: 50%;
+	}
 
 	.home-sec-nav img {
 		border-radius: 45%;
