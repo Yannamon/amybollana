@@ -612,7 +612,7 @@ a:active {
 .home-port {
 	background-color: #C1DBC2;
 	color: #fff;
-	height: 320px;
+	height: 340px;
 }
 
 .home-port p {
@@ -689,6 +689,10 @@ a:active {
 	border-radius: 8px;
 }
 
+.home-gal-big img {
+	height: 100%;
+}
+
 .home-gal-cont>div {
 	height: 500px;
 	width: 500px;
@@ -704,9 +708,9 @@ a:active {
 	margin-top: 2rem;
 }
 
-.port-img>div {
-	margin-left: 4%;
-}
+/* .port-img div:first-child {
+	margin-left: 2%;
+} */
 
 .port-img>div>div {
 	height: 400px;
@@ -718,6 +722,7 @@ a:active {
 .port-img img {
 	height: 100%;
 	width: 100%;
+	margin-left: 2%;
 }
 
 
@@ -2044,6 +2049,26 @@ div.darkgreen-card {
 		margin-right: auto;
 	}
 
+		.port-img-gal-one>div {
+			height: 500px;
+			width: 500px;
+			overflow: hidden;
+			margin-top: 2rem;
+		}
+
+		.port-img>div{
+			margin-left: 3%;
+		}
+
+				.home-gal-cont>div {
+					height: 600px;
+					width: 600px;
+					overflow: hidden;
+					margin-top: 2rem;
+				}
+
+		
+
 }
 
 @media only screen and (min-width: 800px) {
@@ -2104,6 +2129,13 @@ div.darkgreen-card {
 		display: flex;
 		flex-wrap: wrap;
 	}
+
+		.port-img-gal-one>div {
+			height: 800px;
+			width: 800px;
+			overflow: hidden;
+			margin-top: 2rem;
+		}
 
 	.whats-included .first-row {
 
@@ -2178,6 +2210,9 @@ div.darkgreen-card {
 	.cardborder {
 		flex-direction: column;
 	}
+	.port-img>div {
+	margin-left: 4%;
+}
 }
 
 .home-gal-cont div {
