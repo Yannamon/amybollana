@@ -66,7 +66,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-html {
+ html {
 	line-height: 1.15;
 	-webkit-text-size-adjust: 100%;
 }
@@ -612,7 +612,7 @@ a:active {
 .home-port {
 	background-color: #C1DBC2;
 	color: #fff;
-	height: 320px;
+	height: 340px;
 }
 
 .home-port p {
@@ -655,9 +655,9 @@ a:active {
 }
 
 .home-sec-nav img {
-	border-radius: 45%;
-	height: 50%;
-	width: 50%;
+	border-radius: 55%;
+	height: 42%;
+	width: 42%;
 	display: block;
 	margin: auto;
 }
@@ -689,6 +689,10 @@ a:active {
 	border-radius: 8px;
 }
 
+.home-gal-big img {
+	height: 100%;
+}
+
 .home-gal-cont>div {
 	height: 500px;
 	width: 500px;
@@ -704,9 +708,9 @@ a:active {
 	margin-top: 2rem;
 }
 
-.port-img>div {
-	margin-left: 4%;
-}
+/* .port-img div:first-child {
+	margin-left: 2%;
+} */
 
 .port-img>div>div {
 	height: 400px;
@@ -718,6 +722,7 @@ a:active {
 .port-img img {
 	height: 100%;
 	width: 100%;
+	margin-left: 2%;
 }
 
 
@@ -742,7 +747,7 @@ a:active {
 		margin-right: 8rem;
 	} */
 
-	
+
 
 	.port-img-gal-two>div {
 		height: 200px;
@@ -751,6 +756,10 @@ a:active {
 		margin-top: 2rem;
 	}
 
+	.port-img img {
+		height: 50%;
+		width: 50%;
+	}
 
 	.home-sec-nav img {
 		border-radius: 45%;
@@ -856,32 +865,32 @@ a:active {
 }
 
 /*footer*/
-
-.footer-style h6 {
-	font-size: 2rem;
-	margin-left: 32%;
+.footer-style {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	margin: 0 2rem;
 }
 
-.footer-style img {
+.social-media img {
 	height: 50px;
-	width: 50px;
-	/* margin-left: 35%; */
-	/* margin-right: 1rem; */
 }
 
-.footer-style p {
-	margin-left: 10%;
+img.footer-logo {
+	height: 100%;
+	width: 35%;
 }
 
-.instagram {
-	margin-left: 38%;
+@media only screen and (min-width: 550px) {
+
+	img.footer-logo {
+		height: 100%;
+		width: 167px;
+	}
 }
 
-.footer-style>img:nth-child(1) {
-	margin-left: 40%;
-	height: 100px;
-	width: 100px;
-}
+
 
 /* .mailpoet_text input[type="text"]{
 	width: 100%;
@@ -1509,7 +1518,6 @@ p {
 }
 
 @media only screen and (min-width: 800px) {
-
 	.navbar-brand img {
 		width: 550px;
 	}
@@ -1782,128 +1790,71 @@ a.btn.course {
 
 
 /* Testimonials */
+
+
+.testimonials {
+	background-color: #A5c2a6;
+}
+
+.testimonials h2 {
+	text-align: left;
+	padding: 3rem 2rem;
+	color: white;
+	margin-bottom: 0;
+}
+
 .horizontal-contente {
 	display: flex;
-	flex-direction: row;
-	overflow-x: scroll;
-	align-items: center;
-	height: 300px;
-	/*Remove scrollbar fire-fox*/
+	justify-content: center;
+	overflow-x: auto;
 	scrollbar-width: none;
 	overflow-y: hidden;
-	gap: 5rem;
-	background-color: #A5c2a6;
-	/* overflow-x: hidden; */
-	/* Hide horizontal scrollbar */
-}
-
-.amybackground {
-	background-color: #A5c2a6;
-}
-
-.amybackground h2 {
-	margin-bottom: 0;
-	color: #fff;
-}
-
-.horizontal-contente::-webkit-scrollbar {
-	width: 12px;
-	/* width of the entire scrollbar */
-}
-
-.horizontal-contente::-webkit-scrollbar-thumb {
-	background-color: #fff;
-	border-radius: 20px;
-	margin-bottom: 2rem;
+	padding: 0 2rem 2rem 2rem;
 }
 
 .cardborder {
-	border: 1px solid transparent;
+	flex: 0 0 auto;
+	margin-right: 1rem;
 	border-radius: 1rem;
-	display: flex;
+	width: 350px;
+	padding: 1.5rem;
+	box-shadow: 2px 2px 6px #aaaaaa;
 }
 
 .cardborder:hover {
-	-webkit-box-shadow: 6px 14px 15px -4px #94A795;
-	box-shadow: 6px 14px 15px -4px #94A795;
+	background-color: #a5c2a6;
 }
 
 .cardborder p {
-	color: #fff
+	color: white;
 }
 
-.horizontal-contente>div {
-	height: 200px;
-	width: 550px;
-	/* background: orange; */
-	background-color: #C1DBC2;
-	/* margin: 1rem 0.5rem; */
-	flex-shrink: 0;
-	flex-grow: 0;
-	/* flex-basis: 330px; */
-	transition: all 300ms ease-in;
-	padding: 1rem 1rem 2rem 2rem;
+h6.testimonial-names {
+	color: white;
+	margin-top: 0.5rem;
 }
 
-.horizontal-contente>div:nth-child(1) {
-	margin-left: 2rem;
+/* scrollbar */
+
+::-webkit-scrollbar {
+	width: 15px;
 }
 
-.testframe {
-	width: 600px;
-	height: 600px;
-	overflow: hidden;
+/* Track */
+::-webkit-scrollbar-track {
+	display: none;
 }
 
-/* .horizontal-contente img {
-	padding: 1rem 1rem 2rem 2rem;
-} */
-.horizontal-contente p {
-	padding-bottom: 40%;
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: white;
+	border-radius: 2rem;
+	padding-left: 2rem;
 }
 
-.horizontal-contente {
-	height: 650px;
-}
 
-.horizontal-contente::-webkit-scrollbar {
-	max-width: 12px;
-	/* width of the entire scrollbar */
-}
 
-.testframe {
-	width: 700px;
-	height: 700px;
-	overflow: hidden;
-}
 
-.horizontal-contente>div:nth-child(1) {
-	margin-left: 12rem;
-}
-
-.horizontal-contente>div {
-	height: 80%;
-}
-
-.port-img-gal-one>div {
-	height: 800px;
-	width: 800px;
-	overflow: hidden;
-	margin-top: 2rem;
-	margin-right: 4rem;
-}
-
-.port-img-gal-two>div {
-	height: 800px;
-	width: 800px;
-	overflow: hidden;
-	margin-top: 2rem;
-}
-
-.port-img img {
-	height: 50%;
-	width: 50%;
-}
 
 
 
@@ -2098,6 +2049,26 @@ div.darkgreen-card {
 		margin-right: auto;
 	}
 
+		.port-img-gal-one>div {
+			height: 500px;
+			width: 500px;
+			overflow: hidden;
+			margin-top: 2rem;
+		}
+
+		.port-img>div{
+			margin-left: 3%;
+		}
+
+				.home-gal-cont>div {
+					height: 600px;
+					width: 600px;
+					overflow: hidden;
+					margin-top: 2rem;
+				}
+
+		
+
 }
 
 @media only screen and (min-width: 800px) {
@@ -2159,6 +2130,13 @@ div.darkgreen-card {
 		flex-wrap: wrap;
 	}
 
+		.port-img-gal-one>div {
+			height: 800px;
+			width: 800px;
+			overflow: hidden;
+			margin-top: 2rem;
+		}
+
 	.whats-included .first-row {
 
 		margin-bottom: 1rem;
@@ -2208,43 +2186,33 @@ div.darkgreen-card {
 		max-width: 1200px;
 		margin: auto;
 	}
-		.footer-style h6 {
-			font-size: 2rem;
-			margin-left: 45%;
-		}
-		.footer-style p {
-			margin-left: 38%;
-		}
-		.instagram {
-	margin-left: 47%;
+
+
+	.home-port div {
+		margin-left: 17%;
+	}
+
+	.home-gal-big img {
+		height: 100%;
+	}
+
+	.port-img-gal-one>div {
+		height: 800px;
+		width: 800px;
+		overflow: hidden;
+		margin-top: 2rem;
+	}
+
+	.cardtest p {
+		padding: 1rem 1rem;
+	}
+
+	.cardborder {
+		flex-direction: column;
+	}
+	.port-img>div {
+	margin-left: 4%;
 }
-		.footer-style>img:nth-child(1) {
-			margin-left: 47%;
-			height: 100px;
-			width: 100px;
-		}
-
-		.home-port div{
-			margin-left: 17%;
-		}
-
-		.home-gal-big img {
-			height: 100%;
-		}
-
-				.port-img-gal-one>div {
-					height: 800px;
-					width: 800px;
-					overflow: hidden;
-					margin-top: 2rem;
-				}
-								.cardtest p {
-									padding: 1rem 1rem;
-								}
-				
-								.cardborder {
-									flex-direction: column;
-								}
 }
 
 .home-gal-cont div {
@@ -2258,10 +2226,18 @@ div.darkgreen-card {
 }
 
 /* contact */
+.contact {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
 .contact-form {
-	margin: auto;
-	max-width: 600px;
-	display: block;
+	margin: 2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .contact input[type=text],
@@ -2278,11 +2254,3 @@ input[type=reset] {
 	border-radius: 0.5rem;
 	padding: 1rem 4rem;
 }
-
-
-
-
-
-
-
-

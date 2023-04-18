@@ -26,7 +26,6 @@ get_header();
 
 <body>
 	<main id="primary" class="site-main">
-		<h1 class="sr-only">Amy Bollana</h1>
 		<section>
 			<div class="container">
 				<h2 class="sr-only">Home top section</h2>
@@ -53,8 +52,7 @@ get_header();
 						event or for a gift. I can help you get
 						your message just right!</p>
 					<div class="container">
-						<a class="home-button btn" href="https://amybollana.web.dmitcapstone.ca/about-amy/">Learn
-							More</a>
+						<a class="home-button btn" href="https://amybollana.web.dmitcapstone.ca/about-amy/">About Amy</a>
 						<a class="home-button btn" href="https://amybollana.web.dmitcapstone.ca/contact/">Contact</a>
 					</div>
 				</div>
@@ -131,7 +129,7 @@ get_header();
 				</div>
 			</a>
 
-			<a href="<?php echo get_permalink(get_page_by_path('shop-now')); ?>">
+			<a href="https://www.etsy.com/ca/shop/AmyBollanaDesign">
 				<div>
 					<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/IMG_4276.webp"
 						alt="stone engraving">
