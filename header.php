@@ -39,6 +39,7 @@
 		<a class="skip-link screen-reader-text" href="#primary">
 			<?php esc_html_e('Skip to content', 'amybollana'); ?>
 		</a>
+				<h1 class="sr-only">Amy Bollana Design</h1>
 
 		<header id="masthead" class="site-header">
 			<div class="site-branding">
