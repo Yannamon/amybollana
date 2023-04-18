@@ -96,7 +96,7 @@ get_header();
 						alt="different colour wood with engraving">
 				</div>
 		</section>
-
+	<section>
 		<div class="container home-sec-nav">
 			<a href=" <?php echo get_permalink(get_page_by_path('about-amy')); ?>">
 				<div>
@@ -138,7 +138,7 @@ get_header();
 			</a>
 		</div>
 		
-
+	</section>
 	</main><!-- #main -->
 </body>
 
