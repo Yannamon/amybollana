@@ -70,21 +70,21 @@ get_header();
 
 			<div class="row home-gal-cont">
 				<div class="col-lg-6">
-					<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/IMG_8277-scaled-2.webp"
+					<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/IMG_8277-scaled-2-e1681848229175.webp"
 						alt="green glass engraving from Amy Bollana Design">
 				</div>
 				<div class="col-lg-6">
-					<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/IMG_8265-scaled-1.webp"
+					<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/IMG_8265-scaled-1-e1681848190580.webp"
 						alt=" bleu perfume with angraving">
 				</div>
 			</div>
 			<div class="row home-gal">
 				<div class="col-lg-3">
-					<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/Faith-is-Cross-mockups-scaled-1.webp"
+					<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/Faith-is-Cross-mockups-scaled-1-e1681848465928.jpg"
 						alt="cross shaped calligraphy">
 				</div>
 				<div class="col-lg-3">
-					<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/IMG_7685-scaled-1.jpg"
+					<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/IMG_7685-scaled-1-e1681848508106.jpg"
 						alt="engraving on wood">
 				</div>
 				<div class="col-lg-3 home-gal-big">
