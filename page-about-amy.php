@@ -35,7 +35,7 @@ get_header();
 					was with computer fonts.
 				</p>
 				<img class="box"
-					src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/Profile-Pic-1.webp"
+					src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/Profile-Pic-1-1.webp"
 					alt="Amy selfie">
 				</div>
 

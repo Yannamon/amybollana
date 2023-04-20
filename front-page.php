@@ -37,7 +37,7 @@ get_header();
 		<section class="home-margin">
 			<div class="container home-flex mb-3">
 				<div class="front-home-profile">
-					<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/Profile-Pic-1.webp"
+					<img src="https://amybollana.web.dmitcapstone.ca/wp-content/uploads/2023/04/Profile-Pic-1-1.webp"
 						alt="Amy Bollana profile">
 				</div>
 				<div class="home-about">
